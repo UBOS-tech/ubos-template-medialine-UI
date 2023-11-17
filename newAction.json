@@ -6,7 +6,7 @@
         "pluginType": "API",
         "pluginId": "API",
         "createdAt": "2022-10-24T14:59:29.274Z",
-        "updatedAt": "2023-03-02T15:13:57.915Z",
+        "updatedAt": "2023-11-17T14:13:50.368Z",
         "deleted": false,
         "policies": [
             {
@@ -600,7 +600,7 @@
         "pluginType": "API",
         "pluginId": "API",
         "createdAt": "2022-11-08T09:31:03.416Z",
-        "updatedAt": "2023-02-17T21:14:05.900Z",
+        "updatedAt": "2023-11-17T14:11:12.488Z",
         "deleted": false,
         "policies": [
             {
@@ -669,12 +669,12 @@
             "isValid": true,
             "invalids": [],
             "jsonPathKeys": [
+                "main.env.nodeUrl",
                 "firstname_field.text",
                 "lastname_field.text",
                 "email_field.text",
                 "pass_field.text",
-                "field_add_user_role.selectedOptionValue",
-                "main.env.nodeUrl"
+                "field_add_user_role.selectedOptionValue"
             ],
             "userSetOnLoad": false,
             "confirmBeforeExecute": false
@@ -687,7 +687,7 @@
         "pluginType": "API",
         "pluginId": "API",
         "createdAt": "2022-10-14T10:51:21.173Z",
-        "updatedAt": "2022-12-08T10:48:55.947Z",
+        "updatedAt": "2023-11-17T14:11:15.397Z",
         "deleted": false,
         "policies": [
             {
@@ -769,7 +769,7 @@
         "pluginType": "API",
         "pluginId": "API",
         "createdAt": "2022-08-29T15:09:27.661Z",
-        "updatedAt": "2023-03-07T09:07:31.000Z",
+        "updatedAt": "2023-11-17T14:11:24.187Z",
         "deleted": false,
         "policies": [
             {
@@ -853,7 +853,7 @@
         "pluginType": "API",
         "pluginId": "API",
         "createdAt": "2022-08-29T15:05:45.060Z",
-        "updatedAt": "2023-03-07T09:18:56.882Z",
+        "updatedAt": "2023-11-17T14:11:32.572Z",
         "deleted": false,
         "policies": [
             {
@@ -882,7 +882,6 @@
                 "invalids": [],
                 "isValid": true,
                 "pluginId": "API",
-                "organizationId": "Org",
                 "messages": []
             },
             "executeOnLoad": true,
@@ -909,7 +908,11 @@
                 ],
                 "path": ""
             },
-            "dynamicBindingPathList": [],
+            "dynamicBindingPathList": [
+                {
+                    "key": "datasourceUrl"
+                }
+            ],
             "isValid": true,
             "invalids": [],
             "jsonPathKeys": [
@@ -926,7 +929,7 @@
         "pluginType": "API",
         "pluginId": "API",
         "createdAt": "2022-08-29T15:02:12.192Z",
-        "updatedAt": "2023-03-07T09:17:05.096Z",
+        "updatedAt": "2023-11-17T14:11:32.571Z",
         "deleted": false,
         "policies": [
             {
@@ -1749,7 +1752,7 @@
         "pluginType": "API",
         "pluginId": "API",
         "createdAt": "2022-10-25T08:45:50.977Z",
-        "updatedAt": "2023-02-17T21:13:53.142Z",
+        "updatedAt": "2023-11-17T14:11:55.613Z",
         "deleted": false,
         "policies": [
             {
@@ -1821,9 +1824,9 @@
             "isValid": true,
             "invalids": [],
             "jsonPathKeys": [
+                "main.env.nodeUrl",
                 "InputPassword.text",
-                "main.URL.queryParams.token",
-                "main.env.nodeUrl"
+                "main.URL.queryParams.token"
             ],
             "userSetOnLoad": false,
             "confirmBeforeExecute": false
@@ -1910,7 +1913,7 @@
         "pluginType": "API",
         "pluginId": "API",
         "createdAt": "2022-11-07T08:37:58.084Z",
-        "updatedAt": "2023-04-11T14:42:56.841Z",
+        "updatedAt": "2023-11-17T14:09:03.899Z",
         "deleted": false,
         "policies": [
             {
@@ -1995,7 +1998,7 @@
         "pluginType": "API",
         "pluginId": "API",
         "createdAt": "2022-11-07T14:11:34.293Z",
-        "updatedAt": "2023-02-17T21:13:07.616Z",
+        "updatedAt": "2023-11-17T14:09:09.768Z",
         "deleted": false,
         "policies": [
             {
@@ -2074,7 +2077,7 @@
         "pluginType": "API",
         "pluginId": "API",
         "createdAt": "2022-08-29T14:07:56.350Z",
-        "updatedAt": "2022-12-08T10:44:53.977Z",
+        "updatedAt": "2023-11-17T14:09:27.325Z",
         "deleted": false,
         "policies": [
             {
@@ -2158,7 +2161,7 @@
         "pluginType": "API",
         "pluginId": "API",
         "createdAt": "2022-08-29T12:49:55.580Z",
-        "updatedAt": "2023-07-12T07:26:35.629Z",
+        "updatedAt": "2023-11-17T14:09:30.945Z",
         "deleted": false,
         "policies": [
             {
@@ -2242,7 +2245,7 @@
         "pluginType": "API",
         "pluginId": "API",
         "createdAt": "2022-08-29T13:08:42.296Z",
-        "updatedAt": "2023-02-17T21:47:07.427Z",
+        "updatedAt": "2023-11-17T14:09:40.475Z",
         "deleted": false,
         "policies": [
             {
@@ -2315,7 +2318,7 @@
         "pluginType": "API",
         "pluginId": "API",
         "createdAt": "2022-08-29T12:54:09.638Z",
-        "updatedAt": "2023-03-02T14:10:03.887Z",
+        "updatedAt": "2023-11-17T14:09:48.584Z",
         "deleted": false,
         "policies": [
             {
@@ -2387,7 +2390,7 @@
         "pluginType": "API",
         "pluginId": "API",
         "createdAt": "2022-08-29T14:13:12.277Z",
-        "updatedAt": "2022-12-08T10:45:13.187Z",
+        "updatedAt": "2023-11-17T14:09:34.200Z",
         "deleted": false,
         "policies": [
             {
@@ -2470,7 +2473,7 @@
         "pluginType": "API",
         "pluginId": "API",
         "createdAt": "2022-10-19T08:57:29.377Z",
-        "updatedAt": "2023-04-11T14:24:44.585Z",
+        "updatedAt": "2023-11-17T14:08:58.260Z",
         "deleted": false,
         "policies": [
             {
@@ -2548,7 +2551,7 @@
         "pluginType": "API",
         "pluginId": "API",
         "createdAt": "2022-08-29T15:13:14.157Z",
-        "updatedAt": "2023-03-07T09:12:39.603Z",
+        "updatedAt": "2023-11-17T14:08:47.168Z",
         "deleted": false,
         "policies": [
             {
@@ -5377,7 +5380,7 @@
         "pluginType": "API",
         "pluginId": "API",
         "createdAt": "2022-08-29T14:52:15.502Z",
-        "updatedAt": "2022-12-08T10:47:50.881Z",
+        "updatedAt": "2023-11-17T14:09:59.820Z",
         "deleted": false,
         "policies": [
             {
@@ -5462,7 +5465,7 @@
         "pluginType": "API",
         "pluginId": "API",
         "createdAt": "2022-08-29T14:26:27.553Z",
-        "updatedAt": "2022-12-08T10:47:58.268Z",
+        "updatedAt": "2023-11-17T14:10:09.770Z",
         "deleted": false,
         "policies": [
             {
@@ -5544,7 +5547,7 @@
         "pluginType": "API",
         "pluginId": "API",
         "createdAt": "2022-08-29T14:49:08.307Z",
-        "updatedAt": "2023-02-17T21:46:57.360Z",
+        "updatedAt": "2023-11-17T14:10:18.671Z",
         "deleted": false,
         "policies": [
             {
@@ -5617,7 +5620,7 @@
         "pluginType": "API",
         "pluginId": "API",
         "createdAt": "2022-08-29T14:27:18.685Z",
-        "updatedAt": "2023-08-03T11:36:24.505Z",
+        "updatedAt": "2023-11-17T14:10:52.977Z",
         "deleted": false,
         "policies": [
             {
@@ -5641,7 +5644,7 @@
             "datasource": {
                 "name": "DEFAULT_REST_DATASOURCE",
                 "datasourceConfiguration": {
-                    "url": "https://nrmedilane-64abe78893ab8c11000000cf.ubos.tech"
+                    "url": "{{main.env.nodeUrl}}/getRoles"
                 },
                 "invalids": [],
                 "isValid": true,
@@ -5670,7 +5673,7 @@
                         "value": true
                     }
                 ],
-                "path": "/getRoles"
+                "path": ""
             },
             "dynamicBindingPathList": [
                 {
@@ -6446,7 +6449,7 @@
         "pluginType": "API",
         "pluginId": "API",
         "createdAt": "2022-11-18T16:51:48.152Z",
-        "updatedAt": "2022-12-08T10:46:19.169Z",
+        "updatedAt": "2023-11-17T14:09:53.582Z",
         "deleted": false,
         "policies": [
             {
@@ -6533,7 +6536,7 @@
         "pluginType": "API",
         "pluginId": "API",
         "createdAt": "2022-11-18T16:55:13.835Z",
-        "updatedAt": "2022-12-08T10:47:35.778Z",
+        "updatedAt": "2023-11-17T14:09:36.592Z",
         "deleted": false,
         "policies": [
             {
@@ -6617,7 +6620,7 @@
         "pluginType": "API",
         "pluginId": "API",
         "createdAt": "2022-11-18T17:04:12.998Z",
-        "updatedAt": "2023-03-02T14:06:10.281Z",
+        "updatedAt": "2023-11-17T14:09:48.588Z",
         "deleted": false,
         "policies": [
             {
@@ -6701,7 +6704,7 @@
         "pluginType": "API",
         "pluginId": "API",
         "createdAt": "2022-11-22T10:57:53.258Z",
-        "updatedAt": "2022-12-08T10:48:13.669Z",
+        "updatedAt": "2023-11-17T14:10:09.869Z",
         "deleted": false,
         "policies": [
             {
@@ -6783,7 +6786,7 @@
         "pluginType": "API",
         "pluginId": "API",
         "createdAt": "2022-11-22T13:23:38.662Z",
-        "updatedAt": "2022-12-08T10:48:05.458Z",
+        "updatedAt": "2023-11-17T14:10:09.869Z",
         "deleted": false,
         "policies": [
             {
@@ -6904,48 +6907,14 @@
         "Action": {
             "name": "getPartners",
             "datasource": {
+                "name": "DEFAULT_REST_DATASOURCE",
                 "datasourceConfiguration": {
-                    "url": "https://nrmedilane-64abe78893ab8c11000000cf.ubos.tech",
-                    "product_price": "price_1MytsdH1Ta6us8T1ZbzB3QUC",
-                    "cpu": 200,
-                    "ram": "512",
-                    "subscription_plan": "643e8bfadb35f70012db836d",
-                    "plan_id": "643e8bfadb35f70012db836d",
-                    "subscription_id": "sub_1NSaV5H1Ta6us8T1f81SI80e"
+                    "url": "{{main.env.nodeUrl}}/getPartners"
                 },
-                "id": "64acfd2c895f6211000001ca",
                 "invalids": [],
                 "isValid": true,
-                "name": "nrmedilane",
-                "new": false,
-                "type": "api",
-                "organizationId": "Org",
                 "pluginId": "API",
-                "userPermissions": [
-                    "read:service",
-                    "manage:service"
-                ],
-                "settings_data": {
-                    "gitName": "",
-                    "projectName": "nrmedilane",
-                    "systemType": "latest",
-                    "gitUrl": "",
-                    "gitPassword": "",
-                    "urlNodeRed": "https://nrmedilane-64abe78893ab8c11000000cf.ubos.tech",
-                    "serviceId": "nrmedilane-ubos-lj2wp-nrmedilane",
-                    "applicationId": "64abe78893ab8c11000000d0",
-                    "env": [
-                        {
-                            "name": "nodeUrl",
-                            "value": "https://nrmedilane-64abe78893ab8c11000000cf.ubos.tech"
-                        },
-                        {
-                            "name": "uiUrl",
-                            "value": "https://uimedilane-64abe78893ab8c11000000cf.ubos.tech"
-                        }
-                    ],
-                    "status": "ready"
-                }
+                "messages": []
             },
             "executeOnLoad": false,
             "pageId": "Dashboard",
@@ -6964,17 +6933,23 @@
                         "value": true
                     }
                 ],
-                "path": "/getPartners"
+                "path": ""
             },
-            "dynamicBindingPathList": [],
+            "dynamicBindingPathList": [
+                {
+                    "key": "datasourceUrl"
+                }
+            ],
             "isValid": true,
             "invalids": [],
-            "jsonPathKeys": [],
+            "jsonPathKeys": [
+                "main.env.nodeUrl"
+            ],
             "userSetOnLoad": false,
             "confirmBeforeExecute": false
         },
         "createdAt": "2023-07-11T07:46:31.889Z",
-        "updatedAt": "2023-07-12T10:35:56.261Z",
+        "updatedAt": "2023-11-17T14:13:40.871Z",
         "deleted": false,
         "policies": [
             {
@@ -7003,48 +6978,14 @@
         "Action": {
             "name": "getCampaigns",
             "datasource": {
+                "name": "DEFAULT_REST_DATASOURCE",
                 "datasourceConfiguration": {
-                    "url": "https://nrmedilane-64abe78893ab8c11000000cf.ubos.tech",
-                    "product_price": "price_1MytsdH1Ta6us8T1ZbzB3QUC",
-                    "cpu": 200,
-                    "ram": "512",
-                    "subscription_plan": "643e8bfadb35f70012db836d",
-                    "plan_id": "643e8bfadb35f70012db836d",
-                    "subscription_id": "sub_1NSaV5H1Ta6us8T1f81SI80e"
+                    "url": "{{main.env.nodeUrl}}/getCampaigns"
                 },
-                "id": "64acfd2c895f6211000001ca",
                 "invalids": [],
                 "isValid": true,
-                "name": "nrmedilane",
-                "new": false,
-                "type": "api",
-                "organizationId": "Org",
                 "pluginId": "API",
-                "userPermissions": [
-                    "read:service",
-                    "manage:service"
-                ],
-                "settings_data": {
-                    "gitName": "",
-                    "projectName": "nrmedilane",
-                    "systemType": "latest",
-                    "gitUrl": "",
-                    "gitPassword": "",
-                    "urlNodeRed": "https://nrmedilane-64abe78893ab8c11000000cf.ubos.tech",
-                    "serviceId": "nrmedilane-ubos-lj2wp-nrmedilane",
-                    "applicationId": "64abe78893ab8c11000000d0",
-                    "env": [
-                        {
-                            "name": "nodeUrl",
-                            "value": "https://nrmedilane-64abe78893ab8c11000000cf.ubos.tech"
-                        },
-                        {
-                            "name": "uiUrl",
-                            "value": "https://uimedilane-64abe78893ab8c11000000cf.ubos.tech"
-                        }
-                    ],
-                    "status": "ready"
-                }
+                "messages": []
             },
             "executeOnLoad": true,
             "pageId": "Dashboard",
@@ -7063,17 +7004,24 @@
                         "value": true
                     }
                 ],
-                "path": "/getCampaigns"
+                "path": ""
             },
-            "dynamicBindingPathList": [],
+            "dynamicBindingPathList": [
+                {
+                    "key": "datasourceUrl"
+                }
+            ],
             "isValid": true,
             "invalids": [],
-            "jsonPathKeys": [],
+            "jsonPathKeys": [
+                "main.env.n",
+                "main.env.nodeUrl"
+            ],
             "userSetOnLoad": false,
             "confirmBeforeExecute": false
         },
         "createdAt": "2023-07-11T13:31:02.282Z",
-        "updatedAt": "2023-07-12T10:35:54.249Z",
+        "updatedAt": "2023-11-17T14:13:38.179Z",
         "deleted": false,
         "policies": [
             {
@@ -7138,48 +7086,14 @@
         "Action": {
             "name": "getLaboratories",
             "datasource": {
+                "name": "DEFAULT_REST_DATASOURCE",
                 "datasourceConfiguration": {
-                    "url": "https://nrmedilane-64abe78893ab8c11000000cf.ubos.tech",
-                    "product_price": "price_1MytsdH1Ta6us8T1ZbzB3QUC",
-                    "cpu": 200,
-                    "ram": "512",
-                    "subscription_plan": "643e8bfadb35f70012db836d",
-                    "plan_id": "643e8bfadb35f70012db836d",
-                    "subscription_id": "sub_1NSaV5H1Ta6us8T1f81SI80e"
+                    "url": "{{main.env.n}}/getLaboratories"
                 },
-                "id": "64acfd2c895f6211000001ca",
                 "invalids": [],
                 "isValid": true,
-                "name": "nrmedilane",
-                "new": false,
-                "type": "api",
-                "organizationId": "Org",
                 "pluginId": "API",
-                "userPermissions": [
-                    "read:service",
-                    "manage:service"
-                ],
-                "settings_data": {
-                    "gitName": "",
-                    "projectName": "nrmedilane",
-                    "systemType": "latest",
-                    "gitUrl": "",
-                    "gitPassword": "",
-                    "urlNodeRed": "https://nrmedilane-64abe78893ab8c11000000cf.ubos.tech",
-                    "serviceId": "nrmedilane-ubos-lj2wp-nrmedilane",
-                    "applicationId": "64abe78893ab8c11000000d0",
-                    "env": [
-                        {
-                            "name": "nodeUrl",
-                            "value": "https://nrmedilane-64abe78893ab8c11000000cf.ubos.tech"
-                        },
-                        {
-                            "name": "uiUrl",
-                            "value": "https://uimedilane-64abe78893ab8c11000000cf.ubos.tech"
-                        }
-                    ],
-                    "status": "ready"
-                }
+                "messages": []
             },
             "executeOnLoad": false,
             "pageId": "OpenMarket",
@@ -7198,17 +7112,24 @@
                         "value": true
                     }
                 ],
-                "path": "/getLaboratories"
+                "path": ""
             },
-            "dynamicBindingPathList": [],
+            "dynamicBindingPathList": [
+                {
+                    "key": "datasourceUrl"
+                }
+            ],
             "isValid": true,
             "invalids": [],
-            "jsonPathKeys": [],
+            "jsonPathKeys": [
+                "main.env.nodeUrl",
+                "main.env.n"
+            ],
             "userSetOnLoad": false,
             "confirmBeforeExecute": false
         },
         "createdAt": "2023-07-12T04:54:41.442Z",
-        "updatedAt": "2023-07-12T05:20:33.538Z",
+        "updatedAt": "2023-11-17T14:15:32.367Z",
         "deleted": false,
         "policies": [
             {
@@ -7237,48 +7158,14 @@
         "Action": {
             "name": "getMyCurrentCampaigns",
             "datasource": {
+                "name": "DEFAULT_REST_DATASOURCE",
                 "datasourceConfiguration": {
-                    "url": "https://nrmedilane-64abe78893ab8c11000000cf.ubos.tech",
-                    "product_price": "price_1MytsdH1Ta6us8T1ZbzB3QUC",
-                    "cpu": 200,
-                    "ram": "512",
-                    "subscription_plan": "643e8bfadb35f70012db836d",
-                    "plan_id": "643e8bfadb35f70012db836d",
-                    "subscription_id": "sub_1NSaV5H1Ta6us8T1f81SI80e"
+                    "url": "{{main.env.nodeUrl}}/getMyCurrentCampaigns"
                 },
-                "id": "64acfd2c895f6211000001ca",
                 "invalids": [],
                 "isValid": true,
-                "name": "nrmedilane",
-                "new": false,
-                "type": "api",
-                "organizationId": "Org",
                 "pluginId": "API",
-                "userPermissions": [
-                    "read:service",
-                    "manage:service"
-                ],
-                "settings_data": {
-                    "gitName": "",
-                    "projectName": "nrmedilane",
-                    "systemType": "latest",
-                    "gitUrl": "",
-                    "gitPassword": "",
-                    "urlNodeRed": "https://nrmedilane-64abe78893ab8c11000000cf.ubos.tech",
-                    "serviceId": "nrmedilane-ubos-lj2wp-nrmedilane",
-                    "applicationId": "64abe78893ab8c11000000d0",
-                    "env": [
-                        {
-                            "name": "nodeUrl",
-                            "value": "https://nrmedilane-64abe78893ab8c11000000cf.ubos.tech"
-                        },
-                        {
-                            "name": "uiUrl",
-                            "value": "https://uimedilane-64abe78893ab8c11000000cf.ubos.tech"
-                        }
-                    ],
-                    "status": "ready"
-                }
+                "messages": []
             },
             "executeOnLoad": false,
             "pageId": "Campagnes",
@@ -7297,17 +7184,23 @@
                         "value": true
                     }
                 ],
-                "path": "/getMyCurrentCampaigns"
+                "path": ""
             },
-            "dynamicBindingPathList": [],
+            "dynamicBindingPathList": [
+                {
+                    "key": "datasourceUrl"
+                }
+            ],
             "isValid": true,
             "invalids": [],
-            "jsonPathKeys": [],
+            "jsonPathKeys": [
+                "main.env.nodeUrl"
+            ],
             "userSetOnLoad": false,
             "confirmBeforeExecute": false
         },
         "createdAt": "2023-07-12T07:04:08.054Z",
-        "updatedAt": "2023-07-12T07:04:22.648Z",
+        "updatedAt": "2023-11-17T14:14:16.568Z",
         "deleted": false,
         "policies": [
             {
@@ -7336,48 +7229,14 @@
         "Action": {
             "name": "getOtherOngoingCampaigns",
             "datasource": {
+                "name": "DEFAULT_REST_DATASOURCE",
                 "datasourceConfiguration": {
-                    "url": "https://nrmedilane-64abe78893ab8c11000000cf.ubos.tech",
-                    "product_price": "price_1MytsdH1Ta6us8T1ZbzB3QUC",
-                    "cpu": 200,
-                    "ram": "512",
-                    "subscription_plan": "643e8bfadb35f70012db836d",
-                    "plan_id": "643e8bfadb35f70012db836d",
-                    "subscription_id": "sub_1NSaV5H1Ta6us8T1f81SI80e"
+                    "url": "{{main.env.nodeUrl}}/getOtherOngoingCampaigns"
                 },
-                "id": "64acfd2c895f6211000001ca",
                 "invalids": [],
                 "isValid": true,
-                "name": "nrmedilane",
-                "new": false,
-                "type": "api",
-                "organizationId": "Org",
                 "pluginId": "API",
-                "userPermissions": [
-                    "read:service",
-                    "manage:service"
-                ],
-                "settings_data": {
-                    "gitName": "",
-                    "projectName": "nrmedilane",
-                    "systemType": "latest",
-                    "gitUrl": "",
-                    "gitPassword": "",
-                    "urlNodeRed": "https://nrmedilane-64abe78893ab8c11000000cf.ubos.tech",
-                    "serviceId": "nrmedilane-ubos-lj2wp-nrmedilane",
-                    "applicationId": "64abe78893ab8c11000000d0",
-                    "env": [
-                        {
-                            "name": "nodeUrl",
-                            "value": "https://nrmedilane-64abe78893ab8c11000000cf.ubos.tech"
-                        },
-                        {
-                            "name": "uiUrl",
-                            "value": "https://uimedilane-64abe78893ab8c11000000cf.ubos.tech"
-                        }
-                    ],
-                    "status": "ready"
-                }
+                "messages": []
             },
             "executeOnLoad": false,
             "pageId": "Campagnes",
@@ -7396,17 +7255,23 @@
                         "value": true
                     }
                 ],
-                "path": "/getOtherOngoingCampaigns"
+                "path": ""
             },
-            "dynamicBindingPathList": [],
+            "dynamicBindingPathList": [
+                {
+                    "key": "datasourceUrl"
+                }
+            ],
             "isValid": true,
             "invalids": [],
-            "jsonPathKeys": [],
+            "jsonPathKeys": [
+                "main.env.nodeUrl"
+            ],
             "userSetOnLoad": false,
             "confirmBeforeExecute": false
         },
         "createdAt": "2023-07-12T07:04:39.337Z",
-        "updatedAt": "2023-07-12T07:04:57.812Z",
+        "updatedAt": "2023-11-17T14:14:55.583Z",
         "deleted": false,
         "policies": [
             {
@@ -7437,7 +7302,7 @@
             "datasource": {
                 "name": "DEFAULT_REST_DATASOURCE",
                 "datasourceConfiguration": {
-                    "url": "https://nrmedilane-64abe78893ab8c11000000cf.ubos.tech"
+                    "url": "{{main.env.nodeUrl}}/getCampaignsFromUserOrders?userId={{main.user.auth_module.user.info.user._id}}"
                 },
                 "invalids": [],
                 "isValid": true,
@@ -7451,12 +7316,7 @@
                 "encodeParamsToggle": true,
                 "httpMethod": "GET",
                 "headers": [],
-                "queryParameters": [
-                    {
-                        "key": "userId",
-                        "value": "{{main.user.auth_module.user.info.user._id}}"
-                    }
-                ],
+                "queryParameters": [],
                 "bodyFormData": [],
                 "formData": {
                     "apiContentType": "none"
@@ -7466,7 +7326,7 @@
                         "value": true
                     }
                 ],
-                "path": "/getCampaignsFromUserOrders"
+                "path": ""
             },
             "dynamicBindingPathList": [
                 {
@@ -7474,18 +7334,22 @@
                 },
                 {
                     "key": "queryParameters[0].value"
+                },
+                {
+                    "key": "datasourceUrl"
                 }
             ],
             "isValid": true,
             "invalids": [],
             "jsonPathKeys": [
+                "main.env.nodeUrl",
                 "main.user.auth_module.user.info.user._id"
             ],
             "userSetOnLoad": false,
             "confirmBeforeExecute": false
         },
         "createdAt": "2023-07-12T07:36:22.859Z",
-        "updatedAt": "2023-07-14T10:49:15.412Z",
+        "updatedAt": "2023-11-17T14:20:38.585Z",
         "deleted": false,
         "policies": [
             {
@@ -7550,48 +7414,14 @@
         "Action": {
             "name": "getCampaigns",
             "datasource": {
+                "name": "DEFAULT_REST_DATASOURCE",
                 "datasourceConfiguration": {
-                    "url": "https://nrmedilane-64abe78893ab8c11000000cf.ubos.tech",
-                    "product_price": "price_1MytsdH1Ta6us8T1ZbzB3QUC",
-                    "cpu": 200,
-                    "ram": "512",
-                    "subscription_plan": "643e8bfadb35f70012db836d",
-                    "plan_id": "643e8bfadb35f70012db836d",
-                    "subscription_id": "sub_1NSaV5H1Ta6us8T1f81SI80e"
+                    "url": "{{main.env.nodeUrl}}/getCampaignsByUserId?userId={{main.user.auth_module.user.info.user._id}}"
                 },
-                "id": "64acfd2c895f6211000001ca",
                 "invalids": [],
                 "isValid": true,
-                "name": "nrmedilane",
-                "new": false,
-                "type": "api",
-                "organizationId": "Org",
                 "pluginId": "API",
-                "userPermissions": [
-                    "read:service",
-                    "manage:service"
-                ],
-                "settings_data": {
-                    "gitName": "",
-                    "projectName": "nrmedilane",
-                    "systemType": "latest",
-                    "gitUrl": "",
-                    "gitPassword": "",
-                    "urlNodeRed": "https://nrmedilane-64abe78893ab8c11000000cf.ubos.tech",
-                    "serviceId": "nrmedilane-ubos-lj2wp-nrmedilane",
-                    "applicationId": "64abe78893ab8c11000000d0",
-                    "env": [
-                        {
-                            "name": "nodeUrl",
-                            "value": "https://nrmedilane-64abe78893ab8c11000000cf.ubos.tech"
-                        },
-                        {
-                            "name": "uiUrl",
-                            "value": "https://uimedilane-64abe78893ab8c11000000cf.ubos.tech"
-                        }
-                    ],
-                    "status": "ready"
-                }
+                "messages": []
             },
             "executeOnLoad": false,
             "pageId": "AdminPanel",
@@ -7600,12 +7430,7 @@
                 "encodeParamsToggle": true,
                 "httpMethod": "GET",
                 "headers": [],
-                "queryParameters": [
-                    {
-                        "key": "userId",
-                        "value": "{{main.user.auth_module.user.info.user._id}}"
-                    }
-                ],
+                "queryParameters": [],
                 "bodyFormData": [],
                 "formData": {
                     "apiContentType": "none"
@@ -7615,23 +7440,27 @@
                         "value": true
                     }
                 ],
-                "path": "/getCampaignsByUserId"
+                "path": ""
             },
             "dynamicBindingPathList": [
                 {
                     "key": "queryParameters[0].value"
+                },
+                {
+                    "key": "datasourceUrl"
                 }
             ],
             "isValid": true,
             "invalids": [],
             "jsonPathKeys": [
-                "main.user.auth_module.user.info.user._id"
+                "main.user.auth_module.user.info.user._id",
+                "main.env.nodeUrl"
             ],
             "userSetOnLoad": false,
             "confirmBeforeExecute": false
         },
         "createdAt": "2023-07-13T06:51:48.465Z",
-        "updatedAt": "2023-07-17T11:48:39.237Z",
+        "updatedAt": "2023-11-17T14:18:00.778Z",
         "deleted": false,
         "policies": [
             {
@@ -7660,48 +7489,14 @@
         "Action": {
             "name": "createProduct",
             "datasource": {
+                "name": "DEFAULT_REST_DATASOURCE",
                 "datasourceConfiguration": {
-                    "url": "https://nrmedilane-64abe78893ab8c11000000cf.ubos.tech",
-                    "product_price": "price_1MytsdH1Ta6us8T1ZbzB3QUC",
-                    "cpu": 200,
-                    "ram": "512",
-                    "subscription_plan": "643e8bfadb35f70012db836d",
-                    "plan_id": "643e8bfadb35f70012db836d",
-                    "subscription_id": "sub_1NSaV5H1Ta6us8T1f81SI80e"
+                    "url": "{{main.env.}}/createProduct"
                 },
-                "id": "64acfd2c895f6211000001ca",
                 "invalids": [],
                 "isValid": true,
-                "name": "nrmedilane",
-                "new": false,
-                "type": "api",
-                "organizationId": "Org",
                 "pluginId": "API",
-                "userPermissions": [
-                    "read:service",
-                    "manage:service"
-                ],
-                "settings_data": {
-                    "gitName": "",
-                    "projectName": "nrmedilane",
-                    "systemType": "latest",
-                    "gitUrl": "",
-                    "gitPassword": "",
-                    "urlNodeRed": "https://nrmedilane-64abe78893ab8c11000000cf.ubos.tech",
-                    "serviceId": "nrmedilane-ubos-lj2wp-nrmedilane",
-                    "applicationId": "64abe78893ab8c11000000d0",
-                    "env": [
-                        {
-                            "name": "nodeUrl",
-                            "value": "https://nrmedilane-64abe78893ab8c11000000cf.ubos.tech"
-                        },
-                        {
-                            "name": "uiUrl",
-                            "value": "https://uimedilane-64abe78893ab8c11000000cf.ubos.tech"
-                        }
-                    ],
-                    "status": "ready"
-                }
+                "messages": []
             },
             "executeOnLoad": false,
             "pageId": "AdminPanel",
@@ -7725,31 +7520,35 @@
                         "value": true
                     }
                 ],
-                "path": "/createProduct",
+                "path": "",
                 "body": "{\n\t\"campaignId\": \"{{TableCamp.selectedRow._id}}\",\n\t\"name\": \"{{InputProductName.text}}\",\n\t\"cost\": {{InputProductCost.text}},\n\t\"dateOfManufacture\": \"{{InputProductCreatedAt.formattedDate}}\",\n\t\"expirationDate\": \"{{InputProductExpiration.formattedDate}}\",\n\t\"photo\": \"{{InputProductPhotoURL.text}}\",\n\t\"description\": \"{{InputProductDescription.text}}\"\n}"
             },
             "dynamicBindingPathList": [
                 {
                     "key": "body"
+                },
+                {
+                    "key": "datasourceUrl"
                 }
             ],
             "isValid": true,
             "invalids": [],
             "jsonPathKeys": [
-                "Tab.selectedRow._id",
+                "main.env.nodeUrl",
+                "TableCamp.selectedRow._id",
                 "InputProductName.text",
                 "InputProductCost.text",
                 "InputProductCreatedAt.formattedDate",
                 "InputProductExpiration.formattedDate",
                 "InputProductPhotoURL.text",
                 "InputProductDescription.text",
-                "TableCamp.selectedRow._id"
+                "main.env."
             ],
             "userSetOnLoad": false,
             "confirmBeforeExecute": false
         },
         "createdAt": "2023-07-13T08:03:12.399Z",
-        "updatedAt": "2023-07-14T07:31:23.743Z",
+        "updatedAt": "2023-11-17T14:21:46.273Z",
         "deleted": false,
         "policies": [
             {
@@ -7778,48 +7577,14 @@
         "Action": {
             "name": "getCampaignInfo",
             "datasource": {
+                "name": "DEFAULT_REST_DATASOURCE",
                 "datasourceConfiguration": {
-                    "url": "https://nrmedilane-64abe78893ab8c11000000cf.ubos.tech",
-                    "product_price": "price_1MytsdH1Ta6us8T1ZbzB3QUC",
-                    "cpu": 200,
-                    "ram": "512",
-                    "subscription_plan": "643e8bfadb35f70012db836d",
-                    "plan_id": "643e8bfadb35f70012db836d",
-                    "subscription_id": "sub_1NSaV5H1Ta6us8T1f81SI80e"
+                    "url": "{{main.env.nodeUrl}}/getCampaignInfo?campaignId={{TableCamp.selectedRow._id}}"
                 },
-                "id": "64acfd2c895f6211000001ca",
                 "invalids": [],
                 "isValid": true,
-                "name": "nrmedilane",
-                "new": false,
-                "type": "api",
-                "organizationId": "Org",
                 "pluginId": "API",
-                "userPermissions": [
-                    "read:service",
-                    "manage:service"
-                ],
-                "settings_data": {
-                    "gitName": "",
-                    "projectName": "nrmedilane",
-                    "systemType": "latest",
-                    "gitUrl": "",
-                    "gitPassword": "",
-                    "urlNodeRed": "https://nrmedilane-64abe78893ab8c11000000cf.ubos.tech",
-                    "serviceId": "nrmedilane-ubos-lj2wp-nrmedilane",
-                    "applicationId": "64abe78893ab8c11000000d0",
-                    "env": [
-                        {
-                            "name": "nodeUrl",
-                            "value": "https://nrmedilane-64abe78893ab8c11000000cf.ubos.tech"
-                        },
-                        {
-                            "name": "uiUrl",
-                            "value": "https://uimedilane-64abe78893ab8c11000000cf.ubos.tech"
-                        }
-                    ],
-                    "status": "ready"
-                }
+                "messages": []
             },
             "executeOnLoad": false,
             "pageId": "AdminPanel",
@@ -7828,12 +7593,7 @@
                 "encodeParamsToggle": true,
                 "httpMethod": "GET",
                 "headers": [],
-                "queryParameters": [
-                    {
-                        "key": "campaignId",
-                        "value": "{{TableCamp.selectedRow._id}}"
-                    }
-                ],
+                "queryParameters": [],
                 "bodyFormData": [],
                 "formData": {
                     "apiContentType": "none"
@@ -7843,23 +7603,27 @@
                         "value": true
                     }
                 ],
-                "path": "/getCampaignInfo"
+                "path": ""
             },
             "dynamicBindingPathList": [
                 {
                     "key": "queryParameters[0].value"
+                },
+                {
+                    "key": "datasourceUrl"
                 }
             ],
             "isValid": true,
             "invalids": [],
             "jsonPathKeys": [
-                "TableCamp.selectedRow._id"
+                "TableCamp.selectedRow._id",
+                "main.env.nodeUrl"
             ],
             "userSetOnLoad": false,
             "confirmBeforeExecute": false
         },
         "createdAt": "2023-07-13T09:03:14.547Z",
-        "updatedAt": "2023-07-14T09:44:15.668Z",
+        "updatedAt": "2023-11-17T14:17:38.667Z",
         "deleted": false,
         "policies": [
             {
@@ -7888,48 +7652,14 @@
         "Action": {
             "name": "removeProduct",
             "datasource": {
+                "name": "DEFAULT_REST_DATASOURCE",
                 "datasourceConfiguration": {
-                    "url": "https://nrmedilane-64abe78893ab8c11000000cf.ubos.tech",
-                    "product_price": "price_1MytsdH1Ta6us8T1ZbzB3QUC",
-                    "cpu": 200,
-                    "ram": "512",
-                    "subscription_plan": "643e8bfadb35f70012db836d",
-                    "plan_id": "643e8bfadb35f70012db836d",
-                    "subscription_id": "sub_1NSaV5H1Ta6us8T1f81SI80e"
+                    "url": "{{main.env.nodeUrl}}/removeProduct"
                 },
-                "id": "64acfd2c895f6211000001ca",
                 "invalids": [],
                 "isValid": true,
-                "name": "nrmedilane",
-                "new": false,
-                "type": "api",
-                "organizationId": "Org",
                 "pluginId": "API",
-                "userPermissions": [
-                    "read:service",
-                    "manage:service"
-                ],
-                "settings_data": {
-                    "gitName": "",
-                    "projectName": "nrmedilane",
-                    "systemType": "latest",
-                    "gitUrl": "",
-                    "gitPassword": "",
-                    "urlNodeRed": "https://nrmedilane-64abe78893ab8c11000000cf.ubos.tech",
-                    "serviceId": "nrmedilane-ubos-lj2wp-nrmedilane",
-                    "applicationId": "64abe78893ab8c11000000d0",
-                    "env": [
-                        {
-                            "name": "nodeUrl",
-                            "value": "https://nrmedilane-64abe78893ab8c11000000cf.ubos.tech"
-                        },
-                        {
-                            "name": "uiUrl",
-                            "value": "https://uimedilane-64abe78893ab8c11000000cf.ubos.tech"
-                        }
-                    ],
-                    "status": "ready"
-                }
+                "messages": []
             },
             "executeOnLoad": false,
             "pageId": "AdminPanel",
@@ -7954,23 +7684,27 @@
                         "value": true
                     }
                 ],
-                "path": "/removeProduct"
+                "path": ""
             },
             "dynamicBindingPathList": [
                 {
                     "key": "body"
+                },
+                {
+                    "key": "datasourceUrl"
                 }
             ],
             "isValid": true,
             "invalids": [],
             "jsonPathKeys": [
-                "TableCampaignProductsEdit.selectedRow._id"
+                "TableCampaignProductsEdit.selectedRow._id",
+                "main.env.nodeUrl"
             ],
             "userSetOnLoad": false,
             "confirmBeforeExecute": false
         },
         "createdAt": "2023-07-13T09:31:05.151Z",
-        "updatedAt": "2023-07-13T13:47:38.008Z",
+        "updatedAt": "2023-11-17T14:18:51.983Z",
         "deleted": false,
         "policies": [
             {
@@ -7999,48 +7733,14 @@
         "Action": {
             "name": "removeCampaign",
             "datasource": {
+                "name": "DEFAULT_REST_DATASOURCE",
                 "datasourceConfiguration": {
-                    "url": "https://nrmedilane-64abe78893ab8c11000000cf.ubos.tech",
-                    "product_price": "price_1MytsdH1Ta6us8T1ZbzB3QUC",
-                    "cpu": 200,
-                    "ram": "512",
-                    "subscription_plan": "643e8bfadb35f70012db836d",
-                    "plan_id": "643e8bfadb35f70012db836d",
-                    "subscription_id": "sub_1NSaV5H1Ta6us8T1f81SI80e"
+                    "url": "{{main.env.nodeUrl}}/removeCampaign"
                 },
-                "id": "64acfd2c895f6211000001ca",
                 "invalids": [],
                 "isValid": true,
-                "name": "nrmedilane",
-                "new": false,
-                "type": "api",
-                "organizationId": "Org",
                 "pluginId": "API",
-                "userPermissions": [
-                    "read:service",
-                    "manage:service"
-                ],
-                "settings_data": {
-                    "gitName": "",
-                    "projectName": "nrmedilane",
-                    "systemType": "latest",
-                    "gitUrl": "",
-                    "gitPassword": "",
-                    "urlNodeRed": "https://nrmedilane-64abe78893ab8c11000000cf.ubos.tech",
-                    "serviceId": "nrmedilane-ubos-lj2wp-nrmedilane",
-                    "applicationId": "64abe78893ab8c11000000d0",
-                    "env": [
-                        {
-                            "name": "nodeUrl",
-                            "value": "https://nrmedilane-64abe78893ab8c11000000cf.ubos.tech"
-                        },
-                        {
-                            "name": "uiUrl",
-                            "value": "https://uimedilane-64abe78893ab8c11000000cf.ubos.tech"
-                        }
-                    ],
-                    "status": "ready"
-                }
+                "messages": []
             },
             "executeOnLoad": false,
             "pageId": "AdminPanel",
@@ -8065,24 +7765,27 @@
                         "value": true
                     }
                 ],
-                "path": "/removeCampaign"
+                "path": ""
             },
             "dynamicBindingPathList": [
                 {
                     "key": "body"
+                },
+                {
+                    "key": "datasourceUrl"
                 }
             ],
             "isValid": true,
             "invalids": [],
             "jsonPathKeys": [
-                "Tab.selectedRow._id",
-                "TableCamp.selectedRow._id"
+                "TableCamp.selectedRow._id",
+                "main.env.nodeUrl"
             ],
             "userSetOnLoad": false,
             "confirmBeforeExecute": false
         },
         "createdAt": "2023-07-13T11:14:56.433Z",
-        "updatedAt": "2023-07-14T08:06:39.353Z",
+        "updatedAt": "2023-11-17T14:18:11.968Z",
         "deleted": false,
         "policies": [
             {
@@ -8111,48 +7814,14 @@
         "Action": {
             "name": "createCampaign",
             "datasource": {
+                "name": "DEFAULT_REST_DATASOURCE",
                 "datasourceConfiguration": {
-                    "url": "https://nrmedilane-64abe78893ab8c11000000cf.ubos.tech",
-                    "product_price": "price_1MytsdH1Ta6us8T1ZbzB3QUC",
-                    "cpu": 200,
-                    "ram": "512",
-                    "subscription_plan": "643e8bfadb35f70012db836d",
-                    "plan_id": "643e8bfadb35f70012db836d",
-                    "subscription_id": "sub_1NSaV5H1Ta6us8T1f81SI80e"
+                    "url": "{{main.env}}/createCampaign"
                 },
-                "id": "64acfd2c895f6211000001ca",
                 "invalids": [],
                 "isValid": true,
-                "name": "nrmedilane",
-                "new": false,
-                "type": "api",
-                "organizationId": "Org",
                 "pluginId": "API",
-                "userPermissions": [
-                    "read:service",
-                    "manage:service"
-                ],
-                "settings_data": {
-                    "gitName": "",
-                    "projectName": "nrmedilane",
-                    "systemType": "latest",
-                    "gitUrl": "",
-                    "gitPassword": "",
-                    "urlNodeRed": "https://nrmedilane-64abe78893ab8c11000000cf.ubos.tech",
-                    "serviceId": "nrmedilane-ubos-lj2wp-nrmedilane",
-                    "applicationId": "64abe78893ab8c11000000d0",
-                    "env": [
-                        {
-                            "name": "nodeUrl",
-                            "value": "https://nrmedilane-64abe78893ab8c11000000cf.ubos.tech"
-                        },
-                        {
-                            "name": "uiUrl",
-                            "value": "https://uimedilane-64abe78893ab8c11000000cf.ubos.tech"
-                        }
-                    ],
-                    "status": "ready"
-                }
+                "messages": []
             },
             "executeOnLoad": false,
             "pageId": "AdminPanel",
@@ -8177,16 +7846,20 @@
                         "value": true
                     }
                 ],
-                "path": "/createCampaign"
+                "path": ""
             },
             "dynamicBindingPathList": [
                 {
                     "key": "body"
+                },
+                {
+                    "key": "datasourceUrl"
                 }
             ],
             "isValid": true,
             "invalids": [],
             "jsonPathKeys": [
+                "main.env.nodeUrl",
                 "InputCampaignCode.text",
                 "InputCampaignName.text",
                 "DateCampaign.formattedDate",
@@ -8194,13 +7867,14 @@
                 "InputCampaignObjectif.text",
                 "InputCampaignEmail.text",
                 "InputCampaignPhoneNumber.text",
-                "main.user.auth_module.user.info.user._id"
+                "main.user.auth_module.user.info.user._id",
+                "main.env"
             ],
             "userSetOnLoad": false,
             "confirmBeforeExecute": false
         },
         "createdAt": "2023-07-13T11:19:50.653Z",
-        "updatedAt": "2023-07-26T09:11:59.031Z",
+        "updatedAt": "2023-11-17T14:21:17.968Z",
         "deleted": false,
         "policies": [
             {
@@ -8607,48 +8281,14 @@
         "Action": {
             "name": "changeCampaignStatus",
             "datasource": {
+                "name": "DEFAULT_REST_DATASOURCE",
                 "datasourceConfiguration": {
-                    "url": "https://nrmedilane-64abe78893ab8c11000000cf.ubos.tech",
-                    "product_price": "price_1MytsdH1Ta6us8T1ZbzB3QUC",
-                    "cpu": 200,
-                    "ram": "512",
-                    "subscription_plan": "643e8bfadb35f70012db836d",
-                    "plan_id": "643e8bfadb35f70012db836d",
-                    "subscription_id": "sub_1NSaV5H1Ta6us8T1f81SI80e"
+                    "url": "{{main.env.nodeUrl}}/changeCampaignStatus"
                 },
-                "id": "64acfd2c895f6211000001ca",
                 "invalids": [],
                 "isValid": true,
-                "name": "nrmedilane",
-                "new": false,
-                "type": "api",
-                "organizationId": "Org",
                 "pluginId": "API",
-                "userPermissions": [
-                    "read:service",
-                    "manage:service"
-                ],
-                "settings_data": {
-                    "gitName": "",
-                    "projectName": "nrmedilane",
-                    "systemType": "latest",
-                    "gitUrl": "",
-                    "gitPassword": "",
-                    "urlNodeRed": "https://nrmedilane-64abe78893ab8c11000000cf.ubos.tech",
-                    "serviceId": "nrmedilane-ubos-lj2wp-nrmedilane",
-                    "applicationId": "64abe78893ab8c11000000d0",
-                    "env": [
-                        {
-                            "name": "nodeUrl",
-                            "value": "https://nrmedilane-64abe78893ab8c11000000cf.ubos.tech"
-                        },
-                        {
-                            "name": "uiUrl",
-                            "value": "https://uimedilane-64abe78893ab8c11000000cf.ubos.tech"
-                        }
-                    ],
-                    "status": "ready"
-                }
+                "messages": []
             },
             "executeOnLoad": false,
             "pageId": "AdminPanel",
@@ -8672,25 +8312,28 @@
                         "value": true
                     }
                 ],
-                "path": "/changeCampaignStatus",
+                "path": "",
                 "body": "{\n\t\"_id\": \"{{TableCamp.selectedRow._id}}\"\n}"
             },
             "dynamicBindingPathList": [
                 {
                     "key": "body"
+                },
+                {
+                    "key": "datasourceUrl"
                 }
             ],
             "isValid": true,
             "invalids": [],
             "jsonPathKeys": [
-                "TableCamp.selectedRow.",
+                "main.env.nodeUrl",
                 "TableCamp.selectedRow._id"
             ],
             "userSetOnLoad": false,
             "confirmBeforeExecute": false
         },
         "createdAt": "2023-07-17T11:54:07.532Z",
-        "updatedAt": "2023-07-17T12:01:39.133Z",
+        "updatedAt": "2023-11-17T14:21:03.273Z",
         "deleted": false,
         "policies": [
             {
