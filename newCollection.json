@@ -1,0 +1,265 @@
+[
+    {
+        "_id": "6364e18e65d44c1100000006",
+        "name": "JSObject1",
+        "pageId": "User Management",
+        "organizationId": "Org",
+        "body": "export default {\n\teditUserRole: async () => {\n\t\tawait editUserRole.run();\n\t\tcloseModal('ModalEditRole');\n\t\tgetUsers.run();\n\t},\n\tcreateUser: async () => {\n\t\tawait createUser.run();\n\t\tcloseModal('ModalCreateUser');\n\t\tgetUsers.run();\n\t}\n}",
+        "variables": [],
+        "actions": [
+            {
+                "_id": "6364e18ec2e17400119dc7f1",
+                "name": "editUserRole",
+                "pageId": "User Management",
+                "organizationId": "Org",
+                "executeOnLoad": false,
+                "actionConfiguration": {
+                    "body": "async () => {\n\t\tawait editUserRole.run();\n\t\tcloseModal('ModalEditRole');\n\t\tgetUsers.run();\n\t}",
+                    "isAsync": true,
+                    "timeoutInMillisecond": 10000,
+                    "jsArguments": [],
+                    "paginationType": "NONE",
+                    "encodeParamsToggle": true
+                },
+                "clientSideExecution": true,
+                "collectionId": "6364e18e65d44c1100000006",
+                "applicationId": "jetsondashboard",
+                "datasource": {
+                    "isValid": true,
+                    "messages": [],
+                    "name": "UNUSED_DATASOURCE",
+                    "new": true,
+                    "organizationId": "Org",
+                    "pluginId": "",
+                    "userPermissions": []
+                },
+                "dynamicBindingPathList": [
+                    {
+                        "key": "body"
+                    }
+                ],
+                "fullyQualifiedName": "JSObject1.myFun2",
+                "isValid": true,
+                "jsonPathKeys": [
+                    "async () => {\n\t\t//use async-await or promises\n\t}"
+                ],
+                "pluginType": "JS",
+                "id": "6364e18ec2e17400119dc7f1"
+            },
+            {
+                "name": "createUser",
+                "collectionId": "6364e18e65d44c1100000006",
+                "executeOnLoad": false,
+                "pageId": "User Management",
+                "organizationId": "Org",
+                "actionConfiguration": {
+                    "body": "async () => {\n\t\tawait createUser.run();\n\t\tcloseModal('ModalCreateUser');\n\t\tgetUsers.run();\n\t}",
+                    "isAsync": true,
+                    "timeoutInMillisecond": 0,
+                    "jsArguments": []
+                }
+            }
+        ],
+        "applicationId": "jetsondashboard",
+        "pluginType": "JS",
+        "id": "6364e18e65d44c1100000006",
+        "actionIds": [],
+        "archivedActionIds": [],
+        "archivedActions": [],
+        "pluginId": "JS",
+        "workspaceId": "Org"
+    },
+    {
+        "name": "partnersList",
+        "pageId": "Dashboard",
+        "body": "export default {\n\t//formation Rows for 2 columns\n\tformationRows: () => {\n\t\tlet partnersArray = getPartners.data;\n\t\tlet partnersNewData = partnersArray.map(e => {\n\t\t\tconst obj = { test: \"test\"};\n\t\t\n\t\t\treturn {\n\t\t\t\t...e,\n\t\t\t\tnavigateTo: obj\n\t\t\t}\n\t\t});\n\t\t\n\t\tlet result = [];\n\t\tfor (let i = 0; i < partnersArray.length; i += 4) {\n  \t\tconst first = partnersArray[i];\n  \t\tconst second = partnersArray[i + 1] || {};\n  \t\tconst third = partnersArray[i + 2] || {};\n  \t\tconst fourth = partnersArray[i + 3] || {};\n\t\t\t\n  \t\tresult.push({ first, second, third, fourth });\n\t\t}\n\t\treturn result ?? []\n\t\t\n\t\treturn result;\n\t}\n}",
+        "variables": [],
+        "actions": [
+            {
+                "name": "formationRows",
+                "collectionId": "64ad07bc5355b4b7e760a752",
+                "executeOnLoad": false,
+                "pageId": "Dashboard",
+                "actionConfiguration": {
+                    "body": "() => {\n\t\tlet partnersArray = getPartners.data;\n\t\tlet partnersNewData = partnersArray.map(e => {\n\t\t\tconst obj = { test: \"test\"};\n\t\t\n\t\t\treturn {\n\t\t\t\t...e,\n\t\t\t\tnavigateTo: obj\n\t\t\t}\n\t\t});\n\t\t\n\t\tlet result = [];\n\t\tfor (let i = 0; i < partnersArray.length; i += 4) {\n  \t\tconst first = partnersArray[i];\n  \t\tconst second = partnersArray[i + 1] || {};\n  \t\tconst third = partnersArray[i + 2] || {};\n  \t\tconst fourth = partnersArray[i + 3] || {};\n\t\t\t\n  \t\tresult.push({ first, second, third, fourth });\n\t\t}\n\t\treturn result ?? []\n\t\t\n\t\treturn result;\n\t}",
+                    "isAsync": false,
+                    "timeoutInMillisecond": 0,
+                    "jsArguments": []
+                }
+            }
+        ],
+        "applicationId": "jetsondashboard",
+        "pluginType": "JS",
+        "_id": "64ad07bc5355b4b7e760a752",
+        "id": "64ad07bc5355b4b7e760a752",
+        "pluginId": "JS",
+        "actionIds": [],
+        "archivedActionIds": [],
+        "archivedActions": []
+    },
+    {
+        "id": "64ae2cadcf8d7d52c27f16e7",
+        "name": "laboratoriesData",
+        "pageId": "OpenMarket",
+        "body": "export default {\n\t//formation Rows for 2 columns\n\tformationRows: () => {\n\t\tlet laboratoriesArray = getLaboratories.data;\n\t\tlet partnersNewData = laboratoriesArray.map(e => {\n\t\t\tconst obj = { test: \"test\"};\n\t\t\n\t\t\treturn {\n\t\t\t\t...e,\n\t\t\t\tnavigateTo: obj\n\t\t\t}\n\t\t});\n\t\t\n\t\tlet result = [];\n\t\tfor (let i = 0; i < laboratoriesArray.length; i += 4) {\n  \t\tconst first = laboratoriesArray[i];\n  \t\tconst second = laboratoriesArray[i + 1] || {};\n  \t\tconst third = laboratoriesArray[i + 2] || {};\n  \t\tconst fourth = laboratoriesArray[i + 3] || {};\n\t\t\t\n  \t\tresult.push({ first, second, third, fourth });\n\t\t}\n\t\treturn result ?? []\n\t\t\n\t\treturn result;\n\t}\n}",
+        "variables": [],
+        "actions": [
+            {
+                "name": "formationRows",
+                "collectionId": "64ae2cadcf8d7d52c27f16e7",
+                "executeOnLoad": false,
+                "pageId": "OpenMarket",
+                "actionConfiguration": {
+                    "body": "() => {\n\t\tlet laboratoriesArray = getLaboratories.data;\n\t\tlet partnersNewData = laboratoriesArray.map(e => {\n\t\t\tconst obj = { test: \"test\"};\n\t\t\n\t\t\treturn {\n\t\t\t\t...e,\n\t\t\t\tnavigateTo: obj\n\t\t\t}\n\t\t});\n\t\t\n\t\tlet result = [];\n\t\tfor (let i = 0; i < laboratoriesArray.length; i += 4) {\n  \t\tconst first = laboratoriesArray[i];\n  \t\tconst second = laboratoriesArray[i + 1] || {};\n  \t\tconst third = laboratoriesArray[i + 2] || {};\n  \t\tconst fourth = laboratoriesArray[i + 3] || {};\n\t\t\t\n  \t\tresult.push({ first, second, third, fourth });\n\t\t}\n\t\treturn result ?? []\n\t\t\n\t\treturn result;\n\t}",
+                    "isAsync": false,
+                    "timeoutInMillisecond": 10000,
+                    "jsArguments": [],
+                    "paginationType": "NONE",
+                    "encodeParamsToggle": true
+                },
+                "_id": "64ae2cb8cf8d7d52c27f16ea",
+                "id": "64ae2cb8cf8d7d52c27f16ea",
+                "applicationId": "jetsondashboard",
+                "datasource": {
+                    "isValid": true,
+                    "messages": [],
+                    "name": "UNUSED_DATASOURCE",
+                    "new": true,
+                    "pluginId": "",
+                    "userPermissions": []
+                },
+                "dynamicBindingPathList": [
+                    {
+                        "key": "body"
+                    }
+                ],
+                "fullyQualifiedName": "JSObject1.formationRows",
+                "isValid": true,
+                "jsonPathKeys": [
+                    "() => {\n\t\tlet partnersArray = getPartners.data;\n\t\tlet partnersNewData = partnersArray.map(e => {\n\t\t\tconst obj = { test: \"test\"};\n\t\t\n\t\t\treturn {\n\t\t\t\t...e,\n\t\t\t\tnavigateTo: obj\n\t\t\t}\n\t\t});\n\t\t\n\t\tlet result = [];\n\t\tfor (let i = 0; i < partnersArray.length; i += 4) {\n  \t\tconst first = partnersArray[i];\n  \t\tconst second = partnersArray[i + 1] || {};\n  \t\tconst third = partnersArray[i + 2] || {};\n  \t\tconst fourth = partnersArray[i + 3] || {};\n\t\t\t\n  \t\tresult.push({ first, second, third, fourth });\n\t\t}\n\t\treturn result ?? []\n\t\t\n\t\treturn result;\n\t}"
+                ],
+                "pluginType": "JS"
+            }
+        ],
+        "applicationId": "jetsondashboard",
+        "pluginType": "JS",
+        "_id": "64ae2cadcf8d7d52c27f16e7",
+        "pluginId": "JS",
+        "actionIds": [],
+        "archivedActionIds": [],
+        "archivedActions": []
+    },
+    {
+        "id": "64ae58601596b3080265a3e3",
+        "name": "contractsData",
+        "pageId": "MyContracts",
+        "body": "export default {\n\t//formation Rows for 2 columns\n\tformationRows: () => {\n\t\tlet contractsArray = getMyContracts.data;\n\t\tlet partnersNewData = contractsArray.map(e => {\n\t\t\tconst obj = { test: \"test\"};\n\t\t\n\t\t\treturn {\n\t\t\t\t...e,\n\t\t\t\tnavigateTo: obj\n\t\t\t}\n\t\t});\n\t\t\n\t\tlet result = [];\n\t\tfor (let i = 0; i < contractsArray.length; i += 4) {\n  \t\tconst first = contractsArray[i];\n  \t\tconst second = contractsArray[i + 1] || {};\n  \t\tconst third = contractsArray[i + 2] || {};\n  \t\tconst fourth = contractsArray[i + 3] || {};\n\t\t\t\n  \t\tresult.push({ first, second, third, fourth });\n\t\t}\n\t\treturn result ?? []\n\t\t\n\t\treturn result;\n\t}\n}",
+        "variables": [],
+        "actions": [
+            {
+                "name": "formationRows",
+                "collectionId": "64ae58601596b3080265a3e3",
+                "executeOnLoad": false,
+                "pageId": "MyContracts",
+                "actionConfiguration": {
+                    "body": "() => {\n\t\tlet contractsArray = getMyContracts.data;\n\t\tlet partnersNewData = contractsArray.map(e => {\n\t\t\tconst obj = { test: \"test\"};\n\t\t\n\t\t\treturn {\n\t\t\t\t...e,\n\t\t\t\tnavigateTo: obj\n\t\t\t}\n\t\t});\n\t\t\n\t\tlet result = [];\n\t\tfor (let i = 0; i < contractsArray.length; i += 4) {\n  \t\tconst first = contractsArray[i];\n  \t\tconst second = contractsArray[i + 1] || {};\n  \t\tconst third = contractsArray[i + 2] || {};\n  \t\tconst fourth = contractsArray[i + 3] || {};\n\t\t\t\n  \t\tresult.push({ first, second, third, fourth });\n\t\t}\n\t\treturn result ?? []\n\t\t\n\t\treturn result;\n\t}",
+                    "isAsync": false,
+                    "timeoutInMillisecond": 10000,
+                    "jsArguments": [],
+                    "paginationType": "NONE",
+                    "encodeParamsToggle": true
+                },
+                "_id": "64ae58721596b3080265a3e7",
+                "id": "64ae58721596b3080265a3e7",
+                "applicationId": "jetsondashboard",
+                "datasource": {
+                    "isValid": true,
+                    "messages": [],
+                    "name": "UNUSED_DATASOURCE",
+                    "new": true,
+                    "pluginId": "",
+                    "userPermissions": []
+                },
+                "dynamicBindingPathList": [
+                    {
+                        "key": "body"
+                    }
+                ],
+                "fullyQualifiedName": "contractsData.formationRows",
+                "isValid": true,
+                "jsonPathKeys": [
+                    "() => {\n\t\tlet laboratoriesArray = getMyContracts.data;\n\t\tlet partnersNewData = laboratoriesArray.map(e => {\n\t\t\tconst obj = { test: \"test\"};\n\t\t\n\t\t\treturn {\n\t\t\t\t...e,\n\t\t\t\tnavigateTo: obj\n\t\t\t}\n\t\t});\n\t\t\n\t\tlet result = [];\n\t\tfor (let i = 0; i < laboratoriesArray.length; i += 4) {\n  \t\tconst first = laboratoriesArray[i];\n  \t\tconst second = laboratoriesArray[i + 1] || {};\n  \t\tconst third = laboratoriesArray[i + 2] || {};\n  \t\tconst fourth = laboratoriesArray[i + 3] || {};\n\t\t\t\n  \t\tresult.push({ first, second, third, fourth });\n\t\t}\n\t\treturn result ?? []\n\t\t\n\t\treturn result;\n\t}"
+                ],
+                "pluginType": "JS"
+            }
+        ],
+        "applicationId": "jetsondashboard",
+        "pluginType": "JS",
+        "_id": "64ae58601596b3080265a3e3",
+        "pluginId": "JS",
+        "actionIds": [],
+        "archivedActionIds": [],
+        "archivedActions": []
+    },
+    {
+        "name": "productList",
+        "pageId": "CampaignDetails",
+        "body": "export default {\n\tmyVar1: [],\n\tmyVar2: {},\n\tcreateOrder: () => {\n\t\tconst data = List1.items;\n\t\tconst inputData = data.map(el => el.Input3.text);\n\t\t\n\t\tconsole.log(inputData, \"inputData\");\n\t\tstoreValue(\"orderData\", inputData);\n\t\tshowModal(\"Modal1\");\n\t\treturn;\n\t}\n}",
+        "variables": [
+            {
+                "name": "myVar1",
+                "value": []
+            },
+            {
+                "name": "myVar2",
+                "value": {}
+            }
+        ],
+        "actions": [
+            {
+                "name": "createOrder",
+                "collectionId": "64afe30f1e93c05955d106bd",
+                "executeOnLoad": false,
+                "pageId": "CampaignDetails",
+                "actionConfiguration": {
+                    "body": "() => {\n\t\tconst data = List1.items;\n\t\tconst inputData = data.map(el => el.Input3.text);\n\t\t\n\t\tconsole.log(inputData, \"inputData\");\n\t\tstoreValue(\"orderData\", inputData);\n\t\tshowModal(\"Modal1\");\n\t\treturn;\n\t}",
+                    "isAsync": false,
+                    "timeoutInMillisecond": 10000,
+                    "jsArguments": [],
+                    "paginationType": "NONE",
+                    "encodeParamsToggle": true
+                },
+                "_id": "64afe3bb1e93c05955d106c4",
+                "id": "64afe3bb1e93c05955d106c4",
+                "applicationId": "jetsondashboard",
+                "datasource": {
+                    "isValid": true,
+                    "messages": [],
+                    "name": "UNUSED_DATASOURCE",
+                    "new": true,
+                    "pluginId": "",
+                    "userPermissions": []
+                },
+                "dynamicBindingPathList": [
+                    {
+                        "key": "body"
+                    }
+                ],
+                "fullyQualifiedName": "productList.createOrder",
+                "isValid": true,
+                "jsonPathKeys": [
+                    "() => {\n\t\tconst data = List1.listData;\n\t\t\n\t\tconsole.log(data, \"dataasd\")\n\t}"
+                ],
+                "pluginType": "JS"
+            }
+        ],
+        "applicationId": "jetsondashboard",
+        "pluginType": "JS",
+        "_id": "64afe30f1e93c05955d106bd",
+        "id": "64afe30f1e93c05955d106bd",
+        "pluginId": "JS",
+        "actionIds": [],
+        "archivedActionIds": [],
+        "archivedActions": []
+    }
+]

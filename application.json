@@ -1,0 +1,3232 @@
+{
+    "_id": "62b41da7022a791200000002",
+    "name": "Authorization",
+    "slug": "jetsondashboard",
+    "organizationId": "Org",
+    "isPublic": true,
+    "createdAt": "2023-03-02T13:50:57.853Z",
+    "updatedAt": "2023-07-17T14:58:24.751Z",
+    "deleted": false,
+    "pages": [
+        {
+            "_id": "Login",
+            "isDefault": true
+        },
+        {
+            "_id": "Registration",
+            "isDefault": false
+        },
+        {
+            "_id": "Registered",
+            "isDefault": false
+        },
+        {
+            "_id": "Modules",
+            "isDefault": false
+        },
+        {
+            "_id": "AdminRoles",
+            "isDefault": false
+        },
+        {
+            "_id": "User Management",
+            "isDefault": false
+        },
+        {
+            "_id": "queryToResetPassword",
+            "isDefault": false
+        },
+        {
+            "_id": "ResetPassword",
+            "isDefault": false
+        },
+        {
+            "_id": "Info",
+            "isDefault": false
+        },
+        {
+            "_id": "PasswordChanged",
+            "isDefault": false
+        },
+        {
+            "_id": "Dashboard",
+            "isDefault": false
+        },
+        {
+            "_id": "Campagnes",
+            "isDefault": false
+        },
+        {
+            "_id": "OpenMarket",
+            "isDefault": false
+        },
+        {
+            "_id": "MyContracts",
+            "isDefault": false
+        },
+        {
+            "_id": "AdminPanel",
+            "isDefault": false
+        },
+        {
+            "_id": "CampaignDetails",
+            "isDefault": false
+        },
+        {
+            "_id": "OrderList",
+            "isDefault": false
+        }
+    ],
+    "policies": [
+        {
+            "permission": "makePublic:applications",
+            "groups": [],
+            "users": []
+        },
+        {
+            "permission": "read:applications",
+            "groups": [],
+            "users": []
+        },
+        {
+            "permission": "publish:applications",
+            "groups": [],
+            "users": []
+        },
+        {
+            "permission": "manage:applications",
+            "groups": [],
+            "users": []
+        }
+    ],
+    "global_setting": {
+        "favicon": "https://ubraine.com/wp-content/uploads/2018/09/cropped-ubraine_favicon-32x32.png",
+        "title": "UBOS",
+        "css": "https://nrmedilane-64abe78893ab8c11000000cf.ubos.tech/css"
+    },
+    "lastDeployedAt": "2022-10-19T15:59:36.363Z",
+    "is_custom_auth": true,
+    "auth_mode_setting": {
+        "login_id": "Login",
+        "auth_node": "https://nrmedilane-64abe78893ab8c11000000cf.ubos.tech/check_token",
+        "registry_id": "Registration",
+        "other_pages": [
+            "queryToResetPassword",
+            "ResetPassword",
+            "Registered",
+            "PasswordChanged",
+            "Info"
+        ]
+    },
+    "settings_data": {
+        "httpIns": [
+            {
+                "label": "GET |  | /css",
+                "value": {
+                    "url": "/css",
+                    "method": "get",
+                    "datasource": {
+                        "datasourceConfiguration": {
+                            "url": "https://nrmedilane-64abe78893ab8c11000000cf.ubos.tech",
+                            "product_price": "price_1MytsdH1Ta6us8T1ZbzB3QUC",
+                            "cpu": 200,
+                            "ram": "512",
+                            "subscription_plan": "643e8bfadb35f70012db836d",
+                            "plan_id": "643e8bfadb35f70012db836d",
+                            "subscription_id": "sub_1NSaV5H1Ta6us8T1f81SI80e"
+                        },
+                        "id": "64acfd2c895f6211000001ca",
+                        "invalids": [],
+                        "isValid": true,
+                        "name": "nrmedilane",
+                        "new": false,
+                        "type": "api",
+                        "organizationId": "Org",
+                        "pluginId": "API",
+                        "userPermissions": [
+                            "read:service",
+                            "manage:service"
+                        ],
+                        "settings_data": {
+                            "gitName": "",
+                            "projectName": "nrmedilane",
+                            "systemType": "latest",
+                            "gitUrl": "",
+                            "gitPassword": "",
+                            "urlNodeRed": "https://nrmedilane-64abe78893ab8c11000000cf.ubos.tech",
+                            "serviceId": "nrmedilane-ubos-lj2wp-nrmedilane",
+                            "applicationId": "64abe78893ab8c11000000d0",
+                            "env": [
+                                {
+                                    "name": "nodeUrl",
+                                    "value": "https://nrmedilane-64abe78893ab8c11000000cf.ubos.tech"
+                                },
+                                {
+                                    "name": "uiUrl",
+                                    "value": "https://uimedilane-64abe78893ab8c11000000cf.ubos.tech"
+                                }
+                            ],
+                            "status": "ready"
+                        }
+                    }
+                }
+            },
+            {
+                "label": "POST | registration | /registration",
+                "value": {
+                    "url": "/registration",
+                    "method": "post",
+                    "datasource": {
+                        "datasourceConfiguration": {
+                            "url": "https://nrmedilane-64abe78893ab8c11000000cf.ubos.tech",
+                            "product_price": "price_1MytsdH1Ta6us8T1ZbzB3QUC",
+                            "cpu": 200,
+                            "ram": "512",
+                            "subscription_plan": "643e8bfadb35f70012db836d",
+                            "plan_id": "643e8bfadb35f70012db836d",
+                            "subscription_id": "sub_1NSaV5H1Ta6us8T1f81SI80e"
+                        },
+                        "id": "64acfd2c895f6211000001ca",
+                        "invalids": [],
+                        "isValid": true,
+                        "name": "nrmedilane",
+                        "new": false,
+                        "type": "api",
+                        "organizationId": "Org",
+                        "pluginId": "API",
+                        "userPermissions": [
+                            "read:service",
+                            "manage:service"
+                        ],
+                        "settings_data": {
+                            "gitName": "",
+                            "projectName": "nrmedilane",
+                            "systemType": "latest",
+                            "gitUrl": "",
+                            "gitPassword": "",
+                            "urlNodeRed": "https://nrmedilane-64abe78893ab8c11000000cf.ubos.tech",
+                            "serviceId": "nrmedilane-ubos-lj2wp-nrmedilane",
+                            "applicationId": "64abe78893ab8c11000000d0",
+                            "env": [
+                                {
+                                    "name": "nodeUrl",
+                                    "value": "https://nrmedilane-64abe78893ab8c11000000cf.ubos.tech"
+                                },
+                                {
+                                    "name": "uiUrl",
+                                    "value": "https://uimedilane-64abe78893ab8c11000000cf.ubos.tech"
+                                }
+                            ],
+                            "status": "ready"
+                        }
+                    }
+                }
+            },
+            {
+                "label": "POST | createRole | /createRole",
+                "value": {
+                    "url": "/createRole",
+                    "method": "post",
+                    "datasource": {
+                        "datasourceConfiguration": {
+                            "url": "https://nrmedilane-64abe78893ab8c11000000cf.ubos.tech",
+                            "product_price": "price_1MytsdH1Ta6us8T1ZbzB3QUC",
+                            "cpu": 200,
+                            "ram": "512",
+                            "subscription_plan": "643e8bfadb35f70012db836d",
+                            "plan_id": "643e8bfadb35f70012db836d",
+                            "subscription_id": "sub_1NSaV5H1Ta6us8T1f81SI80e"
+                        },
+                        "id": "64acfd2c895f6211000001ca",
+                        "invalids": [],
+                        "isValid": true,
+                        "name": "nrmedilane",
+                        "new": false,
+                        "type": "api",
+                        "organizationId": "Org",
+                        "pluginId": "API",
+                        "userPermissions": [
+                            "read:service",
+                            "manage:service"
+                        ],
+                        "settings_data": {
+                            "gitName": "",
+                            "projectName": "nrmedilane",
+                            "systemType": "latest",
+                            "gitUrl": "",
+                            "gitPassword": "",
+                            "urlNodeRed": "https://nrmedilane-64abe78893ab8c11000000cf.ubos.tech",
+                            "serviceId": "nrmedilane-ubos-lj2wp-nrmedilane",
+                            "applicationId": "64abe78893ab8c11000000d0",
+                            "env": [
+                                {
+                                    "name": "nodeUrl",
+                                    "value": "https://nrmedilane-64abe78893ab8c11000000cf.ubos.tech"
+                                },
+                                {
+                                    "name": "uiUrl",
+                                    "value": "https://uimedilane-64abe78893ab8c11000000cf.ubos.tech"
+                                }
+                            ],
+                            "status": "ready"
+                        }
+                    }
+                }
+            },
+            {
+                "label": "GET | getRoles | /getRoles",
+                "value": {
+                    "url": "/getRoles",
+                    "method": "get",
+                    "datasource": {
+                        "datasourceConfiguration": {
+                            "url": "https://nrmedilane-64abe78893ab8c11000000cf.ubos.tech",
+                            "product_price": "price_1MytsdH1Ta6us8T1ZbzB3QUC",
+                            "cpu": 200,
+                            "ram": "512",
+                            "subscription_plan": "643e8bfadb35f70012db836d",
+                            "plan_id": "643e8bfadb35f70012db836d",
+                            "subscription_id": "sub_1NSaV5H1Ta6us8T1f81SI80e"
+                        },
+                        "id": "64acfd2c895f6211000001ca",
+                        "invalids": [],
+                        "isValid": true,
+                        "name": "nrmedilane",
+                        "new": false,
+                        "type": "api",
+                        "organizationId": "Org",
+                        "pluginId": "API",
+                        "userPermissions": [
+                            "read:service",
+                            "manage:service"
+                        ],
+                        "settings_data": {
+                            "gitName": "",
+                            "projectName": "nrmedilane",
+                            "systemType": "latest",
+                            "gitUrl": "",
+                            "gitPassword": "",
+                            "urlNodeRed": "https://nrmedilane-64abe78893ab8c11000000cf.ubos.tech",
+                            "serviceId": "nrmedilane-ubos-lj2wp-nrmedilane",
+                            "applicationId": "64abe78893ab8c11000000d0",
+                            "env": [
+                                {
+                                    "name": "nodeUrl",
+                                    "value": "https://nrmedilane-64abe78893ab8c11000000cf.ubos.tech"
+                                },
+                                {
+                                    "name": "uiUrl",
+                                    "value": "https://uimedilane-64abe78893ab8c11000000cf.ubos.tech"
+                                }
+                            ],
+                            "status": "ready"
+                        }
+                    }
+                }
+            },
+            {
+                "label": "POST | addModuleToRole | /addModuleToRole",
+                "value": {
+                    "url": "/addModuleToRole",
+                    "method": "post",
+                    "datasource": {
+                        "datasourceConfiguration": {
+                            "url": "https://nrmedilane-64abe78893ab8c11000000cf.ubos.tech",
+                            "product_price": "price_1MytsdH1Ta6us8T1ZbzB3QUC",
+                            "cpu": 200,
+                            "ram": "512",
+                            "subscription_plan": "643e8bfadb35f70012db836d",
+                            "plan_id": "643e8bfadb35f70012db836d",
+                            "subscription_id": "sub_1NSaV5H1Ta6us8T1f81SI80e"
+                        },
+                        "id": "64acfd2c895f6211000001ca",
+                        "invalids": [],
+                        "isValid": true,
+                        "name": "nrmedilane",
+                        "new": false,
+                        "type": "api",
+                        "organizationId": "Org",
+                        "pluginId": "API",
+                        "userPermissions": [
+                            "read:service",
+                            "manage:service"
+                        ],
+                        "settings_data": {
+                            "gitName": "",
+                            "projectName": "nrmedilane",
+                            "systemType": "latest",
+                            "gitUrl": "",
+                            "gitPassword": "",
+                            "urlNodeRed": "https://nrmedilane-64abe78893ab8c11000000cf.ubos.tech",
+                            "serviceId": "nrmedilane-ubos-lj2wp-nrmedilane",
+                            "applicationId": "64abe78893ab8c11000000d0",
+                            "env": [
+                                {
+                                    "name": "nodeUrl",
+                                    "value": "https://nrmedilane-64abe78893ab8c11000000cf.ubos.tech"
+                                },
+                                {
+                                    "name": "uiUrl",
+                                    "value": "https://uimedilane-64abe78893ab8c11000000cf.ubos.tech"
+                                }
+                            ],
+                            "status": "ready"
+                        }
+                    }
+                }
+            },
+            {
+                "label": "PUT | updateRole | /updateRole",
+                "value": {
+                    "url": "/updateRole",
+                    "method": "put",
+                    "datasource": {
+                        "datasourceConfiguration": {
+                            "url": "https://nrmedilane-64abe78893ab8c11000000cf.ubos.tech",
+                            "product_price": "price_1MytsdH1Ta6us8T1ZbzB3QUC",
+                            "cpu": 200,
+                            "ram": "512",
+                            "subscription_plan": "643e8bfadb35f70012db836d",
+                            "plan_id": "643e8bfadb35f70012db836d",
+                            "subscription_id": "sub_1NSaV5H1Ta6us8T1f81SI80e"
+                        },
+                        "id": "64acfd2c895f6211000001ca",
+                        "invalids": [],
+                        "isValid": true,
+                        "name": "nrmedilane",
+                        "new": false,
+                        "type": "api",
+                        "organizationId": "Org",
+                        "pluginId": "API",
+                        "userPermissions": [
+                            "read:service",
+                            "manage:service"
+                        ],
+                        "settings_data": {
+                            "gitName": "",
+                            "projectName": "nrmedilane",
+                            "systemType": "latest",
+                            "gitUrl": "",
+                            "gitPassword": "",
+                            "urlNodeRed": "https://nrmedilane-64abe78893ab8c11000000cf.ubos.tech",
+                            "serviceId": "nrmedilane-ubos-lj2wp-nrmedilane",
+                            "applicationId": "64abe78893ab8c11000000d0",
+                            "env": [
+                                {
+                                    "name": "nodeUrl",
+                                    "value": "https://nrmedilane-64abe78893ab8c11000000cf.ubos.tech"
+                                },
+                                {
+                                    "name": "uiUrl",
+                                    "value": "https://uimedilane-64abe78893ab8c11000000cf.ubos.tech"
+                                }
+                            ],
+                            "status": "ready"
+                        }
+                    }
+                }
+            },
+            {
+                "label": "DELETE | deleteModuleFromRole | /deleteModuleFromRole",
+                "value": {
+                    "url": "/deleteModuleFromRole",
+                    "method": "delete",
+                    "datasource": {
+                        "datasourceConfiguration": {
+                            "url": "https://nrmedilane-64abe78893ab8c11000000cf.ubos.tech",
+                            "product_price": "price_1MytsdH1Ta6us8T1ZbzB3QUC",
+                            "cpu": 200,
+                            "ram": "512",
+                            "subscription_plan": "643e8bfadb35f70012db836d",
+                            "plan_id": "643e8bfadb35f70012db836d",
+                            "subscription_id": "sub_1NSaV5H1Ta6us8T1f81SI80e"
+                        },
+                        "id": "64acfd2c895f6211000001ca",
+                        "invalids": [],
+                        "isValid": true,
+                        "name": "nrmedilane",
+                        "new": false,
+                        "type": "api",
+                        "organizationId": "Org",
+                        "pluginId": "API",
+                        "userPermissions": [
+                            "read:service",
+                            "manage:service"
+                        ],
+                        "settings_data": {
+                            "gitName": "",
+                            "projectName": "nrmedilane",
+                            "systemType": "latest",
+                            "gitUrl": "",
+                            "gitPassword": "",
+                            "urlNodeRed": "https://nrmedilane-64abe78893ab8c11000000cf.ubos.tech",
+                            "serviceId": "nrmedilane-ubos-lj2wp-nrmedilane",
+                            "applicationId": "64abe78893ab8c11000000d0",
+                            "env": [
+                                {
+                                    "name": "nodeUrl",
+                                    "value": "https://nrmedilane-64abe78893ab8c11000000cf.ubos.tech"
+                                },
+                                {
+                                    "name": "uiUrl",
+                                    "value": "https://uimedilane-64abe78893ab8c11000000cf.ubos.tech"
+                                }
+                            ],
+                            "status": "ready"
+                        }
+                    }
+                }
+            },
+            {
+                "label": "DELETE | deleteRole | /deleteRole",
+                "value": {
+                    "url": "/deleteRole",
+                    "method": "delete",
+                    "datasource": {
+                        "datasourceConfiguration": {
+                            "url": "https://nrmedilane-64abe78893ab8c11000000cf.ubos.tech",
+                            "product_price": "price_1MytsdH1Ta6us8T1ZbzB3QUC",
+                            "cpu": 200,
+                            "ram": "512",
+                            "subscription_plan": "643e8bfadb35f70012db836d",
+                            "plan_id": "643e8bfadb35f70012db836d",
+                            "subscription_id": "sub_1NSaV5H1Ta6us8T1f81SI80e"
+                        },
+                        "id": "64acfd2c895f6211000001ca",
+                        "invalids": [],
+                        "isValid": true,
+                        "name": "nrmedilane",
+                        "new": false,
+                        "type": "api",
+                        "organizationId": "Org",
+                        "pluginId": "API",
+                        "userPermissions": [
+                            "read:service",
+                            "manage:service"
+                        ],
+                        "settings_data": {
+                            "gitName": "",
+                            "projectName": "nrmedilane",
+                            "systemType": "latest",
+                            "gitUrl": "",
+                            "gitPassword": "",
+                            "urlNodeRed": "https://nrmedilane-64abe78893ab8c11000000cf.ubos.tech",
+                            "serviceId": "nrmedilane-ubos-lj2wp-nrmedilane",
+                            "applicationId": "64abe78893ab8c11000000d0",
+                            "env": [
+                                {
+                                    "name": "nodeUrl",
+                                    "value": "https://nrmedilane-64abe78893ab8c11000000cf.ubos.tech"
+                                },
+                                {
+                                    "name": "uiUrl",
+                                    "value": "https://uimedilane-64abe78893ab8c11000000cf.ubos.tech"
+                                }
+                            ],
+                            "status": "ready"
+                        }
+                    }
+                }
+            },
+            {
+                "label": "GET | getAllRoles | /getAllRoles | Use in: User Management",
+                "value": {
+                    "url": "/getAllRoles",
+                    "method": "get",
+                    "datasource": {
+                        "datasourceConfiguration": {
+                            "url": "https://nrmedilane-64abe78893ab8c11000000cf.ubos.tech",
+                            "product_price": "price_1MytsdH1Ta6us8T1ZbzB3QUC",
+                            "cpu": 200,
+                            "ram": "512",
+                            "subscription_plan": "643e8bfadb35f70012db836d",
+                            "plan_id": "643e8bfadb35f70012db836d",
+                            "subscription_id": "sub_1NSaV5H1Ta6us8T1f81SI80e"
+                        },
+                        "id": "64acfd2c895f6211000001ca",
+                        "invalids": [],
+                        "isValid": true,
+                        "name": "nrmedilane",
+                        "new": false,
+                        "type": "api",
+                        "organizationId": "Org",
+                        "pluginId": "API",
+                        "userPermissions": [
+                            "read:service",
+                            "manage:service"
+                        ],
+                        "settings_data": {
+                            "gitName": "",
+                            "projectName": "nrmedilane",
+                            "systemType": "latest",
+                            "gitUrl": "",
+                            "gitPassword": "",
+                            "urlNodeRed": "https://nrmedilane-64abe78893ab8c11000000cf.ubos.tech",
+                            "serviceId": "nrmedilane-ubos-lj2wp-nrmedilane",
+                            "applicationId": "64abe78893ab8c11000000d0",
+                            "env": [
+                                {
+                                    "name": "nodeUrl",
+                                    "value": "https://nrmedilane-64abe78893ab8c11000000cf.ubos.tech"
+                                },
+                                {
+                                    "name": "uiUrl",
+                                    "value": "https://uimedilane-64abe78893ab8c11000000cf.ubos.tech"
+                                }
+                            ],
+                            "status": "ready"
+                        }
+                    }
+                }
+            },
+            {
+                "label": "POST | createParentModule | /createParentModule",
+                "value": {
+                    "url": "/createParentModule",
+                    "method": "post",
+                    "datasource": {
+                        "datasourceConfiguration": {
+                            "url": "https://nrmedilane-64abe78893ab8c11000000cf.ubos.tech",
+                            "product_price": "price_1MytsdH1Ta6us8T1ZbzB3QUC",
+                            "cpu": 200,
+                            "ram": "512",
+                            "subscription_plan": "643e8bfadb35f70012db836d",
+                            "plan_id": "643e8bfadb35f70012db836d",
+                            "subscription_id": "sub_1NSaV5H1Ta6us8T1f81SI80e"
+                        },
+                        "id": "64acfd2c895f6211000001ca",
+                        "invalids": [],
+                        "isValid": true,
+                        "name": "nrmedilane",
+                        "new": false,
+                        "type": "api",
+                        "organizationId": "Org",
+                        "pluginId": "API",
+                        "userPermissions": [
+                            "read:service",
+                            "manage:service"
+                        ],
+                        "settings_data": {
+                            "gitName": "",
+                            "projectName": "nrmedilane",
+                            "systemType": "latest",
+                            "gitUrl": "",
+                            "gitPassword": "",
+                            "urlNodeRed": "https://nrmedilane-64abe78893ab8c11000000cf.ubos.tech",
+                            "serviceId": "nrmedilane-ubos-lj2wp-nrmedilane",
+                            "applicationId": "64abe78893ab8c11000000d0",
+                            "env": [
+                                {
+                                    "name": "nodeUrl",
+                                    "value": "https://nrmedilane-64abe78893ab8c11000000cf.ubos.tech"
+                                },
+                                {
+                                    "name": "uiUrl",
+                                    "value": "https://uimedilane-64abe78893ab8c11000000cf.ubos.tech"
+                                }
+                            ],
+                            "status": "ready"
+                        }
+                    }
+                }
+            },
+            {
+                "label": "GET | getModules | /getModules",
+                "value": {
+                    "url": "/getModules",
+                    "method": "get",
+                    "datasource": {
+                        "datasourceConfiguration": {
+                            "url": "https://nrmedilane-64abe78893ab8c11000000cf.ubos.tech",
+                            "product_price": "price_1MytsdH1Ta6us8T1ZbzB3QUC",
+                            "cpu": 200,
+                            "ram": "512",
+                            "subscription_plan": "643e8bfadb35f70012db836d",
+                            "plan_id": "643e8bfadb35f70012db836d",
+                            "subscription_id": "sub_1NSaV5H1Ta6us8T1f81SI80e"
+                        },
+                        "id": "64acfd2c895f6211000001ca",
+                        "invalids": [],
+                        "isValid": true,
+                        "name": "nrmedilane",
+                        "new": false,
+                        "type": "api",
+                        "organizationId": "Org",
+                        "pluginId": "API",
+                        "userPermissions": [
+                            "read:service",
+                            "manage:service"
+                        ],
+                        "settings_data": {
+                            "gitName": "",
+                            "projectName": "nrmedilane",
+                            "systemType": "latest",
+                            "gitUrl": "",
+                            "gitPassword": "",
+                            "urlNodeRed": "https://nrmedilane-64abe78893ab8c11000000cf.ubos.tech",
+                            "serviceId": "nrmedilane-ubos-lj2wp-nrmedilane",
+                            "applicationId": "64abe78893ab8c11000000d0",
+                            "env": [
+                                {
+                                    "name": "nodeUrl",
+                                    "value": "https://nrmedilane-64abe78893ab8c11000000cf.ubos.tech"
+                                },
+                                {
+                                    "name": "uiUrl",
+                                    "value": "https://uimedilane-64abe78893ab8c11000000cf.ubos.tech"
+                                }
+                            ],
+                            "status": "ready"
+                        }
+                    }
+                }
+            },
+            {
+                "label": "POST | createChildModule | /createChildModule",
+                "value": {
+                    "url": "/createChildModule",
+                    "method": "post",
+                    "datasource": {
+                        "datasourceConfiguration": {
+                            "url": "https://nrmedilane-64abe78893ab8c11000000cf.ubos.tech",
+                            "product_price": "price_1MytsdH1Ta6us8T1ZbzB3QUC",
+                            "cpu": 200,
+                            "ram": "512",
+                            "subscription_plan": "643e8bfadb35f70012db836d",
+                            "plan_id": "643e8bfadb35f70012db836d",
+                            "subscription_id": "sub_1NSaV5H1Ta6us8T1f81SI80e"
+                        },
+                        "id": "64acfd2c895f6211000001ca",
+                        "invalids": [],
+                        "isValid": true,
+                        "name": "nrmedilane",
+                        "new": false,
+                        "type": "api",
+                        "organizationId": "Org",
+                        "pluginId": "API",
+                        "userPermissions": [
+                            "read:service",
+                            "manage:service"
+                        ],
+                        "settings_data": {
+                            "gitName": "",
+                            "projectName": "nrmedilane",
+                            "systemType": "latest",
+                            "gitUrl": "",
+                            "gitPassword": "",
+                            "urlNodeRed": "https://nrmedilane-64abe78893ab8c11000000cf.ubos.tech",
+                            "serviceId": "nrmedilane-ubos-lj2wp-nrmedilane",
+                            "applicationId": "64abe78893ab8c11000000d0",
+                            "env": [
+                                {
+                                    "name": "nodeUrl",
+                                    "value": "https://nrmedilane-64abe78893ab8c11000000cf.ubos.tech"
+                                },
+                                {
+                                    "name": "uiUrl",
+                                    "value": "https://uimedilane-64abe78893ab8c11000000cf.ubos.tech"
+                                }
+                            ],
+                            "status": "ready"
+                        }
+                    }
+                }
+            },
+            {
+                "label": "DELETE | deleteChildModule | /deleteChildModule",
+                "value": {
+                    "url": "/deleteChildModule",
+                    "method": "delete",
+                    "datasource": {
+                        "datasourceConfiguration": {
+                            "url": "https://nrmedilane-64abe78893ab8c11000000cf.ubos.tech",
+                            "product_price": "price_1MytsdH1Ta6us8T1ZbzB3QUC",
+                            "cpu": 200,
+                            "ram": "512",
+                            "subscription_plan": "643e8bfadb35f70012db836d",
+                            "plan_id": "643e8bfadb35f70012db836d",
+                            "subscription_id": "sub_1NSaV5H1Ta6us8T1f81SI80e"
+                        },
+                        "id": "64acfd2c895f6211000001ca",
+                        "invalids": [],
+                        "isValid": true,
+                        "name": "nrmedilane",
+                        "new": false,
+                        "type": "api",
+                        "organizationId": "Org",
+                        "pluginId": "API",
+                        "userPermissions": [
+                            "read:service",
+                            "manage:service"
+                        ],
+                        "settings_data": {
+                            "gitName": "",
+                            "projectName": "nrmedilane",
+                            "systemType": "latest",
+                            "gitUrl": "",
+                            "gitPassword": "",
+                            "urlNodeRed": "https://nrmedilane-64abe78893ab8c11000000cf.ubos.tech",
+                            "serviceId": "nrmedilane-ubos-lj2wp-nrmedilane",
+                            "applicationId": "64abe78893ab8c11000000d0",
+                            "env": [
+                                {
+                                    "name": "nodeUrl",
+                                    "value": "https://nrmedilane-64abe78893ab8c11000000cf.ubos.tech"
+                                },
+                                {
+                                    "name": "uiUrl",
+                                    "value": "https://uimedilane-64abe78893ab8c11000000cf.ubos.tech"
+                                }
+                            ],
+                            "status": "ready"
+                        }
+                    }
+                }
+            },
+            {
+                "label": "PUT | updateChildModule | /updateChildModule",
+                "value": {
+                    "url": "/updateChildModule",
+                    "method": "put",
+                    "datasource": {
+                        "datasourceConfiguration": {
+                            "url": "https://nrmedilane-64abe78893ab8c11000000cf.ubos.tech",
+                            "product_price": "price_1MytsdH1Ta6us8T1ZbzB3QUC",
+                            "cpu": 200,
+                            "ram": "512",
+                            "subscription_plan": "643e8bfadb35f70012db836d",
+                            "plan_id": "643e8bfadb35f70012db836d",
+                            "subscription_id": "sub_1NSaV5H1Ta6us8T1f81SI80e"
+                        },
+                        "id": "64acfd2c895f6211000001ca",
+                        "invalids": [],
+                        "isValid": true,
+                        "name": "nrmedilane",
+                        "new": false,
+                        "type": "api",
+                        "organizationId": "Org",
+                        "pluginId": "API",
+                        "userPermissions": [
+                            "read:service",
+                            "manage:service"
+                        ],
+                        "settings_data": {
+                            "gitName": "",
+                            "projectName": "nrmedilane",
+                            "systemType": "latest",
+                            "gitUrl": "",
+                            "gitPassword": "",
+                            "urlNodeRed": "https://nrmedilane-64abe78893ab8c11000000cf.ubos.tech",
+                            "serviceId": "nrmedilane-ubos-lj2wp-nrmedilane",
+                            "applicationId": "64abe78893ab8c11000000d0",
+                            "env": [
+                                {
+                                    "name": "nodeUrl",
+                                    "value": "https://nrmedilane-64abe78893ab8c11000000cf.ubos.tech"
+                                },
+                                {
+                                    "name": "uiUrl",
+                                    "value": "https://uimedilane-64abe78893ab8c11000000cf.ubos.tech"
+                                }
+                            ],
+                            "status": "ready"
+                        }
+                    }
+                }
+            },
+            {
+                "label": "GET | getUsers | /getUsers",
+                "value": {
+                    "url": "/getUsers",
+                    "method": "get",
+                    "datasource": {
+                        "datasourceConfiguration": {
+                            "url": "https://nrmedilane-64abe78893ab8c11000000cf.ubos.tech",
+                            "product_price": "price_1MytsdH1Ta6us8T1ZbzB3QUC",
+                            "cpu": 200,
+                            "ram": "512",
+                            "subscription_plan": "643e8bfadb35f70012db836d",
+                            "plan_id": "643e8bfadb35f70012db836d",
+                            "subscription_id": "sub_1NSaV5H1Ta6us8T1f81SI80e"
+                        },
+                        "id": "64acfd2c895f6211000001ca",
+                        "invalids": [],
+                        "isValid": true,
+                        "name": "nrmedilane",
+                        "new": false,
+                        "type": "api",
+                        "organizationId": "Org",
+                        "pluginId": "API",
+                        "userPermissions": [
+                            "read:service",
+                            "manage:service"
+                        ],
+                        "settings_data": {
+                            "gitName": "",
+                            "projectName": "nrmedilane",
+                            "systemType": "latest",
+                            "gitUrl": "",
+                            "gitPassword": "",
+                            "urlNodeRed": "https://nrmedilane-64abe78893ab8c11000000cf.ubos.tech",
+                            "serviceId": "nrmedilane-ubos-lj2wp-nrmedilane",
+                            "applicationId": "64abe78893ab8c11000000d0",
+                            "env": [
+                                {
+                                    "name": "nodeUrl",
+                                    "value": "https://nrmedilane-64abe78893ab8c11000000cf.ubos.tech"
+                                },
+                                {
+                                    "name": "uiUrl",
+                                    "value": "https://uimedilane-64abe78893ab8c11000000cf.ubos.tech"
+                                }
+                            ],
+                            "status": "ready"
+                        }
+                    }
+                }
+            },
+            {
+                "label": "PUT | editUserRole | /editUserRole",
+                "value": {
+                    "url": "/editUserRole",
+                    "method": "put",
+                    "datasource": {
+                        "datasourceConfiguration": {
+                            "url": "https://nrmedilane-64abe78893ab8c11000000cf.ubos.tech",
+                            "product_price": "price_1MytsdH1Ta6us8T1ZbzB3QUC",
+                            "cpu": 200,
+                            "ram": "512",
+                            "subscription_plan": "643e8bfadb35f70012db836d",
+                            "plan_id": "643e8bfadb35f70012db836d",
+                            "subscription_id": "sub_1NSaV5H1Ta6us8T1f81SI80e"
+                        },
+                        "id": "64acfd2c895f6211000001ca",
+                        "invalids": [],
+                        "isValid": true,
+                        "name": "nrmedilane",
+                        "new": false,
+                        "type": "api",
+                        "organizationId": "Org",
+                        "pluginId": "API",
+                        "userPermissions": [
+                            "read:service",
+                            "manage:service"
+                        ],
+                        "settings_data": {
+                            "gitName": "",
+                            "projectName": "nrmedilane",
+                            "systemType": "latest",
+                            "gitUrl": "",
+                            "gitPassword": "",
+                            "urlNodeRed": "https://nrmedilane-64abe78893ab8c11000000cf.ubos.tech",
+                            "serviceId": "nrmedilane-ubos-lj2wp-nrmedilane",
+                            "applicationId": "64abe78893ab8c11000000d0",
+                            "env": [
+                                {
+                                    "name": "nodeUrl",
+                                    "value": "https://nrmedilane-64abe78893ab8c11000000cf.ubos.tech"
+                                },
+                                {
+                                    "name": "uiUrl",
+                                    "value": "https://uimedilane-64abe78893ab8c11000000cf.ubos.tech"
+                                }
+                            ],
+                            "status": "ready"
+                        }
+                    }
+                }
+            },
+            {
+                "label": "DELETE | deleteUser | /deleteUser",
+                "value": {
+                    "url": "/deleteUser",
+                    "method": "delete",
+                    "datasource": {
+                        "datasourceConfiguration": {
+                            "url": "https://nrmedilane-64abe78893ab8c11000000cf.ubos.tech",
+                            "product_price": "price_1MytsdH1Ta6us8T1ZbzB3QUC",
+                            "cpu": 200,
+                            "ram": "512",
+                            "subscription_plan": "643e8bfadb35f70012db836d",
+                            "plan_id": "643e8bfadb35f70012db836d",
+                            "subscription_id": "sub_1NSaV5H1Ta6us8T1f81SI80e"
+                        },
+                        "id": "64acfd2c895f6211000001ca",
+                        "invalids": [],
+                        "isValid": true,
+                        "name": "nrmedilane",
+                        "new": false,
+                        "type": "api",
+                        "organizationId": "Org",
+                        "pluginId": "API",
+                        "userPermissions": [
+                            "read:service",
+                            "manage:service"
+                        ],
+                        "settings_data": {
+                            "gitName": "",
+                            "projectName": "nrmedilane",
+                            "systemType": "latest",
+                            "gitUrl": "",
+                            "gitPassword": "",
+                            "urlNodeRed": "https://nrmedilane-64abe78893ab8c11000000cf.ubos.tech",
+                            "serviceId": "nrmedilane-ubos-lj2wp-nrmedilane",
+                            "applicationId": "64abe78893ab8c11000000d0",
+                            "env": [
+                                {
+                                    "name": "nodeUrl",
+                                    "value": "https://nrmedilane-64abe78893ab8c11000000cf.ubos.tech"
+                                },
+                                {
+                                    "name": "uiUrl",
+                                    "value": "https://uimedilane-64abe78893ab8c11000000cf.ubos.tech"
+                                }
+                            ],
+                            "status": "ready"
+                        }
+                    }
+                }
+            },
+            {
+                "label": "POST | createUser | /createUser",
+                "value": {
+                    "url": "/createUser",
+                    "method": "post",
+                    "datasource": {
+                        "datasourceConfiguration": {
+                            "url": "https://nrmedilane-64abe78893ab8c11000000cf.ubos.tech",
+                            "product_price": "price_1MytsdH1Ta6us8T1ZbzB3QUC",
+                            "cpu": 200,
+                            "ram": "512",
+                            "subscription_plan": "643e8bfadb35f70012db836d",
+                            "plan_id": "643e8bfadb35f70012db836d",
+                            "subscription_id": "sub_1NSaV5H1Ta6us8T1f81SI80e"
+                        },
+                        "id": "64acfd2c895f6211000001ca",
+                        "invalids": [],
+                        "isValid": true,
+                        "name": "nrmedilane",
+                        "new": false,
+                        "type": "api",
+                        "organizationId": "Org",
+                        "pluginId": "API",
+                        "userPermissions": [
+                            "read:service",
+                            "manage:service"
+                        ],
+                        "settings_data": {
+                            "gitName": "",
+                            "projectName": "nrmedilane",
+                            "systemType": "latest",
+                            "gitUrl": "",
+                            "gitPassword": "",
+                            "urlNodeRed": "https://nrmedilane-64abe78893ab8c11000000cf.ubos.tech",
+                            "serviceId": "nrmedilane-ubos-lj2wp-nrmedilane",
+                            "applicationId": "64abe78893ab8c11000000d0",
+                            "env": [
+                                {
+                                    "name": "nodeUrl",
+                                    "value": "https://nrmedilane-64abe78893ab8c11000000cf.ubos.tech"
+                                },
+                                {
+                                    "name": "uiUrl",
+                                    "value": "https://uimedilane-64abe78893ab8c11000000cf.ubos.tech"
+                                }
+                            ],
+                            "status": "ready"
+                        }
+                    }
+                }
+            },
+            {
+                "label": "POST | login | /login",
+                "value": {
+                    "url": "/login",
+                    "method": "post",
+                    "datasource": {
+                        "datasourceConfiguration": {
+                            "url": "https://nrmedilane-64abe78893ab8c11000000cf.ubos.tech",
+                            "product_price": "price_1MytsdH1Ta6us8T1ZbzB3QUC",
+                            "cpu": 200,
+                            "ram": "512",
+                            "subscription_plan": "643e8bfadb35f70012db836d",
+                            "plan_id": "643e8bfadb35f70012db836d",
+                            "subscription_id": "sub_1NSaV5H1Ta6us8T1f81SI80e"
+                        },
+                        "id": "64acfd2c895f6211000001ca",
+                        "invalids": [],
+                        "isValid": true,
+                        "name": "nrmedilane",
+                        "new": false,
+                        "type": "api",
+                        "organizationId": "Org",
+                        "pluginId": "API",
+                        "userPermissions": [
+                            "read:service",
+                            "manage:service"
+                        ],
+                        "settings_data": {
+                            "gitName": "",
+                            "projectName": "nrmedilane",
+                            "systemType": "latest",
+                            "gitUrl": "",
+                            "gitPassword": "",
+                            "urlNodeRed": "https://nrmedilane-64abe78893ab8c11000000cf.ubos.tech",
+                            "serviceId": "nrmedilane-ubos-lj2wp-nrmedilane",
+                            "applicationId": "64abe78893ab8c11000000d0",
+                            "env": [
+                                {
+                                    "name": "nodeUrl",
+                                    "value": "https://nrmedilane-64abe78893ab8c11000000cf.ubos.tech"
+                                },
+                                {
+                                    "name": "uiUrl",
+                                    "value": "https://uimedilane-64abe78893ab8c11000000cf.ubos.tech"
+                                }
+                            ],
+                            "status": "ready"
+                        }
+                    }
+                }
+            },
+            {
+                "label": "POST | check_token | /check_token",
+                "value": {
+                    "url": "/check_token",
+                    "method": "post",
+                    "datasource": {
+                        "datasourceConfiguration": {
+                            "url": "https://nrmedilane-64abe78893ab8c11000000cf.ubos.tech",
+                            "product_price": "price_1MytsdH1Ta6us8T1ZbzB3QUC",
+                            "cpu": 200,
+                            "ram": "512",
+                            "subscription_plan": "643e8bfadb35f70012db836d",
+                            "plan_id": "643e8bfadb35f70012db836d",
+                            "subscription_id": "sub_1NSaV5H1Ta6us8T1f81SI80e"
+                        },
+                        "id": "64acfd2c895f6211000001ca",
+                        "invalids": [],
+                        "isValid": true,
+                        "name": "nrmedilane",
+                        "new": false,
+                        "type": "api",
+                        "organizationId": "Org",
+                        "pluginId": "API",
+                        "userPermissions": [
+                            "read:service",
+                            "manage:service"
+                        ],
+                        "settings_data": {
+                            "gitName": "",
+                            "projectName": "nrmedilane",
+                            "systemType": "latest",
+                            "gitUrl": "",
+                            "gitPassword": "",
+                            "urlNodeRed": "https://nrmedilane-64abe78893ab8c11000000cf.ubos.tech",
+                            "serviceId": "nrmedilane-ubos-lj2wp-nrmedilane",
+                            "applicationId": "64abe78893ab8c11000000d0",
+                            "env": [
+                                {
+                                    "name": "nodeUrl",
+                                    "value": "https://nrmedilane-64abe78893ab8c11000000cf.ubos.tech"
+                                },
+                                {
+                                    "name": "uiUrl",
+                                    "value": "https://uimedilane-64abe78893ab8c11000000cf.ubos.tech"
+                                }
+                            ],
+                            "status": "ready"
+                        }
+                    }
+                }
+            },
+            {
+                "label": "POST | signout | /signout",
+                "value": {
+                    "url": "/signout",
+                    "method": "post",
+                    "datasource": {
+                        "datasourceConfiguration": {
+                            "url": "https://nrmedilane-64abe78893ab8c11000000cf.ubos.tech",
+                            "product_price": "price_1MytsdH1Ta6us8T1ZbzB3QUC",
+                            "cpu": 200,
+                            "ram": "512",
+                            "subscription_plan": "643e8bfadb35f70012db836d",
+                            "plan_id": "643e8bfadb35f70012db836d",
+                            "subscription_id": "sub_1NSaV5H1Ta6us8T1f81SI80e"
+                        },
+                        "id": "64acfd2c895f6211000001ca",
+                        "invalids": [],
+                        "isValid": true,
+                        "name": "nrmedilane",
+                        "new": false,
+                        "type": "api",
+                        "organizationId": "Org",
+                        "pluginId": "API",
+                        "userPermissions": [
+                            "read:service",
+                            "manage:service"
+                        ],
+                        "settings_data": {
+                            "gitName": "",
+                            "projectName": "nrmedilane",
+                            "systemType": "latest",
+                            "gitUrl": "",
+                            "gitPassword": "",
+                            "urlNodeRed": "https://nrmedilane-64abe78893ab8c11000000cf.ubos.tech",
+                            "serviceId": "nrmedilane-ubos-lj2wp-nrmedilane",
+                            "applicationId": "64abe78893ab8c11000000d0",
+                            "env": [
+                                {
+                                    "name": "nodeUrl",
+                                    "value": "https://nrmedilane-64abe78893ab8c11000000cf.ubos.tech"
+                                },
+                                {
+                                    "name": "uiUrl",
+                                    "value": "https://uimedilane-64abe78893ab8c11000000cf.ubos.tech"
+                                }
+                            ],
+                            "status": "ready"
+                        }
+                    }
+                }
+            },
+            {
+                "label": "POST | repeatRegisterEmail | /repeatRegisterEmail",
+                "value": {
+                    "url": "/repeatRegisterEmail",
+                    "method": "post",
+                    "datasource": {
+                        "datasourceConfiguration": {
+                            "url": "https://nrmedilane-64abe78893ab8c11000000cf.ubos.tech",
+                            "product_price": "price_1MytsdH1Ta6us8T1ZbzB3QUC",
+                            "cpu": 200,
+                            "ram": "512",
+                            "subscription_plan": "643e8bfadb35f70012db836d",
+                            "plan_id": "643e8bfadb35f70012db836d",
+                            "subscription_id": "sub_1NSaV5H1Ta6us8T1f81SI80e"
+                        },
+                        "id": "64acfd2c895f6211000001ca",
+                        "invalids": [],
+                        "isValid": true,
+                        "name": "nrmedilane",
+                        "new": false,
+                        "type": "api",
+                        "organizationId": "Org",
+                        "pluginId": "API",
+                        "userPermissions": [
+                            "read:service",
+                            "manage:service"
+                        ],
+                        "settings_data": {
+                            "gitName": "",
+                            "projectName": "nrmedilane",
+                            "systemType": "latest",
+                            "gitUrl": "",
+                            "gitPassword": "",
+                            "urlNodeRed": "https://nrmedilane-64abe78893ab8c11000000cf.ubos.tech",
+                            "serviceId": "nrmedilane-ubos-lj2wp-nrmedilane",
+                            "applicationId": "64abe78893ab8c11000000d0",
+                            "env": [
+                                {
+                                    "name": "nodeUrl",
+                                    "value": "https://nrmedilane-64abe78893ab8c11000000cf.ubos.tech"
+                                },
+                                {
+                                    "name": "uiUrl",
+                                    "value": "https://uimedilane-64abe78893ab8c11000000cf.ubos.tech"
+                                }
+                            ],
+                            "status": "ready"
+                        }
+                    }
+                }
+            },
+            {
+                "label": "GET | verifyToken | /verifyToken",
+                "value": {
+                    "url": "/verifyToken",
+                    "method": "get",
+                    "datasource": {
+                        "datasourceConfiguration": {
+                            "url": "https://nrmedilane-64abe78893ab8c11000000cf.ubos.tech",
+                            "product_price": "price_1MytsdH1Ta6us8T1ZbzB3QUC",
+                            "cpu": 200,
+                            "ram": "512",
+                            "subscription_plan": "643e8bfadb35f70012db836d",
+                            "plan_id": "643e8bfadb35f70012db836d",
+                            "subscription_id": "sub_1NSaV5H1Ta6us8T1f81SI80e"
+                        },
+                        "id": "64acfd2c895f6211000001ca",
+                        "invalids": [],
+                        "isValid": true,
+                        "name": "nrmedilane",
+                        "new": false,
+                        "type": "api",
+                        "organizationId": "Org",
+                        "pluginId": "API",
+                        "userPermissions": [
+                            "read:service",
+                            "manage:service"
+                        ],
+                        "settings_data": {
+                            "gitName": "",
+                            "projectName": "nrmedilane",
+                            "systemType": "latest",
+                            "gitUrl": "",
+                            "gitPassword": "",
+                            "urlNodeRed": "https://nrmedilane-64abe78893ab8c11000000cf.ubos.tech",
+                            "serviceId": "nrmedilane-ubos-lj2wp-nrmedilane",
+                            "applicationId": "64abe78893ab8c11000000d0",
+                            "env": [
+                                {
+                                    "name": "nodeUrl",
+                                    "value": "https://nrmedilane-64abe78893ab8c11000000cf.ubos.tech"
+                                },
+                                {
+                                    "name": "uiUrl",
+                                    "value": "https://uimedilane-64abe78893ab8c11000000cf.ubos.tech"
+                                }
+                            ],
+                            "status": "ready"
+                        }
+                    }
+                }
+            },
+            {
+                "label": "GET | queryToResetPassword | /queryToResetPassword",
+                "value": {
+                    "url": "/queryToResetPassword",
+                    "method": "get",
+                    "datasource": {
+                        "datasourceConfiguration": {
+                            "url": "https://nrmedilane-64abe78893ab8c11000000cf.ubos.tech",
+                            "product_price": "price_1MytsdH1Ta6us8T1ZbzB3QUC",
+                            "cpu": 200,
+                            "ram": "512",
+                            "subscription_plan": "643e8bfadb35f70012db836d",
+                            "plan_id": "643e8bfadb35f70012db836d",
+                            "subscription_id": "sub_1NSaV5H1Ta6us8T1f81SI80e"
+                        },
+                        "id": "64acfd2c895f6211000001ca",
+                        "invalids": [],
+                        "isValid": true,
+                        "name": "nrmedilane",
+                        "new": false,
+                        "type": "api",
+                        "organizationId": "Org",
+                        "pluginId": "API",
+                        "userPermissions": [
+                            "read:service",
+                            "manage:service"
+                        ],
+                        "settings_data": {
+                            "gitName": "",
+                            "projectName": "nrmedilane",
+                            "systemType": "latest",
+                            "gitUrl": "",
+                            "gitPassword": "",
+                            "urlNodeRed": "https://nrmedilane-64abe78893ab8c11000000cf.ubos.tech",
+                            "serviceId": "nrmedilane-ubos-lj2wp-nrmedilane",
+                            "applicationId": "64abe78893ab8c11000000d0",
+                            "env": [
+                                {
+                                    "name": "nodeUrl",
+                                    "value": "https://nrmedilane-64abe78893ab8c11000000cf.ubos.tech"
+                                },
+                                {
+                                    "name": "uiUrl",
+                                    "value": "https://uimedilane-64abe78893ab8c11000000cf.ubos.tech"
+                                }
+                            ],
+                            "status": "ready"
+                        }
+                    }
+                }
+            },
+            {
+                "label": "POST | sendEmailForResetPassword | /sendEmailForResetPassword",
+                "value": {
+                    "url": "/sendEmailForResetPassword",
+                    "method": "post",
+                    "datasource": {
+                        "datasourceConfiguration": {
+                            "url": "https://nrmedilane-64abe78893ab8c11000000cf.ubos.tech",
+                            "product_price": "price_1MytsdH1Ta6us8T1ZbzB3QUC",
+                            "cpu": 200,
+                            "ram": "512",
+                            "subscription_plan": "643e8bfadb35f70012db836d",
+                            "plan_id": "643e8bfadb35f70012db836d",
+                            "subscription_id": "sub_1NSaV5H1Ta6us8T1f81SI80e"
+                        },
+                        "id": "64acfd2c895f6211000001ca",
+                        "invalids": [],
+                        "isValid": true,
+                        "name": "nrmedilane",
+                        "new": false,
+                        "type": "api",
+                        "organizationId": "Org",
+                        "pluginId": "API",
+                        "userPermissions": [
+                            "read:service",
+                            "manage:service"
+                        ],
+                        "settings_data": {
+                            "gitName": "",
+                            "projectName": "nrmedilane",
+                            "systemType": "latest",
+                            "gitUrl": "",
+                            "gitPassword": "",
+                            "urlNodeRed": "https://nrmedilane-64abe78893ab8c11000000cf.ubos.tech",
+                            "serviceId": "nrmedilane-ubos-lj2wp-nrmedilane",
+                            "applicationId": "64abe78893ab8c11000000d0",
+                            "env": [
+                                {
+                                    "name": "nodeUrl",
+                                    "value": "https://nrmedilane-64abe78893ab8c11000000cf.ubos.tech"
+                                },
+                                {
+                                    "name": "uiUrl",
+                                    "value": "https://uimedilane-64abe78893ab8c11000000cf.ubos.tech"
+                                }
+                            ],
+                            "status": "ready"
+                        }
+                    }
+                }
+            },
+            {
+                "label": "PUT | resetPassword | /resetPassword",
+                "value": {
+                    "url": "/resetPassword",
+                    "method": "put",
+                    "datasource": {
+                        "datasourceConfiguration": {
+                            "url": "https://nrmedilane-64abe78893ab8c11000000cf.ubos.tech",
+                            "product_price": "price_1MytsdH1Ta6us8T1ZbzB3QUC",
+                            "cpu": 200,
+                            "ram": "512",
+                            "subscription_plan": "643e8bfadb35f70012db836d",
+                            "plan_id": "643e8bfadb35f70012db836d",
+                            "subscription_id": "sub_1NSaV5H1Ta6us8T1f81SI80e"
+                        },
+                        "id": "64acfd2c895f6211000001ca",
+                        "invalids": [],
+                        "isValid": true,
+                        "name": "nrmedilane",
+                        "new": false,
+                        "type": "api",
+                        "organizationId": "Org",
+                        "pluginId": "API",
+                        "userPermissions": [
+                            "read:service",
+                            "manage:service"
+                        ],
+                        "settings_data": {
+                            "gitName": "",
+                            "projectName": "nrmedilane",
+                            "systemType": "latest",
+                            "gitUrl": "",
+                            "gitPassword": "",
+                            "urlNodeRed": "https://nrmedilane-64abe78893ab8c11000000cf.ubos.tech",
+                            "serviceId": "nrmedilane-ubos-lj2wp-nrmedilane",
+                            "applicationId": "64abe78893ab8c11000000d0",
+                            "env": [
+                                {
+                                    "name": "nodeUrl",
+                                    "value": "https://nrmedilane-64abe78893ab8c11000000cf.ubos.tech"
+                                },
+                                {
+                                    "name": "uiUrl",
+                                    "value": "https://uimedilane-64abe78893ab8c11000000cf.ubos.tech"
+                                }
+                            ],
+                            "status": "ready"
+                        }
+                    }
+                }
+            },
+            {
+                "label": "DELETE |  | /deleteModule",
+                "value": {
+                    "url": "/deleteModule",
+                    "method": "delete",
+                    "datasource": {
+                        "datasourceConfiguration": {
+                            "url": "https://nrmedilane-64abe78893ab8c11000000cf.ubos.tech",
+                            "product_price": "price_1MytsdH1Ta6us8T1ZbzB3QUC",
+                            "cpu": 200,
+                            "ram": "512",
+                            "subscription_plan": "643e8bfadb35f70012db836d",
+                            "plan_id": "643e8bfadb35f70012db836d",
+                            "subscription_id": "sub_1NSaV5H1Ta6us8T1f81SI80e"
+                        },
+                        "id": "64acfd2c895f6211000001ca",
+                        "invalids": [],
+                        "isValid": true,
+                        "name": "nrmedilane",
+                        "new": false,
+                        "type": "api",
+                        "organizationId": "Org",
+                        "pluginId": "API",
+                        "userPermissions": [
+                            "read:service",
+                            "manage:service"
+                        ],
+                        "settings_data": {
+                            "gitName": "",
+                            "projectName": "nrmedilane",
+                            "systemType": "latest",
+                            "gitUrl": "",
+                            "gitPassword": "",
+                            "urlNodeRed": "https://nrmedilane-64abe78893ab8c11000000cf.ubos.tech",
+                            "serviceId": "nrmedilane-ubos-lj2wp-nrmedilane",
+                            "applicationId": "64abe78893ab8c11000000d0",
+                            "env": [
+                                {
+                                    "name": "nodeUrl",
+                                    "value": "https://nrmedilane-64abe78893ab8c11000000cf.ubos.tech"
+                                },
+                                {
+                                    "name": "uiUrl",
+                                    "value": "https://uimedilane-64abe78893ab8c11000000cf.ubos.tech"
+                                }
+                            ],
+                            "status": "ready"
+                        }
+                    }
+                }
+            },
+            {
+                "label": "PUT | updateParentModule | /updateParentModule",
+                "value": {
+                    "url": "/updateParentModule",
+                    "method": "put",
+                    "datasource": {
+                        "datasourceConfiguration": {
+                            "url": "https://nrmedilane-64abe78893ab8c11000000cf.ubos.tech",
+                            "product_price": "price_1MytsdH1Ta6us8T1ZbzB3QUC",
+                            "cpu": 200,
+                            "ram": "512",
+                            "subscription_plan": "643e8bfadb35f70012db836d",
+                            "plan_id": "643e8bfadb35f70012db836d",
+                            "subscription_id": "sub_1NSaV5H1Ta6us8T1f81SI80e"
+                        },
+                        "id": "64acfd2c895f6211000001ca",
+                        "invalids": [],
+                        "isValid": true,
+                        "name": "nrmedilane",
+                        "new": false,
+                        "type": "api",
+                        "organizationId": "Org",
+                        "pluginId": "API",
+                        "userPermissions": [
+                            "read:service",
+                            "manage:service"
+                        ],
+                        "settings_data": {
+                            "gitName": "",
+                            "projectName": "nrmedilane",
+                            "systemType": "latest",
+                            "gitUrl": "",
+                            "gitPassword": "",
+                            "urlNodeRed": "https://nrmedilane-64abe78893ab8c11000000cf.ubos.tech",
+                            "serviceId": "nrmedilane-ubos-lj2wp-nrmedilane",
+                            "applicationId": "64abe78893ab8c11000000d0",
+                            "env": [
+                                {
+                                    "name": "nodeUrl",
+                                    "value": "https://nrmedilane-64abe78893ab8c11000000cf.ubos.tech"
+                                },
+                                {
+                                    "name": "uiUrl",
+                                    "value": "https://uimedilane-64abe78893ab8c11000000cf.ubos.tech"
+                                }
+                            ],
+                            "status": "ready"
+                        }
+                    }
+                }
+            },
+            {
+                "label": "GET |  | /getPartners",
+                "value": {
+                    "url": "/getPartners",
+                    "method": "get",
+                    "datasource": {
+                        "datasourceConfiguration": {
+                            "url": "https://nrmedilane-64abe78893ab8c11000000cf.ubos.tech",
+                            "product_price": "price_1MytsdH1Ta6us8T1ZbzB3QUC",
+                            "cpu": 200,
+                            "ram": "512",
+                            "subscription_plan": "643e8bfadb35f70012db836d",
+                            "plan_id": "643e8bfadb35f70012db836d",
+                            "subscription_id": "sub_1NSaV5H1Ta6us8T1f81SI80e"
+                        },
+                        "id": "64acfd2c895f6211000001ca",
+                        "invalids": [],
+                        "isValid": true,
+                        "name": "nrmedilane",
+                        "new": false,
+                        "type": "api",
+                        "organizationId": "Org",
+                        "pluginId": "API",
+                        "userPermissions": [
+                            "read:service",
+                            "manage:service"
+                        ],
+                        "settings_data": {
+                            "gitName": "",
+                            "projectName": "nrmedilane",
+                            "systemType": "latest",
+                            "gitUrl": "",
+                            "gitPassword": "",
+                            "urlNodeRed": "https://nrmedilane-64abe78893ab8c11000000cf.ubos.tech",
+                            "serviceId": "nrmedilane-ubos-lj2wp-nrmedilane",
+                            "applicationId": "64abe78893ab8c11000000d0",
+                            "env": [
+                                {
+                                    "name": "nodeUrl",
+                                    "value": "https://nrmedilane-64abe78893ab8c11000000cf.ubos.tech"
+                                },
+                                {
+                                    "name": "uiUrl",
+                                    "value": "https://uimedilane-64abe78893ab8c11000000cf.ubos.tech"
+                                }
+                            ],
+                            "status": "ready"
+                        }
+                    }
+                }
+            },
+            {
+                "label": "GET |  | /getCampaigns",
+                "value": {
+                    "url": "/getCampaigns",
+                    "method": "get",
+                    "datasource": {
+                        "datasourceConfiguration": {
+                            "url": "https://nrmedilane-64abe78893ab8c11000000cf.ubos.tech",
+                            "product_price": "price_1MytsdH1Ta6us8T1ZbzB3QUC",
+                            "cpu": 200,
+                            "ram": "512",
+                            "subscription_plan": "643e8bfadb35f70012db836d",
+                            "plan_id": "643e8bfadb35f70012db836d",
+                            "subscription_id": "sub_1NSaV5H1Ta6us8T1f81SI80e"
+                        },
+                        "id": "64acfd2c895f6211000001ca",
+                        "invalids": [],
+                        "isValid": true,
+                        "name": "nrmedilane",
+                        "new": false,
+                        "type": "api",
+                        "organizationId": "Org",
+                        "pluginId": "API",
+                        "userPermissions": [
+                            "read:service",
+                            "manage:service"
+                        ],
+                        "settings_data": {
+                            "gitName": "",
+                            "projectName": "nrmedilane",
+                            "systemType": "latest",
+                            "gitUrl": "",
+                            "gitPassword": "",
+                            "urlNodeRed": "https://nrmedilane-64abe78893ab8c11000000cf.ubos.tech",
+                            "serviceId": "nrmedilane-ubos-lj2wp-nrmedilane",
+                            "applicationId": "64abe78893ab8c11000000d0",
+                            "env": [
+                                {
+                                    "name": "nodeUrl",
+                                    "value": "https://nrmedilane-64abe78893ab8c11000000cf.ubos.tech"
+                                },
+                                {
+                                    "name": "uiUrl",
+                                    "value": "https://uimedilane-64abe78893ab8c11000000cf.ubos.tech"
+                                }
+                            ],
+                            "status": "ready"
+                        }
+                    }
+                }
+            },
+            {
+                "label": "GET |  | /getLaboratories",
+                "value": {
+                    "url": "/getLaboratories",
+                    "method": "get",
+                    "datasource": {
+                        "datasourceConfiguration": {
+                            "url": "https://nrmedilane-64abe78893ab8c11000000cf.ubos.tech",
+                            "product_price": "price_1MytsdH1Ta6us8T1ZbzB3QUC",
+                            "cpu": 200,
+                            "ram": "512",
+                            "subscription_plan": "643e8bfadb35f70012db836d",
+                            "plan_id": "643e8bfadb35f70012db836d",
+                            "subscription_id": "sub_1NSaV5H1Ta6us8T1f81SI80e"
+                        },
+                        "id": "64acfd2c895f6211000001ca",
+                        "invalids": [],
+                        "isValid": true,
+                        "name": "nrmedilane",
+                        "new": false,
+                        "type": "api",
+                        "organizationId": "Org",
+                        "pluginId": "API",
+                        "userPermissions": [
+                            "read:service",
+                            "manage:service"
+                        ],
+                        "settings_data": {
+                            "gitName": "",
+                            "projectName": "nrmedilane",
+                            "systemType": "latest",
+                            "gitUrl": "",
+                            "gitPassword": "",
+                            "urlNodeRed": "https://nrmedilane-64abe78893ab8c11000000cf.ubos.tech",
+                            "serviceId": "nrmedilane-ubos-lj2wp-nrmedilane",
+                            "applicationId": "64abe78893ab8c11000000d0",
+                            "env": [
+                                {
+                                    "name": "nodeUrl",
+                                    "value": "https://nrmedilane-64abe78893ab8c11000000cf.ubos.tech"
+                                },
+                                {
+                                    "name": "uiUrl",
+                                    "value": "https://uimedilane-64abe78893ab8c11000000cf.ubos.tech"
+                                }
+                            ],
+                            "status": "ready"
+                        }
+                    }
+                }
+            },
+            {
+                "label": "GET |  | /getMyCurrentCampaigns",
+                "value": {
+                    "url": "/getMyCurrentCampaigns",
+                    "method": "get",
+                    "datasource": {
+                        "datasourceConfiguration": {
+                            "url": "https://nrmedilane-64abe78893ab8c11000000cf.ubos.tech",
+                            "product_price": "price_1MytsdH1Ta6us8T1ZbzB3QUC",
+                            "cpu": 200,
+                            "ram": "512",
+                            "subscription_plan": "643e8bfadb35f70012db836d",
+                            "plan_id": "643e8bfadb35f70012db836d",
+                            "subscription_id": "sub_1NSaV5H1Ta6us8T1f81SI80e"
+                        },
+                        "id": "64acfd2c895f6211000001ca",
+                        "invalids": [],
+                        "isValid": true,
+                        "name": "nrmedilane",
+                        "new": false,
+                        "type": "api",
+                        "organizationId": "Org",
+                        "pluginId": "API",
+                        "userPermissions": [
+                            "read:service",
+                            "manage:service"
+                        ],
+                        "settings_data": {
+                            "gitName": "",
+                            "projectName": "nrmedilane",
+                            "systemType": "latest",
+                            "gitUrl": "",
+                            "gitPassword": "",
+                            "urlNodeRed": "https://nrmedilane-64abe78893ab8c11000000cf.ubos.tech",
+                            "serviceId": "nrmedilane-ubos-lj2wp-nrmedilane",
+                            "applicationId": "64abe78893ab8c11000000d0",
+                            "env": [
+                                {
+                                    "name": "nodeUrl",
+                                    "value": "https://nrmedilane-64abe78893ab8c11000000cf.ubos.tech"
+                                },
+                                {
+                                    "name": "uiUrl",
+                                    "value": "https://uimedilane-64abe78893ab8c11000000cf.ubos.tech"
+                                }
+                            ],
+                            "status": "ready"
+                        }
+                    }
+                }
+            },
+            {
+                "label": "GET |  | /getOtherOngoingCampaigns",
+                "value": {
+                    "url": "/getOtherOngoingCampaigns",
+                    "method": "get",
+                    "datasource": {
+                        "datasourceConfiguration": {
+                            "url": "https://nrmedilane-64abe78893ab8c11000000cf.ubos.tech",
+                            "product_price": "price_1MytsdH1Ta6us8T1ZbzB3QUC",
+                            "cpu": 200,
+                            "ram": "512",
+                            "subscription_plan": "643e8bfadb35f70012db836d",
+                            "plan_id": "643e8bfadb35f70012db836d",
+                            "subscription_id": "sub_1NSaV5H1Ta6us8T1f81SI80e"
+                        },
+                        "id": "64acfd2c895f6211000001ca",
+                        "invalids": [],
+                        "isValid": true,
+                        "name": "nrmedilane",
+                        "new": false,
+                        "type": "api",
+                        "organizationId": "Org",
+                        "pluginId": "API",
+                        "userPermissions": [
+                            "read:service",
+                            "manage:service"
+                        ],
+                        "settings_data": {
+                            "gitName": "",
+                            "projectName": "nrmedilane",
+                            "systemType": "latest",
+                            "gitUrl": "",
+                            "gitPassword": "",
+                            "urlNodeRed": "https://nrmedilane-64abe78893ab8c11000000cf.ubos.tech",
+                            "serviceId": "nrmedilane-ubos-lj2wp-nrmedilane",
+                            "applicationId": "64abe78893ab8c11000000d0",
+                            "env": [
+                                {
+                                    "name": "nodeUrl",
+                                    "value": "https://nrmedilane-64abe78893ab8c11000000cf.ubos.tech"
+                                },
+                                {
+                                    "name": "uiUrl",
+                                    "value": "https://uimedilane-64abe78893ab8c11000000cf.ubos.tech"
+                                }
+                            ],
+                            "status": "ready"
+                        }
+                    }
+                }
+            },
+            {
+                "label": "GET |  | /getMyContracts",
+                "value": {
+                    "url": "/getMyContracts",
+                    "method": "get",
+                    "datasource": {
+                        "datasourceConfiguration": {
+                            "url": "https://nrmedilane-64abe78893ab8c11000000cf.ubos.tech",
+                            "product_price": "price_1MytsdH1Ta6us8T1ZbzB3QUC",
+                            "cpu": 200,
+                            "ram": "512",
+                            "subscription_plan": "643e8bfadb35f70012db836d",
+                            "plan_id": "643e8bfadb35f70012db836d",
+                            "subscription_id": "sub_1NSaV5H1Ta6us8T1f81SI80e"
+                        },
+                        "id": "64acfd2c895f6211000001ca",
+                        "invalids": [],
+                        "isValid": true,
+                        "name": "nrmedilane",
+                        "new": false,
+                        "type": "api",
+                        "organizationId": "Org",
+                        "pluginId": "API",
+                        "userPermissions": [
+                            "read:service",
+                            "manage:service"
+                        ],
+                        "settings_data": {
+                            "gitName": "",
+                            "projectName": "nrmedilane",
+                            "systemType": "latest",
+                            "gitUrl": "",
+                            "gitPassword": "",
+                            "urlNodeRed": "https://nrmedilane-64abe78893ab8c11000000cf.ubos.tech",
+                            "serviceId": "nrmedilane-ubos-lj2wp-nrmedilane",
+                            "applicationId": "64abe78893ab8c11000000d0",
+                            "env": [
+                                {
+                                    "name": "nodeUrl",
+                                    "value": "https://nrmedilane-64abe78893ab8c11000000cf.ubos.tech"
+                                },
+                                {
+                                    "name": "uiUrl",
+                                    "value": "https://uimedilane-64abe78893ab8c11000000cf.ubos.tech"
+                                }
+                            ],
+                            "status": "ready"
+                        }
+                    }
+                }
+            },
+            {
+                "label": "POST |  | /createCampaign",
+                "value": {
+                    "url": "/createCampaign",
+                    "method": "post",
+                    "datasource": {
+                        "datasourceConfiguration": {
+                            "url": "https://nrmedilane-64abe78893ab8c11000000cf.ubos.tech",
+                            "product_price": "price_1MytsdH1Ta6us8T1ZbzB3QUC",
+                            "cpu": 200,
+                            "ram": "512",
+                            "subscription_plan": "643e8bfadb35f70012db836d",
+                            "plan_id": "643e8bfadb35f70012db836d",
+                            "subscription_id": "sub_1NSaV5H1Ta6us8T1f81SI80e"
+                        },
+                        "id": "64acfd2c895f6211000001ca",
+                        "invalids": [],
+                        "isValid": true,
+                        "name": "nrmedilane",
+                        "new": false,
+                        "type": "api",
+                        "organizationId": "Org",
+                        "pluginId": "API",
+                        "userPermissions": [
+                            "read:service",
+                            "manage:service"
+                        ],
+                        "settings_data": {
+                            "gitName": "",
+                            "projectName": "nrmedilane",
+                            "systemType": "latest",
+                            "gitUrl": "",
+                            "gitPassword": "",
+                            "urlNodeRed": "https://nrmedilane-64abe78893ab8c11000000cf.ubos.tech",
+                            "serviceId": "nrmedilane-ubos-lj2wp-nrmedilane",
+                            "applicationId": "64abe78893ab8c11000000d0",
+                            "env": [
+                                {
+                                    "name": "nodeUrl",
+                                    "value": "https://nrmedilane-64abe78893ab8c11000000cf.ubos.tech"
+                                },
+                                {
+                                    "name": "uiUrl",
+                                    "value": "https://uimedilane-64abe78893ab8c11000000cf.ubos.tech"
+                                }
+                            ],
+                            "status": "ready"
+                        }
+                    }
+                }
+            },
+            {
+                "label": "PUT |  | /removeCampaign",
+                "value": {
+                    "url": "/removeCampaign",
+                    "method": "put",
+                    "datasource": {
+                        "datasourceConfiguration": {
+                            "url": "https://nrmedilane-64abe78893ab8c11000000cf.ubos.tech",
+                            "product_price": "price_1MytsdH1Ta6us8T1ZbzB3QUC",
+                            "cpu": 200,
+                            "ram": "512",
+                            "subscription_plan": "643e8bfadb35f70012db836d",
+                            "plan_id": "643e8bfadb35f70012db836d",
+                            "subscription_id": "sub_1NSaV5H1Ta6us8T1f81SI80e"
+                        },
+                        "id": "64acfd2c895f6211000001ca",
+                        "invalids": [],
+                        "isValid": true,
+                        "name": "nrmedilane",
+                        "new": false,
+                        "type": "api",
+                        "organizationId": "Org",
+                        "pluginId": "API",
+                        "userPermissions": [
+                            "read:service",
+                            "manage:service"
+                        ],
+                        "settings_data": {
+                            "gitName": "",
+                            "projectName": "nrmedilane",
+                            "systemType": "latest",
+                            "gitUrl": "",
+                            "gitPassword": "",
+                            "urlNodeRed": "https://nrmedilane-64abe78893ab8c11000000cf.ubos.tech",
+                            "serviceId": "nrmedilane-ubos-lj2wp-nrmedilane",
+                            "applicationId": "64abe78893ab8c11000000d0",
+                            "env": [
+                                {
+                                    "name": "nodeUrl",
+                                    "value": "https://nrmedilane-64abe78893ab8c11000000cf.ubos.tech"
+                                },
+                                {
+                                    "name": "uiUrl",
+                                    "value": "https://uimedilane-64abe78893ab8c11000000cf.ubos.tech"
+                                }
+                            ],
+                            "status": "ready"
+                        }
+                    }
+                }
+            },
+            {
+                "label": "GET |  | /getCampaignsByUserId",
+                "value": {
+                    "url": "/getCampaignsByUserId",
+                    "method": "get",
+                    "datasource": {
+                        "datasourceConfiguration": {
+                            "url": "https://nrmedilane-64abe78893ab8c11000000cf.ubos.tech",
+                            "product_price": "price_1MytsdH1Ta6us8T1ZbzB3QUC",
+                            "cpu": 200,
+                            "ram": "512",
+                            "subscription_plan": "643e8bfadb35f70012db836d",
+                            "plan_id": "643e8bfadb35f70012db836d",
+                            "subscription_id": "sub_1NSaV5H1Ta6us8T1f81SI80e"
+                        },
+                        "id": "64acfd2c895f6211000001ca",
+                        "invalids": [],
+                        "isValid": true,
+                        "name": "nrmedilane",
+                        "new": false,
+                        "type": "api",
+                        "organizationId": "Org",
+                        "pluginId": "API",
+                        "userPermissions": [
+                            "read:service",
+                            "manage:service"
+                        ],
+                        "settings_data": {
+                            "gitName": "",
+                            "projectName": "nrmedilane",
+                            "systemType": "latest",
+                            "gitUrl": "",
+                            "gitPassword": "",
+                            "urlNodeRed": "https://nrmedilane-64abe78893ab8c11000000cf.ubos.tech",
+                            "serviceId": "nrmedilane-ubos-lj2wp-nrmedilane",
+                            "applicationId": "64abe78893ab8c11000000d0",
+                            "env": [
+                                {
+                                    "name": "nodeUrl",
+                                    "value": "https://nrmedilane-64abe78893ab8c11000000cf.ubos.tech"
+                                },
+                                {
+                                    "name": "uiUrl",
+                                    "value": "https://uimedilane-64abe78893ab8c11000000cf.ubos.tech"
+                                }
+                            ],
+                            "status": "ready"
+                        }
+                    }
+                }
+            },
+            {
+                "label": "POST |  | /createProduct",
+                "value": {
+                    "url": "/createProduct",
+                    "method": "post",
+                    "datasource": {
+                        "datasourceConfiguration": {
+                            "url": "https://nrmedilane-64abe78893ab8c11000000cf.ubos.tech",
+                            "product_price": "price_1MytsdH1Ta6us8T1ZbzB3QUC",
+                            "cpu": 200,
+                            "ram": "512",
+                            "subscription_plan": "643e8bfadb35f70012db836d",
+                            "plan_id": "643e8bfadb35f70012db836d",
+                            "subscription_id": "sub_1NSaV5H1Ta6us8T1f81SI80e"
+                        },
+                        "id": "64acfd2c895f6211000001ca",
+                        "invalids": [],
+                        "isValid": true,
+                        "name": "nrmedilane",
+                        "new": false,
+                        "type": "api",
+                        "organizationId": "Org",
+                        "pluginId": "API",
+                        "userPermissions": [
+                            "read:service",
+                            "manage:service"
+                        ],
+                        "settings_data": {
+                            "gitName": "",
+                            "projectName": "nrmedilane",
+                            "systemType": "latest",
+                            "gitUrl": "",
+                            "gitPassword": "",
+                            "urlNodeRed": "https://nrmedilane-64abe78893ab8c11000000cf.ubos.tech",
+                            "serviceId": "nrmedilane-ubos-lj2wp-nrmedilane",
+                            "applicationId": "64abe78893ab8c11000000d0",
+                            "env": [
+                                {
+                                    "name": "nodeUrl",
+                                    "value": "https://nrmedilane-64abe78893ab8c11000000cf.ubos.tech"
+                                },
+                                {
+                                    "name": "uiUrl",
+                                    "value": "https://uimedilane-64abe78893ab8c11000000cf.ubos.tech"
+                                }
+                            ],
+                            "status": "ready"
+                        }
+                    }
+                }
+            },
+            {
+                "label": "GET |  | /getCampaignInfo",
+                "value": {
+                    "url": "/getCampaignInfo",
+                    "method": "get",
+                    "datasource": {
+                        "datasourceConfiguration": {
+                            "url": "https://nrmedilane-64abe78893ab8c11000000cf.ubos.tech",
+                            "product_price": "price_1MytsdH1Ta6us8T1ZbzB3QUC",
+                            "cpu": 200,
+                            "ram": "512",
+                            "subscription_plan": "643e8bfadb35f70012db836d",
+                            "plan_id": "643e8bfadb35f70012db836d",
+                            "subscription_id": "sub_1NSaV5H1Ta6us8T1f81SI80e"
+                        },
+                        "id": "64acfd2c895f6211000001ca",
+                        "invalids": [],
+                        "isValid": true,
+                        "name": "nrmedilane",
+                        "new": false,
+                        "type": "api",
+                        "organizationId": "Org",
+                        "pluginId": "API",
+                        "userPermissions": [
+                            "read:service",
+                            "manage:service"
+                        ],
+                        "settings_data": {
+                            "gitName": "",
+                            "projectName": "nrmedilane",
+                            "systemType": "latest",
+                            "gitUrl": "",
+                            "gitPassword": "",
+                            "urlNodeRed": "https://nrmedilane-64abe78893ab8c11000000cf.ubos.tech",
+                            "serviceId": "nrmedilane-ubos-lj2wp-nrmedilane",
+                            "applicationId": "64abe78893ab8c11000000d0",
+                            "env": [
+                                {
+                                    "name": "nodeUrl",
+                                    "value": "https://nrmedilane-64abe78893ab8c11000000cf.ubos.tech"
+                                },
+                                {
+                                    "name": "uiUrl",
+                                    "value": "https://uimedilane-64abe78893ab8c11000000cf.ubos.tech"
+                                }
+                            ],
+                            "status": "ready"
+                        }
+                    }
+                }
+            },
+            {
+                "label": "PUT |  | /removeProduct",
+                "value": {
+                    "url": "/removeProduct",
+                    "method": "put",
+                    "datasource": {
+                        "datasourceConfiguration": {
+                            "url": "https://nrmedilane-64abe78893ab8c11000000cf.ubos.tech",
+                            "product_price": "price_1MytsdH1Ta6us8T1ZbzB3QUC",
+                            "cpu": 200,
+                            "ram": "512",
+                            "subscription_plan": "643e8bfadb35f70012db836d",
+                            "plan_id": "643e8bfadb35f70012db836d",
+                            "subscription_id": "sub_1NSaV5H1Ta6us8T1f81SI80e"
+                        },
+                        "id": "64acfd2c895f6211000001ca",
+                        "invalids": [],
+                        "isValid": true,
+                        "name": "nrmedilane",
+                        "new": false,
+                        "type": "api",
+                        "organizationId": "Org",
+                        "pluginId": "API",
+                        "userPermissions": [
+                            "read:service",
+                            "manage:service"
+                        ],
+                        "settings_data": {
+                            "gitName": "",
+                            "projectName": "nrmedilane",
+                            "systemType": "latest",
+                            "gitUrl": "",
+                            "gitPassword": "",
+                            "urlNodeRed": "https://nrmedilane-64abe78893ab8c11000000cf.ubos.tech",
+                            "serviceId": "nrmedilane-ubos-lj2wp-nrmedilane",
+                            "applicationId": "64abe78893ab8c11000000d0",
+                            "env": [
+                                {
+                                    "name": "nodeUrl",
+                                    "value": "https://nrmedilane-64abe78893ab8c11000000cf.ubos.tech"
+                                },
+                                {
+                                    "name": "uiUrl",
+                                    "value": "https://uimedilane-64abe78893ab8c11000000cf.ubos.tech"
+                                }
+                            ],
+                            "status": "ready"
+                        }
+                    }
+                }
+            },
+            {
+                "label": "POST |  | /createOrder",
+                "value": {
+                    "url": "/createOrder",
+                    "method": "post",
+                    "datasource": {
+                        "datasourceConfiguration": {
+                            "url": "https://nrmedilane-64abe78893ab8c11000000cf.ubos.tech",
+                            "product_price": "price_1MytsdH1Ta6us8T1ZbzB3QUC",
+                            "cpu": 200,
+                            "ram": "512",
+                            "subscription_plan": "643e8bfadb35f70012db836d",
+                            "plan_id": "643e8bfadb35f70012db836d",
+                            "subscription_id": "sub_1NSaV5H1Ta6us8T1f81SI80e"
+                        },
+                        "id": "64acfd2c895f6211000001ca",
+                        "invalids": [],
+                        "isValid": true,
+                        "name": "nrmedilane",
+                        "new": false,
+                        "type": "api",
+                        "organizationId": "Org",
+                        "pluginId": "API",
+                        "userPermissions": [
+                            "read:service",
+                            "manage:service"
+                        ],
+                        "settings_data": {
+                            "gitName": "",
+                            "projectName": "nrmedilane",
+                            "systemType": "latest",
+                            "gitUrl": "",
+                            "gitPassword": "",
+                            "urlNodeRed": "https://nrmedilane-64abe78893ab8c11000000cf.ubos.tech",
+                            "serviceId": "nrmedilane-ubos-lj2wp-nrmedilane",
+                            "applicationId": "64abe78893ab8c11000000d0",
+                            "env": [
+                                {
+                                    "name": "nodeUrl",
+                                    "value": "https://nrmedilane-64abe78893ab8c11000000cf.ubos.tech"
+                                },
+                                {
+                                    "name": "uiUrl",
+                                    "value": "https://uimedilane-64abe78893ab8c11000000cf.ubos.tech"
+                                }
+                            ],
+                            "status": "ready"
+                        }
+                    }
+                }
+            },
+            {
+                "label": "GET |  | /getOrdersByCampaignId",
+                "value": {
+                    "url": "/getOrdersByCampaignId",
+                    "method": "get",
+                    "datasource": {
+                        "datasourceConfiguration": {
+                            "url": "https://nrmedilane-64abe78893ab8c11000000cf.ubos.tech",
+                            "product_price": "price_1MytsdH1Ta6us8T1ZbzB3QUC",
+                            "cpu": 200,
+                            "ram": "512",
+                            "subscription_plan": "643e8bfadb35f70012db836d",
+                            "plan_id": "643e8bfadb35f70012db836d",
+                            "subscription_id": "sub_1NSaV5H1Ta6us8T1f81SI80e"
+                        },
+                        "id": "64acfd2c895f6211000001ca",
+                        "invalids": [],
+                        "isValid": true,
+                        "name": "nrmedilane",
+                        "new": false,
+                        "type": "api",
+                        "organizationId": "Org",
+                        "pluginId": "API",
+                        "userPermissions": [
+                            "read:service",
+                            "manage:service"
+                        ],
+                        "settings_data": {
+                            "gitName": "",
+                            "projectName": "nrmedilane",
+                            "systemType": "latest",
+                            "gitUrl": "",
+                            "gitPassword": "",
+                            "urlNodeRed": "https://nrmedilane-64abe78893ab8c11000000cf.ubos.tech",
+                            "serviceId": "nrmedilane-ubos-lj2wp-nrmedilane",
+                            "applicationId": "64abe78893ab8c11000000d0",
+                            "env": [
+                                {
+                                    "name": "nodeUrl",
+                                    "value": "https://nrmedilane-64abe78893ab8c11000000cf.ubos.tech"
+                                },
+                                {
+                                    "name": "uiUrl",
+                                    "value": "https://uimedilane-64abe78893ab8c11000000cf.ubos.tech"
+                                }
+                            ],
+                            "status": "ready"
+                        }
+                    }
+                }
+            },
+            {
+                "label": "GET |  | /getCampaignsFromUserOrders",
+                "value": {
+                    "url": "/getCampaignsFromUserOrders",
+                    "method": "get",
+                    "datasource": {
+                        "datasourceConfiguration": {
+                            "url": "https://nrmedilane-64abe78893ab8c11000000cf.ubos.tech",
+                            "product_price": "price_1MytsdH1Ta6us8T1ZbzB3QUC",
+                            "cpu": 200,
+                            "ram": "512",
+                            "subscription_plan": "643e8bfadb35f70012db836d",
+                            "plan_id": "643e8bfadb35f70012db836d",
+                            "subscription_id": "sub_1NSaV5H1Ta6us8T1f81SI80e"
+                        },
+                        "id": "64acfd2c895f6211000001ca",
+                        "invalids": [],
+                        "isValid": true,
+                        "name": "nrmedilane",
+                        "new": false,
+                        "type": "api",
+                        "organizationId": "Org",
+                        "pluginId": "API",
+                        "userPermissions": [
+                            "read:service",
+                            "manage:service"
+                        ],
+                        "settings_data": {
+                            "gitName": "",
+                            "projectName": "nrmedilane",
+                            "systemType": "latest",
+                            "gitUrl": "",
+                            "gitPassword": "",
+                            "urlNodeRed": "https://nrmedilane-64abe78893ab8c11000000cf.ubos.tech",
+                            "serviceId": "nrmedilane-ubos-lj2wp-nrmedilane",
+                            "applicationId": "64abe78893ab8c11000000d0",
+                            "env": [
+                                {
+                                    "name": "nodeUrl",
+                                    "value": "https://nrmedilane-64abe78893ab8c11000000cf.ubos.tech"
+                                },
+                                {
+                                    "name": "uiUrl",
+                                    "value": "https://uimedilane-64abe78893ab8c11000000cf.ubos.tech"
+                                }
+                            ],
+                            "status": "ready"
+                        }
+                    }
+                }
+            },
+            {
+                "label": "PUT |  | /changeCampaignStatus",
+                "value": {
+                    "url": "/changeCampaignStatus",
+                    "method": "put",
+                    "datasource": {
+                        "datasourceConfiguration": {
+                            "url": "https://nrmedilane-64abe78893ab8c11000000cf.ubos.tech",
+                            "product_price": "price_1MytsdH1Ta6us8T1ZbzB3QUC",
+                            "cpu": 200,
+                            "ram": "512",
+                            "subscription_plan": "643e8bfadb35f70012db836d",
+                            "plan_id": "643e8bfadb35f70012db836d",
+                            "subscription_id": "sub_1NSaV5H1Ta6us8T1f81SI80e"
+                        },
+                        "id": "64acfd2c895f6211000001ca",
+                        "invalids": [],
+                        "isValid": true,
+                        "name": "nrmedilane",
+                        "new": false,
+                        "type": "api",
+                        "organizationId": "Org",
+                        "pluginId": "API",
+                        "userPermissions": [
+                            "read:service",
+                            "manage:service"
+                        ],
+                        "settings_data": {
+                            "gitName": "",
+                            "projectName": "nrmedilane",
+                            "systemType": "latest",
+                            "gitUrl": "",
+                            "gitPassword": "",
+                            "urlNodeRed": "https://nrmedilane-64abe78893ab8c11000000cf.ubos.tech",
+                            "serviceId": "nrmedilane-ubos-lj2wp-nrmedilane",
+                            "applicationId": "64abe78893ab8c11000000d0",
+                            "env": [
+                                {
+                                    "name": "nodeUrl",
+                                    "value": "https://nrmedilane-64abe78893ab8c11000000cf.ubos.tech"
+                                },
+                                {
+                                    "name": "uiUrl",
+                                    "value": "https://uimedilane-64abe78893ab8c11000000cf.ubos.tech"
+                                }
+                            ],
+                            "status": "ready"
+                        }
+                    }
+                }
+            }
+        ]
+    },
+    "isMenu": false,
+    "function_dsl": [
+        {
+            "isVisible": true,
+            "backgroundColor": "#FFFFFF",
+            "widgetName": "SidebarFunction",
+            "containerStyle": "card",
+            "borderColor": "transparent",
+            "borderWidth": "0",
+            "borderRadius": "14",
+            "boxShadow": "NONE",
+            "animateLoading": true,
+            "dontLookPage": [
+                "Registration",
+                "Login",
+                "queryToResetPassword",
+                "ResetPassword",
+                "Registered",
+                "LoginTest",
+                "Info",
+                "PasswordChanged"
+            ],
+            "children": [
+                {
+                    "isVisible": true,
+                    "widgetName": "Canvas10",
+                    "version": 1,
+                    "detachFromLayout": true,
+                    "type": "CANVAS_WIDGET",
+                    "hideCard": true,
+                    "displayName": "Canvas",
+                    "key": "jujkiotufx",
+                    "containerStyle": "none",
+                    "canExtend": false,
+                    "children": [
+                        {
+                            "isVisible": true,
+                            "backgroundColor": "#FFFFFF",
+                            "widgetName": "GridLayout1",
+                            "containerStyle": "card",
+                            "borderColor": "transparent",
+                            "borderWidth": "0",
+                            "borderRadius": "0",
+                            "boxShadow": "NONE",
+                            "animateLoading": true,
+                            "removePadding": true,
+                            "children": [
+                                {
+                                    "isVisible": true,
+                                    "widgetName": "GridLayoutCanvas1",
+                                    "version": 1,
+                                    "detachFromLayout": true,
+                                    "type": "GRID_LAYOUT_CANVAS_WIDGET",
+                                    "hideCard": true,
+                                    "displayName": "GridLayoutCanvas",
+                                    "key": "848qzjkqc5",
+                                    "containerStyle": "none",
+                                    "canExtend": false,
+                                    "children": [
+                                        {
+                                            "isVisible": true,
+                                            "animateLoading": true,
+                                            "text": "Logout",
+                                            "buttonColor": "#7D8592",
+                                            "buttonVariant": "TERTIARY",
+                                            "placement": "START",
+                                            "widgetName": "Button1",
+                                            "isDisabled": false,
+                                            "isDefaultClickDisabled": true,
+                                            "recaptchaType": "V3",
+                                            "version": 1,
+                                            "classStyle": "logout-container",
+                                            "type": "BUTTON_WIDGET",
+                                            "hideCard": false,
+                                            "displayName": "Button",
+                                            "key": "eax341xsp0",
+                                            "iconSVG": "/static/media/icon.cca02633.svg",
+                                            "widgetId": "d5n65757cy",
+                                            "renderMode": "CANVAS",
+                                            "isLoading": false,
+                                            "parentColumnSpace": 1.89794921875,
+                                            "parentRowSpace": 10,
+                                            "leftColumn": 0,
+                                            "rightColumn": 64,
+                                            "topRow": 85,
+                                            "bottomRow": 89,
+                                            "parentId": "1o49rjqp8w",
+                                            "iconName": "log-in",
+                                            "iconAlign": "left",
+                                            "dynamicBindingPathList": [],
+                                            "dynamicTriggerPathList": [
+                                                {
+                                                    "key": "onClick"
+                                                }
+                                            ],
+                                            "onClick": "{{navigateTo('Login', {})}}",
+                                            "dynamicPropertyPathList": [],
+                                            "borderRadius": "ROUNDED"
+                                        },
+                                        {
+                                            "isVisible": true,
+                                            "backgroundColor": "#3F8CFF20",
+                                            "widgetName": "Container8",
+                                            "containerStyle": "card",
+                                            "borderColor": "transparent",
+                                            "borderWidth": "0",
+                                            "borderRadius": "24",
+                                            "boxShadow": "NONE",
+                                            "animateLoading": true,
+                                            "children": [
+                                                {
+                                                    "isVisible": true,
+                                                    "widgetName": "Canvas22",
+                                                    "version": 1,
+                                                    "detachFromLayout": true,
+                                                    "type": "CANVAS_WIDGET",
+                                                    "hideCard": true,
+                                                    "displayName": "Canvas",
+                                                    "key": "b83k5fzznb",
+                                                    "containerStyle": "none",
+                                                    "canExtend": false,
+                                                    "children": [
+                                                        {
+                                                            "isVisible": true,
+                                                            "animateLoading": true,
+                                                            "text": "Support",
+                                                            "buttonColor": "#3F8CFF",
+                                                            "buttonVariant": "PRIMARY",
+                                                            "placement": "CENTER",
+                                                            "widgetName": "Button2",
+                                                            "isDisabled": false,
+                                                            "isDefaultClickDisabled": true,
+                                                            "recaptchaType": "V3",
+                                                            "version": 1,
+                                                            "classStyle": "",
+                                                            "type": "BUTTON_WIDGET",
+                                                            "hideCard": false,
+                                                            "displayName": "Button",
+                                                            "key": "5t4e64qcp8",
+                                                            "iconSVG": "/static/media/icon.cca02633.svg",
+                                                            "widgetId": "733oheoycp",
+                                                            "renderMode": "CANVAS",
+                                                            "isLoading": false,
+                                                            "parentColumnSpace": 15.71875,
+                                                            "parentRowSpace": 10,
+                                                            "leftColumn": 0,
+                                                            "rightColumn": 64,
+                                                            "topRow": 12,
+                                                            "bottomRow": 16,
+                                                            "parentId": "iv2k26aa3l",
+                                                            "dynamicBindingPathList": [],
+                                                            "dynamicTriggerPathList": [],
+                                                            "borderRadius": "ROUNDED",
+                                                            "iconName": "chat",
+                                                            "iconAlign": "left"
+                                                        },
+                                                        {
+                                                            "isVisible": true,
+                                                            "defaultImage": "https://assets.appsmith.com/widgets/default.png",
+                                                            "imageShape": "RECTANGLE",
+                                                            "maxZoomLevel": 1,
+                                                            "enableRotation": false,
+                                                            "enableDownload": false,
+                                                            "objectFit": "contain",
+                                                            "image": "https://user-images.githubusercontent.com/41735477/252353026-8f6ff2bd-b0ae-4bf1-b273-b8261c8e0487.png",
+                                                            "widgetName": "Image2",
+                                                            "version": 1,
+                                                            "animateLoading": true,
+                                                            "type": "IMAGE_WIDGET",
+                                                            "hideCard": false,
+                                                            "displayName": "Image",
+                                                            "key": "vgwq7yxndo",
+                                                            "iconSVG": "/static/media/icon.52d8fb96.svg",
+                                                            "widgetId": "evwewqrqyz",
+                                                            "renderMode": "CANVAS",
+                                                            "isLoading": false,
+                                                            "parentColumnSpace": 15.71875,
+                                                            "parentRowSpace": 10,
+                                                            "leftColumn": 0,
+                                                            "rightColumn": 64,
+                                                            "topRow": 0,
+                                                            "bottomRow": 11,
+                                                            "parentId": "iv2k26aa3l",
+                                                            "dynamicBindingPathList": [],
+                                                            "dynamicTriggerPathList": []
+                                                        }
+                                                    ],
+                                                    "minHeight": 400,
+                                                    "widgetId": "iv2k26aa3l",
+                                                    "renderMode": "CANVAS",
+                                                    "isLoading": false,
+                                                    "parentColumnSpace": 1,
+                                                    "parentRowSpace": 1,
+                                                    "leftColumn": 0,
+                                                    "rightColumn": 377.25,
+                                                    "topRow": 0,
+                                                    "bottomRow": 390,
+                                                    "parentId": "vdkjcfuq8g"
+                                                }
+                                            ],
+                                            "version": 1,
+                                            "classStyle": "support-container",
+                                            "type": "CONTAINER_WIDGET",
+                                            "hideCard": false,
+                                            "displayName": "Container",
+                                            "key": "orobvo3xgb",
+                                            "iconSVG": "/static/media/icon.1977dca3.svg",
+                                            "isCanvas": true,
+                                            "widgetId": "vdkjcfuq8g",
+                                            "renderMode": "CANVAS",
+                                            "isLoading": false,
+                                            "parentColumnSpace": 15.71875,
+                                            "parentRowSpace": 10,
+                                            "leftColumn": 0,
+                                            "rightColumn": 64,
+                                            "topRow": 65,
+                                            "bottomRow": 84,
+                                            "parentId": "1o49rjqp8w",
+                                            "dynamicBindingPathList": [],
+                                            "dynamicTriggerPathList": []
+                                        },
+                                        {
+                                            "isVisible": true,
+                                            "files": [],
+                                            "label": "Accordion",
+                                            "onClick": "{{navigateTo(sidebarAccordion.categoryItem, {\n\tpageName: sidebarAccordion.categoryItem\n})}}",
+                                            "category": "",
+                                            "categoryItem": "",
+                                            "categorySubItem": "",
+                                            "onClickSub": "{{navigateTo(sidebarAccordion.categorySubItem, {})}}",
+                                            "onClickMain": "{{navigateTo(sidebarAccordion.category, {\n\tpageName: sidebarAccordion.category\n})}}",
+                                            "widgetName": "sidebarAccordion",
+                                            "shouldScrollContents": false,
+                                            "directionRtl": false,
+                                            "selectedValue": "{{main.URL.queryParams.pageName ? main.URL.queryParams.pageName : \"Dashboard\"}}",
+                                            "array": "{{main.user.auth_module.user.menu}}",
+                                            "classStyle": "menu",
+                                            "type": "ACCORDION_WIDGET",
+                                            "hideCard": false,
+                                            "displayName": "Accordion",
+                                            "key": "ig746tibdb",
+                                            "iconSVG": "/static/media/icon.a3ebb3df.svg",
+                                            "widgetId": "sjkak8dd90",
+                                            "renderMode": "CANVAS",
+                                            "isLoading": false,
+                                            "parentColumnSpace": 1.86572265625,
+                                            "parentRowSpace": 10,
+                                            "leftColumn": 0,
+                                            "rightColumn": 64,
+                                            "topRow": 12,
+                                            "bottomRow": 55,
+                                            "parentId": "1o49rjqp8w",
+                                            "dynamicBindingPathList": [
+                                                {
+                                                    "key": "array"
+                                                },
+                                                {
+                                                    "key": "selectedValue"
+                                                }
+                                            ],
+                                            "dynamicTriggerPathList": [
+                                                {
+                                                    "key": "onClickMain"
+                                                },
+                                                {
+                                                    "key": "onClick"
+                                                },
+                                                {
+                                                    "key": "onClickSub"
+                                                }
+                                            ],
+                                            "dynamicPropertyPathList": [
+                                                {
+                                                    "key": "onClickMain"
+                                                },
+                                                {
+                                                    "key": "onClick"
+                                                },
+                                                {
+                                                    "key": "onClickSub"
+                                                }
+                                            ]
+                                        },
+                                        {
+                                            "isVisible": true,
+                                            "text": "Medilane",
+                                            "fontSize": "HEADING1",
+                                            "fontStyle": "BOLD",
+                                            "textAlign": "LEFT",
+                                            "textColor": "{{main.env.mainDark}}",
+                                            "truncateButtonColor": "#FFC13D",
+                                            "widgetName": "Text6",
+                                            "shouldTruncate": false,
+                                            "overflow": "NONE",
+                                            "version": 1,
+                                            "animateLoading": true,
+                                            "type": "TEXT_WIDGET",
+                                            "hideCard": false,
+                                            "displayName": "Text",
+                                            "key": "74yyklxvma",
+                                            "iconSVG": "/static/media/icon.97c59b52.svg",
+                                            "widgetId": "2j4mcctc8u",
+                                            "renderMode": "CANVAS",
+                                            "isLoading": false,
+                                            "parentColumnSpace": 1.89794921875,
+                                            "parentRowSpace": 10,
+                                            "leftColumn": 18,
+                                            "rightColumn": 64,
+                                            "topRow": 0,
+                                            "bottomRow": 4,
+                                            "parentId": "1o49rjqp8w",
+                                            "dynamicBindingPathList": [
+                                                {
+                                                    "key": "textColor"
+                                                }
+                                            ],
+                                            "dynamicTriggerPathList": [],
+                                            "dynamicPropertyPathList": [
+                                                {
+                                                    "key": "textColor"
+                                                }
+                                            ]
+                                        },
+                                        {
+                                            "isVisible": true,
+                                            "defaultImage": "https://assets.appsmith.com/widgets/default.png",
+                                            "imageShape": "RECTANGLE",
+                                            "maxZoomLevel": 1,
+                                            "enableRotation": false,
+                                            "enableDownload": false,
+                                            "objectFit": "contain",
+                                            "image": "https://user-images.githubusercontent.com/41735477/252351726-d6e7e6e9-3983-47f1-89cd-fee49ca7f801.png",
+                                            "widgetName": "Image1",
+                                            "version": 1,
+                                            "animateLoading": true,
+                                            "type": "IMAGE_WIDGET",
+                                            "hideCard": false,
+                                            "displayName": "Image",
+                                            "key": "3uoncqirb0",
+                                            "iconSVG": "/static/media/icon.52d8fb96.svg",
+                                            "widgetId": "9i26tapx5l",
+                                            "renderMode": "CANVAS",
+                                            "isLoading": false,
+                                            "parentColumnSpace": 1.89794921875,
+                                            "parentRowSpace": 10,
+                                            "leftColumn": 0,
+                                            "rightColumn": 17,
+                                            "topRow": 0,
+                                            "bottomRow": 4,
+                                            "parentId": "1o49rjqp8w",
+                                            "dynamicBindingPathList": [],
+                                            "dynamicTriggerPathList": []
+                                        }
+                                    ],
+                                    "widgetId": "1o49rjqp8w",
+                                    "renderMode": "CANVAS",
+                                    "isLoading": false,
+                                    "leftColumn": 0,
+                                    "rightColumn": null,
+                                    "topRow": 0,
+                                    "bottomRow": 910,
+                                    "parentId": "8j9ygwpy4m"
+                                }
+                            ],
+                            "version": 1,
+                            "classStyle": "",
+                            "type": "GRIDLAYOUT_WIDGET",
+                            "hideCard": false,
+                            "displayName": "Grid Layout",
+                            "key": "z9wx91i0x1",
+                            "iconSVG": "/static/media/icon.5c440258.svg",
+                            "isCanvas": true,
+                            "widgetId": "8j9ygwpy4m",
+                            "renderMode": "CANVAS",
+                            "isLoading": false,
+                            "parentColumnSpace": 1.89794921875,
+                            "parentRowSpace": 10,
+                            "leftColumn": 0,
+                            "rightColumn": 64,
+                            "topRow": 0,
+                            "bottomRow": 97,
+                            "parentId": "p71ikl65rn"
+                        }
+                    ],
+                    "minHeight": 400,
+                    "widgetId": "p71ikl65rn",
+                    "renderMode": "CANVAS",
+                    "isLoading": false,
+                    "parentColumnSpace": 1,
+                    "parentRowSpace": 1,
+                    "leftColumn": 0,
+                    "rightColumn": 557.625,
+                    "topRow": 0,
+                    "bottomRow": 990,
+                    "parentId": "fwf1s0p5xr"
+                }
+            ],
+            "version": 1,
+            "type": "FUNCTION_WIDGET",
+            "hideCard": false,
+            "displayName": "Function",
+            "key": "4vyeqr9nef",
+            "iconSVG": "/static/media/icon.1977dca3.svg",
+            "isCanvas": true,
+            "widgetId": "fwf1s0p5xr",
+            "renderMode": "CANVAS",
+            "isLoading": false,
+            "parentColumnSpace": 23.234375,
+            "parentRowSpace": 10,
+            "leftColumn": 1,
+            "rightColumn": 10,
+            "topRow": 1,
+            "bottomRow": 100,
+            "parentId": "0",
+            "dynamicBindingPathList": [],
+            "dynamicTriggerPathList": [],
+            "classStyle": "menu__wrap",
+            "shouldScrollContents": false
+        },
+        {
+            "isVisible": true,
+            "backgroundColor": "",
+            "widgetName": "HeaderFunction",
+            "containerStyle": "card",
+            "borderColor": "#FFFFFF",
+            "borderWidth": "",
+            "borderRadius": "10",
+            "boxShadow": "NONE",
+            "animateLoading": true,
+            "dontLookPage": [
+                "Login",
+                "Registration",
+                "ResetPassword",
+                "queryToResetPassword",
+                "Registered",
+                "LoginTest",
+                "Info",
+                "PasswordChanged"
+            ],
+            "children": [
+                {
+                    "isVisible": true,
+                    "widgetName": "Canvas11",
+                    "version": 1,
+                    "detachFromLayout": true,
+                    "type": "CANVAS_WIDGET",
+                    "hideCard": true,
+                    "displayName": "Canvas",
+                    "key": "n20f28ans6",
+                    "containerStyle": "none",
+                    "canExtend": false,
+                    "children": [
+                        {
+                            "isVisible": true,
+                            "backgroundColor": "#FFFFFF",
+                            "widgetName": "Container9",
+                            "containerStyle": "card",
+                            "borderColor": "transparent",
+                            "borderWidth": "0",
+                            "borderRadius": "14",
+                            "boxShadow": "NONE",
+                            "animateLoading": true,
+                            "children": [
+                                {
+                                    "isVisible": true,
+                                    "widgetName": "Canvas23",
+                                    "version": 1,
+                                    "detachFromLayout": true,
+                                    "type": "CANVAS_WIDGET",
+                                    "hideCard": true,
+                                    "displayName": "Canvas",
+                                    "key": "yzobildd9w",
+                                    "containerStyle": "none",
+                                    "canExtend": false,
+                                    "children": [
+                                        {
+                                            "isVisible": true,
+                                            "iconName": "notifications",
+                                            "borderRadius": "CIRCLE",
+                                            "boxShadow": "NONE",
+                                            "buttonColor": "#231F20",
+                                            "buttonVariant": "PRIMARY",
+                                            "isDisabled": false,
+                                            "widgetName": "IconButton2",
+                                            "version": 1,
+                                            "animateLoading": true,
+                                            "type": "ICON_BUTTON_WIDGET",
+                                            "hideCard": false,
+                                            "displayName": "Icon Button",
+                                            "key": "vvvhu5oyc2",
+                                            "iconSVG": "/static/media/icon.1a0c634a.svg",
+                                            "widgetId": "y3ngvgdrhd",
+                                            "renderMode": "CANVAS",
+                                            "isLoading": false,
+                                            "parentColumnSpace": 1.244873046875,
+                                            "parentRowSpace": 10,
+                                            "leftColumn": 0,
+                                            "rightColumn": 64,
+                                            "topRow": 0,
+                                            "bottomRow": 4,
+                                            "parentId": "qns2s5vyv9",
+                                            "dynamicBindingPathList": [],
+                                            "dynamicTriggerPathList": []
+                                        }
+                                    ],
+                                    "minHeight": 400,
+                                    "widgetId": "qns2s5vyv9",
+                                    "renderMode": "CANVAS",
+                                    "isLoading": false,
+                                    "parentColumnSpace": 1,
+                                    "parentRowSpace": 1,
+                                    "leftColumn": 0,
+                                    "rightColumn": 299.015625,
+                                    "topRow": 0,
+                                    "bottomRow": 390,
+                                    "parentId": "5s6s6rxg02"
+                                }
+                            ],
+                            "version": 1,
+                            "classStyle": "",
+                            "type": "CONTAINER_WIDGET",
+                            "hideCard": false,
+                            "displayName": "Container",
+                            "key": "ly70lnjzot",
+                            "iconSVG": "/static/media/icon.1977dca3.svg",
+                            "isCanvas": true,
+                            "widgetId": "5s6s6rxg02",
+                            "renderMode": "CANVAS",
+                            "isLoading": false,
+                            "parentColumnSpace": 12.458984375,
+                            "parentRowSpace": 10,
+                            "leftColumn": 45,
+                            "rightColumn": 49,
+                            "topRow": 0,
+                            "bottomRow": 6,
+                            "parentId": "b8feb4cpvv",
+                            "dynamicBindingPathList": [],
+                            "dynamicTriggerPathList": []
+                        },
+                        {
+                            "isVisible": true,
+                            "backgroundColor": "#FFFFFF",
+                            "widgetName": "Container10",
+                            "containerStyle": "card",
+                            "borderColor": "transparent",
+                            "borderWidth": "0",
+                            "borderRadius": "14",
+                            "boxShadow": "NONE",
+                            "animateLoading": true,
+                            "children": [
+                                {
+                                    "isVisible": true,
+                                    "widgetName": "Canvas24",
+                                    "version": 1,
+                                    "detachFromLayout": true,
+                                    "type": "CANVAS_WIDGET",
+                                    "hideCard": true,
+                                    "displayName": "Canvas",
+                                    "key": "yzobildd9w",
+                                    "containerStyle": "none",
+                                    "canExtend": false,
+                                    "children": [
+                                        {
+                                            "isVisible": true,
+                                            "text": "{{main.user.auth_module.user.info.user.firstname + \" \" + main.user.auth_module.user.info.user.lastname}}",
+                                            "fontSize": "PARAGRAPH",
+                                            "fontStyle": "BOLD",
+                                            "textAlign": "RIGHT",
+                                            "textColor": "#231F20",
+                                            "truncateButtonColor": "#FFC13D",
+                                            "widgetName": "headerText",
+                                            "shouldTruncate": false,
+                                            "overflow": "NONE",
+                                            "version": 1,
+                                            "animateLoading": true,
+                                            "type": "TEXT_WIDGET",
+                                            "hideCard": false,
+                                            "displayName": "Text",
+                                            "key": "jonabimufs",
+                                            "iconSVG": "/static/media/icon.97c59b52.svg",
+                                            "widgetId": "qxre44fmgk",
+                                            "renderMode": "CANVAS",
+                                            "isLoading": false,
+                                            "parentColumnSpace": 20.74365234375,
+                                            "parentRowSpace": 10,
+                                            "leftColumn": 16,
+                                            "rightColumn": 50,
+                                            "topRow": 0,
+                                            "bottomRow": 4,
+                                            "parentId": "xh8umwjoau",
+                                            "dynamicBindingPathList": [
+                                                {
+                                                    "key": "text"
+                                                }
+                                            ],
+                                            "dynamicTriggerPathList": [],
+                                            "classStyle": ""
+                                        },
+                                        {
+                                            "isVisible": true,
+                                            "label": "",
+                                            "menuColor": "#0A1629",
+                                            "menuVariant": "TERTIARY",
+                                            "placement": "CENTER",
+                                            "isCompact": false,
+                                            "isDisabled": false,
+                                            "animateLoading": true,
+                                            "menuItems": {
+                                                "menuItem1": {
+                                                    "label": "First Menu Item",
+                                                    "id": "menuItem1",
+                                                    "widgetId": "",
+                                                    "isVisible": true,
+                                                    "isDisabled": false,
+                                                    "index": 0
+                                                },
+                                                "menuItem2": {
+                                                    "label": "Second Menu Item",
+                                                    "id": "menuItem2",
+                                                    "widgetId": "",
+                                                    "isVisible": true,
+                                                    "isDisabled": false,
+                                                    "index": 1
+                                                },
+                                                "menuItem3": {
+                                                    "label": "Third Menu Item",
+                                                    "id": "menuItem3",
+                                                    "widgetId": "",
+                                                    "isVisible": true,
+                                                    "isDisabled": false,
+                                                    "index": 2
+                                                }
+                                            },
+                                            "widgetName": "MenuButton1",
+                                            "version": 1,
+                                            "type": "MENU_BUTTON_WIDGET",
+                                            "hideCard": false,
+                                            "displayName": "Menu Button",
+                                            "key": "uy393ho0ie",
+                                            "iconSVG": "/static/media/icon.0341d17d.svg",
+                                            "widgetId": "kijaox6xk7",
+                                            "renderMode": "CANVAS",
+                                            "isLoading": false,
+                                            "parentColumnSpace": 12.458984375,
+                                            "parentRowSpace": 10,
+                                            "leftColumn": 50,
+                                            "rightColumn": 64,
+                                            "topRow": 0,
+                                            "bottomRow": 4,
+                                            "parentId": "xh8umwjoau",
+                                            "iconName": "arrow-down",
+                                            "iconAlign": "left",
+                                            "dynamicBindingPathList": [],
+                                            "dynamicTriggerPathList": []
+                                        },
+                                        {
+                                            "isVisible": true,
+                                            "defaultImage": "https://assets.appsmith.com/widgets/default.png",
+                                            "imageShape": "RECTANGLE",
+                                            "maxZoomLevel": 1,
+                                            "enableRotation": false,
+                                            "enableDownload": false,
+                                            "objectFit": "contain",
+                                            "image": "https://user-images.githubusercontent.com/41735477/252353026-8f6ff2bd-b0ae-4bf1-b273-b8261c8e0487.png",
+                                            "widgetName": "Image4",
+                                            "version": 1,
+                                            "animateLoading": true,
+                                            "type": "IMAGE_WIDGET",
+                                            "hideCard": false,
+                                            "displayName": "Image",
+                                            "key": "fc2ooxbhur",
+                                            "iconSVG": "/static/media/icon.52d8fb96.svg",
+                                            "widgetId": "ih89tbdcj8",
+                                            "renderMode": "CANVAS",
+                                            "isLoading": false,
+                                            "parentColumnSpace": 12.458984375,
+                                            "parentRowSpace": 10,
+                                            "leftColumn": 0,
+                                            "rightColumn": 15,
+                                            "topRow": 0,
+                                            "bottomRow": 4,
+                                            "parentId": "xh8umwjoau",
+                                            "dynamicBindingPathList": [],
+                                            "dynamicTriggerPathList": []
+                                        }
+                                    ],
+                                    "minHeight": 400,
+                                    "widgetId": "xh8umwjoau",
+                                    "renderMode": "CANVAS",
+                                    "isLoading": false,
+                                    "parentColumnSpace": 1,
+                                    "parentRowSpace": 1,
+                                    "leftColumn": 0,
+                                    "rightColumn": 377.25,
+                                    "topRow": 0,
+                                    "bottomRow": 390,
+                                    "parentId": "7jw3fark3a"
+                                }
+                            ],
+                            "version": 1,
+                            "classStyle": "",
+                            "type": "CONTAINER_WIDGET",
+                            "hideCard": false,
+                            "displayName": "Container",
+                            "key": "ly70lnjzot",
+                            "iconSVG": "/static/media/icon.1977dca3.svg",
+                            "isCanvas": true,
+                            "widgetId": "7jw3fark3a",
+                            "renderMode": "CANVAS",
+                            "isLoading": false,
+                            "parentColumnSpace": 15.71875,
+                            "parentRowSpace": 10,
+                            "leftColumn": 50,
+                            "rightColumn": 64,
+                            "topRow": 0,
+                            "bottomRow": 6,
+                            "parentId": "b8feb4cpvv",
+                            "dynamicBindingPathList": [],
+                            "dynamicTriggerPathList": []
+                        },
+                        {
+                            "isVisible": true,
+                            "backgroundColor": "#FFFFFF",
+                            "widgetName": "Container11",
+                            "containerStyle": "card",
+                            "borderColor": "transparent",
+                            "borderWidth": "0",
+                            "borderRadius": "14",
+                            "boxShadow": "NONE",
+                            "animateLoading": true,
+                            "children": [
+                                {
+                                    "isVisible": true,
+                                    "widgetName": "Canvas25",
+                                    "version": 1,
+                                    "detachFromLayout": true,
+                                    "type": "CANVAS_WIDGET",
+                                    "hideCard": true,
+                                    "displayName": "Canvas",
+                                    "key": "yzobildd9w",
+                                    "containerStyle": "none",
+                                    "canExtend": false,
+                                    "children": [
+                                        {
+                                            "isVisible": true,
+                                            "label": "",
+                                            "labelPosition": "Left",
+                                            "labelAlignment": "left",
+                                            "labelWidth": 5,
+                                            "widgetName": "Input2",
+                                            "version": 2,
+                                            "defaultText": "",
+                                            "iconAlign": "left",
+                                            "autoFocus": false,
+                                            "labelStyle": "",
+                                            "resetOnSubmit": true,
+                                            "isRequired": false,
+                                            "isDisabled": false,
+                                            "animateLoading": true,
+                                            "classStyle": "headerSearchItem",
+                                            "inputType": "TEXT",
+                                            "buttonPosition": "right",
+                                            "type": "INPUT_WIDGET_V2",
+                                            "hideCard": false,
+                                            "displayName": "Input",
+                                            "key": "08i1009vvx",
+                                            "iconSVG": "/static/media/icon.9f505595.svg",
+                                            "widgetId": "yt5oekyofh",
+                                            "renderMode": "CANVAS",
+                                            "isLoading": false,
+                                            "parentColumnSpace": 3.775604248046875,
+                                            "parentRowSpace": 10,
+                                            "leftColumn": 0,
+                                            "rightColumn": 64,
+                                            "topRow": 0,
+                                            "bottomRow": 4,
+                                            "parentId": "4w15scus1e",
+                                            "iconName": "search",
+                                            "dynamicBindingPathList": [],
+                                            "dynamicTriggerPathList": [],
+                                            "placeholderText": "Search"
+                                        }
+                                    ],
+                                    "minHeight": 400,
+                                    "widgetId": "4w15scus1e",
+                                    "renderMode": "CANVAS",
+                                    "isLoading": false,
+                                    "parentColumnSpace": 1,
+                                    "parentRowSpace": 1,
+                                    "leftColumn": 0,
+                                    "rightColumn": 377.25,
+                                    "topRow": 0,
+                                    "bottomRow": 390,
+                                    "parentId": "x6qubkn00y"
+                                }
+                            ],
+                            "version": 1,
+                            "classStyle": "",
+                            "type": "CONTAINER_WIDGET",
+                            "hideCard": false,
+                            "displayName": "Container",
+                            "key": "ly70lnjzot",
+                            "iconSVG": "/static/media/icon.1977dca3.svg",
+                            "isCanvas": true,
+                            "widgetId": "x6qubkn00y",
+                            "renderMode": "CANVAS",
+                            "isLoading": false,
+                            "parentColumnSpace": 15.71875,
+                            "parentRowSpace": 10,
+                            "leftColumn": 0,
+                            "rightColumn": 21,
+                            "topRow": 0,
+                            "bottomRow": 6,
+                            "parentId": "b8feb4cpvv",
+                            "dynamicBindingPathList": [],
+                            "dynamicTriggerPathList": []
+                        }
+                    ],
+                    "minHeight": 400,
+                    "widgetId": "b8feb4cpvv",
+                    "renderMode": "CANVAS",
+                    "isLoading": false,
+                    "parentColumnSpace": 1,
+                    "parentRowSpace": 1,
+                    "leftColumn": 0,
+                    "rightColumn": 557.625,
+                    "topRow": 0,
+                    "bottomRow": 390,
+                    "parentId": "ss4bddp965"
+                }
+            ],
+            "version": 1,
+            "type": "FUNCTION_WIDGET",
+            "hideCard": false,
+            "displayName": "Function",
+            "key": "i74be8h1qm",
+            "iconSVG": "/static/media/icon.1977dca3.svg",
+            "isCanvas": true,
+            "widgetId": "ss4bddp965",
+            "renderMode": "CANVAS",
+            "isLoading": false,
+            "parentColumnSpace": 23.234375,
+            "parentRowSpace": 10,
+            "leftColumn": 11,
+            "rightColumn": 64,
+            "topRow": 0,
+            "bottomRow": 9,
+            "parentId": "0",
+            "dynamicBindingPathList": [],
+            "dynamicTriggerPathList": [],
+            "classStyle": "",
+            "shouldScrollContents": false
+        }
+    ],
+    "version": "V1",
+    "gitApplicationMetadata": {
+        "browserSupportedRemoteUrl": "https://github.com/UBOS-tech/ubos-template-medialine-UI",
+        "defaultApplicationId": "jetsondashboard",
+        "defaultBranchName": "main",
+        "isRepoPrivate": true,
+        "remoteUrl": "git@github.com:UBOS-tech/ubos-template-medialine-UI.git",
+        "repoName": "ubos-template-medialine-UI"
+    }
+}
