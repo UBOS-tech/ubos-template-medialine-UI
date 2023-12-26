@@ -27215,12 +27215,16 @@
                     "layoutOnLoadActions": [
                         [
                             {
-                                "_id": "64ae57f61596b3080265a3e2",
-                                "id": "64ae57f61596b3080265a3e2",
+                                "_id": "658aa3f9f0a890e2e73568cc",
+                                "id": "658aa3f9f0a890e2e73568cc",
                                 "confirmBeforeExecute": false,
-                                "name": "Api1",
+                                "name": "getMyContracts",
                                 "pluginType": "API",
-                                "jsonPathKeys": [],
+                                "jsonPathKeys": [
+                                    "main.env.",
+                                    "main.user.auth_module.user.info.user._id",
+                                    "main.env.nodeUrl"
+                                ],
                                 "timeoutInMillisecond": 10000
                             }
                         ]

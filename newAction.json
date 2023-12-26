@@ -6,7 +6,7 @@
         "pluginType": "API",
         "pluginId": "API",
         "createdAt": "2022-10-24T14:59:29.274Z",
-        "updatedAt": "2023-11-17T14:13:50.368Z",
+        "updatedAt": "2023-12-26T10:01:14.471Z",
         "deleted": false,
         "policies": [
             {
@@ -600,7 +600,7 @@
         "pluginType": "API",
         "pluginId": "API",
         "createdAt": "2022-11-08T09:31:03.416Z",
-        "updatedAt": "2023-11-17T14:11:12.488Z",
+        "updatedAt": "2023-12-26T10:01:23.328Z",
         "deleted": false,
         "policies": [
             {
@@ -687,7 +687,7 @@
         "pluginType": "API",
         "pluginId": "API",
         "createdAt": "2022-10-14T10:51:21.173Z",
-        "updatedAt": "2023-11-17T14:11:15.397Z",
+        "updatedAt": "2023-12-26T10:01:29.469Z",
         "deleted": false,
         "policies": [
             {
@@ -769,7 +769,7 @@
         "pluginType": "API",
         "pluginId": "API",
         "createdAt": "2022-08-29T15:09:27.661Z",
-        "updatedAt": "2023-11-17T14:11:24.187Z",
+        "updatedAt": "2023-12-26T10:01:32.370Z",
         "deleted": false,
         "policies": [
             {
@@ -853,7 +853,7 @@
         "pluginType": "API",
         "pluginId": "API",
         "createdAt": "2022-08-29T15:05:45.060Z",
-        "updatedAt": "2023-11-17T14:11:32.572Z",
+        "updatedAt": "2023-12-26T10:01:36.224Z",
         "deleted": false,
         "policies": [
             {
@@ -929,7 +929,7 @@
         "pluginType": "API",
         "pluginId": "API",
         "createdAt": "2022-08-29T15:02:12.192Z",
-        "updatedAt": "2023-11-17T14:11:32.571Z",
+        "updatedAt": "2023-12-26T10:01:38.605Z",
         "deleted": false,
         "policies": [
             {
@@ -1752,7 +1752,7 @@
         "pluginType": "API",
         "pluginId": "API",
         "createdAt": "2022-10-25T08:45:50.977Z",
-        "updatedAt": "2023-11-17T14:11:55.613Z",
+        "updatedAt": "2023-12-26T10:01:07.051Z",
         "deleted": false,
         "policies": [
             {
@@ -1913,7 +1913,7 @@
         "pluginType": "API",
         "pluginId": "API",
         "createdAt": "2022-11-07T08:37:58.084Z",
-        "updatedAt": "2023-11-17T14:09:03.899Z",
+        "updatedAt": "2023-12-26T10:02:27.948Z",
         "deleted": false,
         "policies": [
             {
@@ -1998,7 +1998,7 @@
         "pluginType": "API",
         "pluginId": "API",
         "createdAt": "2022-11-07T14:11:34.293Z",
-        "updatedAt": "2023-11-17T14:09:09.768Z",
+        "updatedAt": "2023-12-26T10:02:23.467Z",
         "deleted": false,
         "policies": [
             {
@@ -2077,7 +2077,7 @@
         "pluginType": "API",
         "pluginId": "API",
         "createdAt": "2022-08-29T14:07:56.350Z",
-        "updatedAt": "2023-11-17T14:09:27.325Z",
+        "updatedAt": "2023-12-26T10:02:16.616Z",
         "deleted": false,
         "policies": [
             {
@@ -2161,7 +2161,7 @@
         "pluginType": "API",
         "pluginId": "API",
         "createdAt": "2022-08-29T12:49:55.580Z",
-        "updatedAt": "2023-11-17T14:09:30.945Z",
+        "updatedAt": "2023-12-26T10:02:13.301Z",
         "deleted": false,
         "policies": [
             {
@@ -2245,7 +2245,7 @@
         "pluginType": "API",
         "pluginId": "API",
         "createdAt": "2022-08-29T13:08:42.296Z",
-        "updatedAt": "2023-11-17T14:09:40.475Z",
+        "updatedAt": "2023-12-26T10:02:00.311Z",
         "deleted": false,
         "policies": [
             {
@@ -2318,7 +2318,7 @@
         "pluginType": "API",
         "pluginId": "API",
         "createdAt": "2022-08-29T12:54:09.638Z",
-        "updatedAt": "2023-11-17T14:09:48.584Z",
+        "updatedAt": "2023-12-26T10:01:56.429Z",
         "deleted": false,
         "policies": [
             {
@@ -2390,7 +2390,7 @@
         "pluginType": "API",
         "pluginId": "API",
         "createdAt": "2022-08-29T14:13:12.277Z",
-        "updatedAt": "2023-11-17T14:09:34.200Z",
+        "updatedAt": "2023-12-26T10:02:11.201Z",
         "deleted": false,
         "policies": [
             {
@@ -2473,7 +2473,7 @@
         "pluginType": "API",
         "pluginId": "API",
         "createdAt": "2022-10-19T08:57:29.377Z",
-        "updatedAt": "2023-11-17T14:08:58.260Z",
+        "updatedAt": "2023-12-26T10:02:35.039Z",
         "deleted": false,
         "policies": [
             {
@@ -2551,7 +2551,7 @@
         "pluginType": "API",
         "pluginId": "API",
         "createdAt": "2022-08-29T15:13:14.157Z",
-        "updatedAt": "2023-11-17T14:08:47.168Z",
+        "updatedAt": "2023-12-26T10:02:32.574Z",
         "deleted": false,
         "policies": [
             {
@@ -6449,7 +6449,7 @@
         "pluginType": "API",
         "pluginId": "API",
         "createdAt": "2022-11-18T16:51:48.152Z",
-        "updatedAt": "2023-11-17T14:09:53.582Z",
+        "updatedAt": "2023-12-26T10:01:54.028Z",
         "deleted": false,
         "policies": [
             {
@@ -6536,7 +6536,7 @@
         "pluginType": "API",
         "pluginId": "API",
         "createdAt": "2022-11-18T16:55:13.835Z",
-        "updatedAt": "2023-11-17T14:09:36.592Z",
+        "updatedAt": "2023-12-26T10:02:08.615Z",
         "deleted": false,
         "policies": [
             {
@@ -6620,7 +6620,7 @@
         "pluginType": "API",
         "pluginId": "API",
         "createdAt": "2022-11-18T17:04:12.998Z",
-        "updatedAt": "2023-11-17T14:09:48.588Z",
+        "updatedAt": "2023-12-26T10:01:51.605Z",
         "deleted": false,
         "policies": [
             {
@@ -7014,14 +7014,13 @@
             "isValid": true,
             "invalids": [],
             "jsonPathKeys": [
-                "main.env.n",
                 "main.env.nodeUrl"
             ],
             "userSetOnLoad": false,
             "confirmBeforeExecute": false
         },
         "createdAt": "2023-07-11T13:31:02.282Z",
-        "updatedAt": "2023-11-17T14:13:38.179Z",
+        "updatedAt": "2023-12-26T10:00:50.578Z",
         "deleted": false,
         "policies": [
             {
@@ -7088,7 +7087,7 @@
             "datasource": {
                 "name": "DEFAULT_REST_DATASOURCE",
                 "datasourceConfiguration": {
-                    "url": "{{main.env.n}}/getLaboratories"
+                    "url": "{{main.env.nodeUrl}}/getLaboratories"
                 },
                 "invalids": [],
                 "isValid": true,
@@ -7122,14 +7121,14 @@
             "isValid": true,
             "invalids": [],
             "jsonPathKeys": [
-                "main.env.nodeUrl",
-                "main.env.n"
+                "main.env.",
+                "main.env.nodeUrl"
             ],
             "userSetOnLoad": false,
             "confirmBeforeExecute": false
         },
         "createdAt": "2023-07-12T04:54:41.442Z",
-        "updatedAt": "2023-11-17T14:15:32.367Z",
+        "updatedAt": "2023-12-26T10:00:27.222Z",
         "deleted": false,
         "policies": [
             {
@@ -7200,7 +7199,7 @@
             "confirmBeforeExecute": false
         },
         "createdAt": "2023-07-12T07:04:08.054Z",
-        "updatedAt": "2023-11-17T14:14:16.568Z",
+        "updatedAt": "2023-12-26T10:00:36.224Z",
         "deleted": false,
         "policies": [
             {
@@ -7271,85 +7270,7 @@
             "confirmBeforeExecute": false
         },
         "createdAt": "2023-07-12T07:04:39.337Z",
-        "updatedAt": "2023-11-17T14:14:55.583Z",
-        "deleted": false,
-        "policies": [
-            {
-                "permission": "read:actions",
-                "groups": [],
-                "users": []
-            },
-            {
-                "permission": "manage:actions",
-                "groups": [],
-                "users": []
-            },
-            {
-                "permission": "execute:actions",
-                "groups": [],
-                "users": []
-            }
-        ]
-    },
-    {
-        "_id": "64ae57f61596b3080265a3e2",
-        "applicationId": "jetsondashboard",
-        "organizationId": "Org",
-        "pluginType": "API",
-        "pluginId": "API",
-        "Action": {
-            "name": "getMyContracts",
-            "datasource": {
-                "name": "DEFAULT_REST_DATASOURCE",
-                "datasourceConfiguration": {
-                    "url": "{{main.env.nodeUrl}}/getCampaignsFromUserOrders?userId={{main.user.auth_module.user.info.user._id}}"
-                },
-                "invalids": [],
-                "isValid": true,
-                "pluginId": "API",
-                "messages": []
-            },
-            "executeOnLoad": true,
-            "pageId": "MyContracts",
-            "actionConfiguration": {
-                "timeoutInMillisecond": 10000,
-                "encodeParamsToggle": true,
-                "httpMethod": "GET",
-                "headers": [],
-                "queryParameters": [],
-                "bodyFormData": [],
-                "formData": {
-                    "apiContentType": "none"
-                },
-                "pluginSpecifiedTemplates": [
-                    {
-                        "value": true
-                    }
-                ],
-                "path": ""
-            },
-            "dynamicBindingPathList": [
-                {
-                    "key": "path"
-                },
-                {
-                    "key": "queryParameters[0].value"
-                },
-                {
-                    "key": "datasourceUrl"
-                }
-            ],
-            "isValid": true,
-            "invalids": [],
-            "jsonPathKeys": [
-                "main.env.nodeUrl",
-                "main.user.auth_module.user.info.user._id"
-            ],
-            "userSetOnLoad": false,
-            "confirmBeforeExecute": false
-        },
-        "createdAt": "2023-07-12T07:36:22.859Z",
-        "updatedAt": "2023-11-17T14:20:38.585Z",
+        "updatedAt": "2023-12-26T10:00:39.555Z",
         "deleted": false,
         "policies": [
             {
@@ -7406,81 +7327,6 @@
         "pluginType": "JS"
     },
     {
-        "_id": "64af9f04f0dcc4b08d6775c0",
-        "applicationId": "jetsondashboard",
-        "organizationId": "Org",
-        "pluginType": "API",
-        "pluginId": "API",
-        "Action": {
-            "name": "getCampaigns",
-            "datasource": {
-                "name": "DEFAULT_REST_DATASOURCE",
-                "datasourceConfiguration": {
-                    "url": "{{main.env.nodeUrl}}/getCampaignsByUserId?userId={{main.user.auth_module.user.info.user._id}}"
-                },
-                "invalids": [],
-                "isValid": true,
-                "pluginId": "API",
-                "messages": []
-            },
-            "executeOnLoad": false,
-            "pageId": "AdminPanel",
-            "actionConfiguration": {
-                "timeoutInMillisecond": 10000,
-                "encodeParamsToggle": true,
-                "httpMethod": "GET",
-                "headers": [],
-                "queryParameters": [],
-                "bodyFormData": [],
-                "formData": {
-                    "apiContentType": "none"
-                },
-                "pluginSpecifiedTemplates": [
-                    {
-                        "value": true
-                    }
-                ],
-                "path": ""
-            },
-            "dynamicBindingPathList": [
-                {
-                    "key": "queryParameters[0].value"
-                },
-                {
-                    "key": "datasourceUrl"
-                }
-            ],
-            "isValid": true,
-            "invalids": [],
-            "jsonPathKeys": [
-                "main.user.auth_module.user.info.user._id",
-                "main.env.nodeUrl"
-            ],
-            "userSetOnLoad": false,
-            "confirmBeforeExecute": false
-        },
-        "createdAt": "2023-07-13T06:51:48.465Z",
-        "updatedAt": "2023-11-17T14:18:00.778Z",
-        "deleted": false,
-        "policies": [
-            {
-                "permission": "read:actions",
-                "groups": [],
-                "users": []
-            },
-            {
-                "permission": "manage:actions",
-                "groups": [],
-                "users": []
-            },
-            {
-                "permission": "execute:actions",
-                "groups": [],
-                "users": []
-            }
-        ]
-    },
-    {
         "_id": "64afafc0f0dcc4b08d6775c1",
         "applicationId": "jetsondashboard",
         "organizationId": "Org",
@@ -7491,7 +7337,7 @@
             "datasource": {
                 "name": "DEFAULT_REST_DATASOURCE",
                 "datasourceConfiguration": {
-                    "url": "{{main.env.}}/createProduct"
+                    "url": "{{main.env.nodeUrl}}/createProduct"
                 },
                 "invalids": [],
                 "isValid": true,
@@ -7534,7 +7380,7 @@
             "isValid": true,
             "invalids": [],
             "jsonPathKeys": [
-                "main.env.nodeUrl",
+                "main.env.",
                 "TableCamp.selectedRow._id",
                 "InputProductName.text",
                 "InputProductCost.text",
@@ -7542,88 +7388,13 @@
                 "InputProductExpiration.formattedDate",
                 "InputProductPhotoURL.text",
                 "InputProductDescription.text",
-                "main.env."
-            ],
-            "userSetOnLoad": false,
-            "confirmBeforeExecute": false
-        },
-        "createdAt": "2023-07-13T08:03:12.399Z",
-        "updatedAt": "2023-11-17T14:21:46.273Z",
-        "deleted": false,
-        "policies": [
-            {
-                "permission": "read:actions",
-                "groups": [],
-                "users": []
-            },
-            {
-                "permission": "manage:actions",
-                "groups": [],
-                "users": []
-            },
-            {
-                "permission": "execute:actions",
-                "groups": [],
-                "users": []
-            }
-        ]
-    },
-    {
-        "_id": "64afbdd2c310d82e638bf439",
-        "applicationId": "jetsondashboard",
-        "organizationId": "Org",
-        "pluginType": "API",
-        "pluginId": "API",
-        "Action": {
-            "name": "getCampaignInfo",
-            "datasource": {
-                "name": "DEFAULT_REST_DATASOURCE",
-                "datasourceConfiguration": {
-                    "url": "{{main.env.nodeUrl}}/getCampaignInfo?campaignId={{TableCamp.selectedRow._id}}"
-                },
-                "invalids": [],
-                "isValid": true,
-                "pluginId": "API",
-                "messages": []
-            },
-            "executeOnLoad": false,
-            "pageId": "AdminPanel",
-            "actionConfiguration": {
-                "timeoutInMillisecond": 10000,
-                "encodeParamsToggle": true,
-                "httpMethod": "GET",
-                "headers": [],
-                "queryParameters": [],
-                "bodyFormData": [],
-                "formData": {
-                    "apiContentType": "none"
-                },
-                "pluginSpecifiedTemplates": [
-                    {
-                        "value": true
-                    }
-                ],
-                "path": ""
-            },
-            "dynamicBindingPathList": [
-                {
-                    "key": "queryParameters[0].value"
-                },
-                {
-                    "key": "datasourceUrl"
-                }
-            ],
-            "isValid": true,
-            "invalids": [],
-            "jsonPathKeys": [
-                "TableCamp.selectedRow._id",
                 "main.env.nodeUrl"
             ],
             "userSetOnLoad": false,
             "confirmBeforeExecute": false
         },
-        "createdAt": "2023-07-13T09:03:14.547Z",
-        "updatedAt": "2023-11-17T14:17:38.667Z",
+        "createdAt": "2023-07-13T08:03:12.399Z",
+        "updatedAt": "2023-12-26T09:54:30.881Z",
         "deleted": false,
         "policies": [
             {
@@ -7697,14 +7468,14 @@
             "isValid": true,
             "invalids": [],
             "jsonPathKeys": [
-                "TableCampaignProductsEdit.selectedRow._id",
-                "main.env.nodeUrl"
+                "main.env.nodeUrl",
+                "TableCampaignProductsEdit.selectedRow._id"
             ],
             "userSetOnLoad": false,
             "confirmBeforeExecute": false
         },
         "createdAt": "2023-07-13T09:31:05.151Z",
-        "updatedAt": "2023-11-17T14:18:51.983Z",
+        "updatedAt": "2023-12-26T09:58:40.898Z",
         "deleted": false,
         "policies": [
             {
@@ -7778,14 +7549,14 @@
             "isValid": true,
             "invalids": [],
             "jsonPathKeys": [
-                "TableCamp.selectedRow._id",
-                "main.env.nodeUrl"
+                "main.env.nodeUrl",
+                "TableCamp.selectedRow._id"
             ],
             "userSetOnLoad": false,
             "confirmBeforeExecute": false
         },
         "createdAt": "2023-07-13T11:14:56.433Z",
-        "updatedAt": "2023-11-17T14:18:11.968Z",
+        "updatedAt": "2023-12-26T09:58:37.206Z",
         "deleted": false,
         "policies": [
             {
@@ -7816,7 +7587,7 @@
             "datasource": {
                 "name": "DEFAULT_REST_DATASOURCE",
                 "datasourceConfiguration": {
-                    "url": "{{main.env}}/createCampaign"
+                    "url": "{{main.env.nodeUrl}}/createCampaign"
                 },
                 "invalids": [],
                 "isValid": true,
@@ -7859,7 +7630,7 @@
             "isValid": true,
             "invalids": [],
             "jsonPathKeys": [
-                "main.env.nodeUrl",
+                "main.env.",
                 "InputCampaignCode.text",
                 "InputCampaignName.text",
                 "DateCampaign.formattedDate",
@@ -7868,13 +7639,13 @@
                 "InputCampaignEmail.text",
                 "InputCampaignPhoneNumber.text",
                 "main.user.auth_module.user.info.user._id",
-                "main.env"
+                "main.env.nodeUrl"
             ],
             "userSetOnLoad": false,
             "confirmBeforeExecute": false
         },
         "createdAt": "2023-07-13T11:19:50.653Z",
-        "updatedAt": "2023-11-17T14:21:17.968Z",
+        "updatedAt": "2023-12-26T09:54:12.855Z",
         "deleted": false,
         "policies": [
             {
@@ -8013,48 +7784,14 @@
         "Action": {
             "name": "createOrder",
             "datasource": {
+                "name": "DEFAULT_REST_DATASOURCE",
                 "datasourceConfiguration": {
-                    "url": "https://nrmedilane-64abe78893ab8c11000000cf.ubos.tech",
-                    "product_price": "price_1MytsdH1Ta6us8T1ZbzB3QUC",
-                    "cpu": 200,
-                    "ram": "512",
-                    "subscription_plan": "643e8bfadb35f70012db836d",
-                    "plan_id": "643e8bfadb35f70012db836d",
-                    "subscription_id": "sub_1NSaV5H1Ta6us8T1f81SI80e"
+                    "url": "{{main.env.nodeUrl}}/createOrder"
                 },
-                "id": "64acfd2c895f6211000001ca",
                 "invalids": [],
                 "isValid": true,
-                "name": "nrmedilane",
-                "new": false,
-                "type": "api",
-                "organizationId": "Org",
                 "pluginId": "API",
-                "userPermissions": [
-                    "read:service",
-                    "manage:service"
-                ],
-                "settings_data": {
-                    "gitName": "",
-                    "projectName": "nrmedilane",
-                    "systemType": "latest",
-                    "gitUrl": "",
-                    "gitPassword": "",
-                    "urlNodeRed": "https://nrmedilane-64abe78893ab8c11000000cf.ubos.tech",
-                    "serviceId": "nrmedilane-ubos-lj2wp-nrmedilane",
-                    "applicationId": "64abe78893ab8c11000000d0",
-                    "env": [
-                        {
-                            "name": "nodeUrl",
-                            "value": "https://nrmedilane-64abe78893ab8c11000000cf.ubos.tech"
-                        },
-                        {
-                            "name": "uiUrl",
-                            "value": "https://uimedilane-64abe78893ab8c11000000cf.ubos.tech"
-                        }
-                    ],
-                    "status": "ready"
-                }
+                "messages": []
             },
             "executeOnLoad": false,
             "pageId": "CampaignDetails",
@@ -8078,27 +7815,31 @@
                         "value": true
                     }
                 ],
-                "path": "/createOrder",
+                "path": "",
                 "body": "{\n\t\"campaignId\": \"{{main.URL.queryParams.campaignId}}\",\n\t\"orderData\": {{main.store.orderData}},\n\t\"userId\": \"{{main.user.auth_module.user.info.user._id}}\"\n}"
             },
             "dynamicBindingPathList": [
                 {
                     "key": "body"
+                },
+                {
+                    "key": "datasourceUrl"
                 }
             ],
             "isValid": true,
             "invalids": [],
             "jsonPathKeys": [
+                "main.env.",
                 "main.URL.queryParams.campaignId",
                 "main.store.orderData",
-                "main.user.auth_module.user.info._id",
-                "main.user.auth_module.user.info.user._id"
+                "main.user.auth_module.user.info.user._id",
+                "main.env.nodeUrl"
             ],
             "userSetOnLoad": false,
             "confirmBeforeExecute": false
         },
         "createdAt": "2023-07-13T11:42:01.714Z",
-        "updatedAt": "2023-07-14T07:44:18.190Z",
+        "updatedAt": "2023-12-26T09:52:37.352Z",
         "deleted": false,
         "policies": [
             {
@@ -8163,48 +7904,14 @@
         "Action": {
             "name": "getCampaignData",
             "datasource": {
+                "name": "DEFAULT_REST_DATASOURCE",
                 "datasourceConfiguration": {
-                    "url": "https://nrmedilane-64abe78893ab8c11000000cf.ubos.tech",
-                    "product_price": "price_1MytsdH1Ta6us8T1ZbzB3QUC",
-                    "cpu": 200,
-                    "ram": "512",
-                    "subscription_plan": "643e8bfadb35f70012db836d",
-                    "plan_id": "643e8bfadb35f70012db836d",
-                    "subscription_id": "sub_1NSaV5H1Ta6us8T1f81SI80e"
+                    "url": "{{main.env.nodeUrl}}/getOrdersByCampaignId?campaignId={{main.URL.queryParams.campaignId}}&userId={{main.user.auth_module.user.info.user._id}}"
                 },
-                "id": "64acfd2c895f6211000001ca",
                 "invalids": [],
                 "isValid": true,
-                "name": "nrmedilane",
-                "new": false,
-                "type": "api",
-                "organizationId": "Org",
                 "pluginId": "API",
-                "userPermissions": [
-                    "read:service",
-                    "manage:service"
-                ],
-                "settings_data": {
-                    "gitName": "",
-                    "projectName": "nrmedilane",
-                    "systemType": "latest",
-                    "gitUrl": "",
-                    "gitPassword": "",
-                    "urlNodeRed": "https://nrmedilane-64abe78893ab8c11000000cf.ubos.tech",
-                    "serviceId": "nrmedilane-ubos-lj2wp-nrmedilane",
-                    "applicationId": "64abe78893ab8c11000000d0",
-                    "env": [
-                        {
-                            "name": "nodeUrl",
-                            "value": "https://nrmedilane-64abe78893ab8c11000000cf.ubos.tech"
-                        },
-                        {
-                            "name": "uiUrl",
-                            "value": "https://uimedilane-64abe78893ab8c11000000cf.ubos.tech"
-                        }
-                    ],
-                    "status": "ready"
-                }
+                "messages": []
             },
             "executeOnLoad": true,
             "pageId": "OrderList",
@@ -8213,16 +7920,7 @@
                 "encodeParamsToggle": true,
                 "httpMethod": "GET",
                 "headers": [],
-                "queryParameters": [
-                    {
-                        "key": "campaignId",
-                        "value": "{{main.URL.queryParams.campaignId}}"
-                    },
-                    {
-                        "key": "userId",
-                        "value": "{{main.user.auth_module.user.info.user._id}}"
-                    }
-                ],
+                "queryParameters": [],
                 "bodyFormData": [],
                 "formData": {
                     "apiContentType": "none"
@@ -8232,7 +7930,7 @@
                         "value": true
                     }
                 ],
-                "path": "/getOrdersByCampaignId"
+                "path": ""
             },
             "dynamicBindingPathList": [
                 {
@@ -8240,19 +7938,24 @@
                 },
                 {
                     "key": "queryParameters[1].value"
+                },
+                {
+                    "key": "datasourceUrl"
                 }
             ],
             "isValid": true,
             "invalids": [],
             "jsonPathKeys": [
+                "main.env.",
                 "main.URL.queryParams.campaignId",
-                "main.user.auth_module.user.info.user._id"
+                "main.user.auth_module.user.info.user._id",
+                "main.env.nodeUrl"
             ],
             "userSetOnLoad": false,
             "confirmBeforeExecute": false
         },
         "createdAt": "2023-07-14T10:34:24.835Z",
-        "updatedAt": "2023-07-14T14:28:45.733Z",
+        "updatedAt": "2023-12-26T09:52:21.269Z",
         "deleted": false,
         "policies": [
             {
@@ -8333,7 +8036,223 @@
             "confirmBeforeExecute": false
         },
         "createdAt": "2023-07-17T11:54:07.532Z",
-        "updatedAt": "2023-11-17T14:21:03.273Z",
+        "updatedAt": "2023-12-26T09:58:43.954Z",
+        "deleted": false,
+        "policies": [
+            {
+                "permission": "read:actions",
+                "groups": [],
+                "users": []
+            },
+            {
+                "permission": "manage:actions",
+                "groups": [],
+                "users": []
+            },
+            {
+                "permission": "execute:actions",
+                "groups": [],
+                "users": []
+            }
+        ]
+    },
+    {
+        "_id": "658aa32bf0a890e2e73568ca",
+        "applicationId": "jetsondashboard",
+        "organizationId": "Org",
+        "pluginType": "API",
+        "pluginId": "API",
+        "Action": {
+            "name": "getCampaignInfo",
+            "datasource": {
+                "name": "DEFAULT_REST_DATASOURCE",
+                "datasourceConfiguration": {
+                    "url": "{{main.env.nodeUrl}}/getCampaignInfo?campaignId={{TableCamp.selectedRow._id}}"
+                },
+                "invalids": [],
+                "isValid": true,
+                "pluginId": "API",
+                "messages": []
+            },
+            "executeOnLoad": false,
+            "pageId": "AdminPanel",
+            "actionConfiguration": {
+                "timeoutInMillisecond": 10000,
+                "encodeParamsToggle": true,
+                "httpMethod": "GET",
+                "headers": [],
+                "queryParameters": [],
+                "bodyFormData": [],
+                "formData": {
+                    "apiContentType": "none"
+                },
+                "pluginSpecifiedTemplates": [
+                    {
+                        "value": true
+                    }
+                ]
+            },
+            "dynamicBindingPathList": [
+                {
+                    "key": "datasourceUrl"
+                }
+            ],
+            "isValid": true,
+            "invalids": [],
+            "jsonPathKeys": [
+                "main.env.",
+                "TableCamp.selectedRow._id",
+                "main.env.nodeUrl"
+            ],
+            "userSetOnLoad": false,
+            "confirmBeforeExecute": false
+        },
+        "createdAt": "2023-12-26T09:55:55.624Z",
+        "updatedAt": "2023-12-26T09:56:37.035Z",
+        "deleted": false,
+        "policies": [
+            {
+                "permission": "read:actions",
+                "groups": [],
+                "users": []
+            },
+            {
+                "permission": "manage:actions",
+                "groups": [],
+                "users": []
+            },
+            {
+                "permission": "execute:actions",
+                "groups": [],
+                "users": []
+            }
+        ]
+    },
+    {
+        "_id": "658aa374f0a890e2e73568cb",
+        "applicationId": "jetsondashboard",
+        "organizationId": "Org",
+        "pluginType": "API",
+        "pluginId": "API",
+        "Action": {
+            "name": "getCampaigns",
+            "datasource": {
+                "name": "DEFAULT_REST_DATASOURCE",
+                "datasourceConfiguration": {
+                    "url": "{{main.env.nodeUrl}}/getCampaignsByUserId?userId={{main.user.auth_module.user.info.user._id}}"
+                },
+                "invalids": [],
+                "isValid": true,
+                "pluginId": "API",
+                "messages": []
+            },
+            "executeOnLoad": false,
+            "pageId": "AdminPanel",
+            "actionConfiguration": {
+                "timeoutInMillisecond": 10000,
+                "encodeParamsToggle": true,
+                "httpMethod": "GET",
+                "headers": [],
+                "queryParameters": [],
+                "bodyFormData": [],
+                "formData": {
+                    "apiContentType": "none"
+                },
+                "pluginSpecifiedTemplates": [
+                    {
+                        "value": true
+                    }
+                ]
+            },
+            "dynamicBindingPathList": [
+                {
+                    "key": "datasourceUrl"
+                }
+            ],
+            "isValid": true,
+            "invalids": [],
+            "jsonPathKeys": [
+                "main.env.n",
+                "main.user.auth_module.user.info.user._id",
+                "main.env.,2023-12-26T09:57:08.393Z,2023-12-26T09:57:45.443Z,read:actions,manage:actions,execute:actions,DEFAULT_REST_DATASOURCE,{{main.env.n,2023-12-26T09:57:08.393Z,2023-12-26T09:57:46.710Z,read:actions,manage:actions,execute:actions,DEFAULT_REST_DATASOURCE,{{main.env.nodeUrl"
+            ],
+            "userSetOnLoad": false,
+            "confirmBeforeExecute": false
+        },
+        "createdAt": "2023-12-26T09:57:08.393Z",
+        "updatedAt": "2023-12-26T09:57:47.384Z",
+        "deleted": false,
+        "policies": [
+            {
+                "permission": "read:actions",
+                "groups": [],
+                "users": []
+            },
+            {
+                "permission": "manage:actions",
+                "groups": [],
+                "users": []
+            },
+            {
+                "permission": "execute:actions",
+                "groups": [],
+                "users": []
+            }
+        ]
+    },
+    {
+        "_id": "658aa3f9f0a890e2e73568cc",
+        "applicationId": "jetsondashboard",
+        "organizationId": "Org",
+        "pluginType": "API",
+        "pluginId": "API",
+        "Action": {
+            "name": "getMyContracts",
+            "datasource": {
+                "name": "DEFAULT_REST_DATASOURCE",
+                "datasourceConfiguration": {
+                    "url": "{{main.env.nodeUrl}}/getCampaignsFromUserOrders?userId={{main.user.auth_module.user.info.user._id}}"
+                },
+                "invalids": [],
+                "isValid": true,
+                "pluginId": "API",
+                "messages": []
+            },
+            "executeOnLoad": true,
+            "pageId": "MyContracts",
+            "actionConfiguration": {
+                "timeoutInMillisecond": 10000,
+                "encodeParamsToggle": true,
+                "httpMethod": "GET",
+                "headers": [],
+                "queryParameters": [],
+                "bodyFormData": [],
+                "formData": {
+                    "apiContentType": "none"
+                },
+                "pluginSpecifiedTemplates": [
+                    {
+                        "value": true
+                    }
+                ]
+            },
+            "dynamicBindingPathList": [
+                {
+                    "key": "datasourceUrl"
+                }
+            ],
+            "isValid": true,
+            "invalids": [],
+            "jsonPathKeys": [
+                "main.env.",
+                "main.user.auth_module.user.info.user._id",
+                "main.env.nodeUrl"
+            ],
+            "userSetOnLoad": false,
+            "confirmBeforeExecute": false
+        },
+        "createdAt": "2023-12-26T09:59:21.447Z",
+        "updatedAt": "2023-12-26T09:59:42.587Z",
         "deleted": false,
         "policies": [
             {
