@@ -5,7 +5,7 @@
     "organizationId": "Org",
     "isPublic": true,
     "createdAt": "2023-03-02T13:50:57.853Z",
-    "updatedAt": "2023-11-17T16:47:27.568Z",
+    "updatedAt": "2023-12-26T13:56:20.292Z",
     "deleted": false,
     "pages": [
         {
@@ -2651,7 +2651,7 @@
                                         },
                                         {
                                             "isVisible": true,
-                                            "text": "Medilane",
+                                            "text": "Pharmacy",
                                             "fontSize": "HEADING1",
                                             "fontStyle": "BOLD",
                                             "textAlign": "LEFT",
@@ -2697,7 +2697,7 @@
                                             "enableRotation": false,
                                             "enableDownload": false,
                                             "objectFit": "contain",
-                                            "image": "https://user-images.githubusercontent.com/41735477/252351726-d6e7e6e9-3983-47f1-89cd-fee49ca7f801.png",
+                                            "image": "https://ubos.tech/wp-content/uploads/2024/01/Pharmacy-logo.png",
                                             "widgetName": "Image1",
                                             "version": 1,
                                             "animateLoading": true,
